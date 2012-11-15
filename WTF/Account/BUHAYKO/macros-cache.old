@@ -1,0 +1,39 @@
+MACRO 15 " " "INV_Misc_QuestionMark"
+#showtooltip
+/Startattack
+/cast 顺劈斩
+END
+MACRO 16 " " "INV_Misc_QuestionMark"
+#showtooltip
+/Startattack
+/cast 英勇打击
+END
+MACRO 20 " " "INV_Misc_QuestionMark"
+#showtooltip
+/startattack
+/castsequence reset=3 盾牌猛击,毁灭打击,毁灭打击
+/cast 英勇打击
+/cast 狂暴之怒
+END
+MACRO 14 " " "INV_Misc_QuestionMark"
+/Startattack
+/cast 毁灭打击
+END
+MACRO 21 " " "INV_Misc_QuestionMark"
+#showtooltip
+/Startattack
+/cast 盾牌格挡
+/cast 挫志怒吼
+END
+MACRO 18 " 1" "INV_Misc_QuestionMark"
+/castsequence reset=1 挫志怒吼,雷霆一击
+END
+MACRO 19 " 2" "INV_Misc_QuestionMark"
+/cast [modifier:alt] 雷霆一击
+/cast [nomodifier:alt]挫志怒吼
+END
+MACRO 22 "LiteMount" "ABILITY_MOUNT_MECHASTRIDER"
+# Auto-created by LiteMount addon
+/click [nobtn:2] LiteMount
+/click [btn:2] LiteMount RightButton
+END

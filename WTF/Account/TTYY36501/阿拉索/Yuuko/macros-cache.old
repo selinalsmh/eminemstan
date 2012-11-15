@@ -1,0 +1,8 @@
+MACRO 16777218 " " "INV_MISC_QUESTIONMARK"
+/cast !冰冻术
+END
+MACRO 16777217 " " "INV_MISC_QUESTIONMARK"
+/cast 研磨
+/use 绿茶叶
+/use 雨粟花
+END

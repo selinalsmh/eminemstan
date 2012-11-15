@@ -1,0 +1,44 @@
+MACRO 3 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [flyable]红宝石猎豹;金黄骑乘仙鹤
+/cast [swimming] 深渊海马
+END
+MACRO 8 " " "INV_MISC_QUESTIONMARK"
+#showtooltips 
+/cast [mod:alt]真气波
+/cast [harm]幻灭踢
+/cast [stance:2]幻灭踢
+/cast [noharm]真气波
+END
+MACRO 7 " " "INV_MISC_QUESTIONMARK"
+#showtooltips 
+/cast [mod:alt]抚慰之雾
+/cast [mod:ctrl]雷光聚神茶
+/cast [harm]贯日击
+/cast [stance:2]贯日击
+/cast [noharm]抚慰之雾
+END
+MACRO 4 " " "INV_MISC_QUESTIONMARK"
+#showtooltips
+/castsequence reset=0 0,1,2,3,豪能酒
+/castsequence reset=0 0,1,2,贯日击
+/castsequence reset=0 0,1,猛虎掌
+/castsequence reset=0 0,幻灭踢
+/castsequence reset=0 旭日东升踢
+/script UIErrorsFrame:Clear()
+END
+MACRO 9 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] 碧玉疾风
+/cast [nomod] 神鹤引项踢
+END
+MACRO 5 " " "INV_MISC_QUESTIONMARK"
+#showtooltips 魂体双分
+/castsequence reset=0 0,1,魂体双分
+/castsequence reset=0 魂体双分：转移
+END
+MACRO 1 "LiteMount" "ABILITY_MOUNT_MECHASTRIDER"
+# Auto-created by LiteMount addon
+/click [nobtn:2] LiteMount
+/click [btn:2] LiteMount RightButton
+END

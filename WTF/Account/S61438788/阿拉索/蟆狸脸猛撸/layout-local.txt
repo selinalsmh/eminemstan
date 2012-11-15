@@ -1,0 +1,15 @@
+Version: 1
+Frame: WatchFrame
+FrameLevel: 1
+Anchor: RIGHT
+X: -15
+Y: 55
+W: 204
+H: 420
+Frame: DBMMinimapButton
+FrameLevel: 3
+Anchor: TOPRIGHT
+X: -130
+Y: -129
+W: 32
+H: 32

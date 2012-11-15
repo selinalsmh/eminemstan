@@ -1,0 +1,85 @@
+MACRO 27 " " "INV_Misc_QuestionMark"
+/Cast [modifier:alt,@player] 净化腐蚀 ; [@mouseover,exists] 净化腐蚀 ; 净化腐蚀
+END
+MACRO 30 " " "INV_Misc_QuestionMark"
+#showtooltip 野性毒菇：引爆
+/cast [modifier:ctrl] 野性毒菇：引爆
+/cast [nomodifier:ctrl]野性毒菇
+END
+MACRO 33 " " "INV_Misc_QuestionMark"
+#showtooltip 愈合
+/施放 [mod,@player][@mouseover,help,nodead][help,nodead][nogroup,@player][@targettarget,help,nodead]愈合
+/cast 愈合
+END
+MACRO 18 " " "INV_Misc_QuestionMark"
+#showtooltip 治疗之触
+/施放 [mod,@player][@mouseover,help,nodead][help,nodead][nogroup,@player][@targettarget,help,nodead]治疗之触
+/cast 治疗之触
+END
+MACRO 15 " " "INV_Misc_QuestionMark"
+#showtooltip 滋养
+/施放 [mod,@player][@mouseover,help,nodead][help,nodead][nogroup,@player][@targettarget,help,nodead]滋养
+/cast 滋养
+END
+MACRO 21 " " "INV_Misc_QuestionMark"
+#showtooltip 野性成长
+/施放 [mod,@player][@mouseover,help,nodead][help,nodead][nogroup,@player][@targettarget,help,nodead]野性成长
+/cast 野性成长
+END
+MACRO 14 " " "INV_Misc_QuestionMark"
+#showtooltip 回春术
+/施放 [mod,@player][@mouseover,help,nodead][help,nodead][nogroup,@player][@targettarget,help,nodead]回春术
+/cast 回春术
+END
+MACRO 12 " " "INV_Misc_QuestionMark"
+#showtooltip 生存本能
+/cast 生存本能
+/use 邪能治疗石
+END
+MACRO 16 "  " "INV_Misc_QuestionMark"
+#showtooltip 生命绽放
+/施放 [mod,@player][@mouseover,help,nodead][help,nodead][nogroup,@player][@targettarget,help,nodead]生命绽放
+/cast 生命绽放
+END
+MACRO 29 "   " "INV_Misc_QuestionMark"
+/cast 自然迅捷
+/cast 治疗之触
+END
+MACRO 34 "LiteMount" "ABILITY_MOUNT_MECHASTRIDER"
+# Auto-created by LiteMount addon
+/click [nobtn:2] LiteMount
+/click [btn:2] LiteMount RightButton
+END
+MACRO 13 "复活" "INV_Misc_QuestionMark"
+#showtooltip
+/use [nocombat] 起死回生
+/stopmacro [nocombat]
+/use 复生
+END
+MACRO 6 "熊" "INV_Misc_QuestionMark"
+#showtooltip 裂伤
+/startattack
+/cast 裂伤
+/cast 重殴
+END
+MACRO 7 "熊" "INV_Misc_QuestionMark"
+#showtooltip 横扫
+/startattack
+/cast 横扫
+/cast 重殴
+END
+MACRO 25 "豹" "INV_Misc_QuestionMark"
+#showtooltip 撕碎
+/startattack
+/cast 撕碎
+END
+MACRO 11 "豹" "INV_Misc_QuestionMark"
+#showtooltip 裂伤
+/startattack
+/cast 裂伤
+END
+MACRO 10 "豹" "INV_Misc_QuestionMark"
+#showtooltip 横扫
+/startattack
+/cast 横扫
+END

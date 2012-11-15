@@ -1,0 +1,186 @@
+
+Bartender4DB = {
+	["namespaces"] = {
+		["ActionBars"] = {
+			["profiles"] = {
+				["Ayanamio - 阿拉索"] = {
+					["actionbars"] = {
+						{
+							["version"] = 3,
+							["padding"] = 6,
+							["position"] = {
+								["x"] = -330.2000215458256,
+								["point"] = "BOTTOM",
+								["scale"] = 1.300000071525574,
+								["y"] = 57.20000279151158,
+							},
+						}, -- [1]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["position"] = {
+								["x"] = -231.4999749360767,
+								["point"] = "CENTER",
+								["y"] = -189.5000120019606,
+							},
+						}, -- [2]
+						{
+							["rows"] = 12,
+							["enabled"] = false,
+							["version"] = 3,
+							["position"] = {
+								["x"] = -162.5855256629611,
+								["point"] = "RIGHT",
+								["y"] = 30.65362485536946,
+							},
+							["padding"] = 5,
+						}, -- [3]
+						{
+							["rows"] = 12,
+							["enabled"] = false,
+							["version"] = 3,
+							["position"] = {
+								["x"] = -69.38679172960269,
+								["point"] = "RIGHT",
+								["y"] = 57.73120764820999,
+							},
+							["padding"] = 5,
+						}, -- [4]
+						{
+							["version"] = 3,
+							["position"] = {
+								["x"] = -330.2000215458256,
+								["point"] = "BOTTOM",
+								["scale"] = 1.300000071525574,
+								["y"] = 105.8220691460067,
+							},
+							["padding"] = 6,
+						}, -- [5]
+						{
+							["version"] = 3,
+							["position"] = {
+								["x"] = -329.5499525032665,
+								["point"] = "BOTTOM",
+								["scale"] = 1.300000071525574,
+								["y"] = 152.4489380077149,
+							},
+							["padding"] = 6,
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						[10] = {
+						},
+					},
+				},
+			},
+		},
+		["LibDualSpec-1.0"] = {
+		},
+		["ExtraActionBar"] = {
+			["profiles"] = {
+				["Ayanamio - 阿拉索"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = -182.2882635666092,
+						["point"] = "CENTER",
+						["y"] = 31.50002472198696,
+					},
+				},
+			},
+		},
+		["MicroMenu"] = {
+			["profiles"] = {
+				["Ayanamio - 阿拉索"] = {
+					["enabled"] = false,
+					["version"] = 3,
+					["position"] = {
+						["x"] = 413.5845955281175,
+						["point"] = "BOTTOM",
+						["scale"] = 1,
+						["y"] = 262.2126513520739,
+					},
+				},
+			},
+		},
+		["XPBar"] = {
+		},
+		["BlizzardArt"] = {
+			["profiles"] = {
+				["Ayanamio - 阿拉索"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = -512,
+						["point"] = "BOTTOM",
+						["y"] = 47,
+					},
+				},
+			},
+		},
+		["Vehicle"] = {
+			["profiles"] = {
+				["Ayanamio - 阿拉索"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = 288.7001912312378,
+						["point"] = "BOTTOM",
+						["y"] = 188.7489734904389,
+					},
+				},
+			},
+		},
+		["BagBar"] = {
+			["profiles"] = {
+				["Ayanamio - 阿拉索"] = {
+					["enabled"] = false,
+					["version"] = 3,
+					["onebag"] = true,
+					["position"] = {
+						["x"] = 463.5,
+						["point"] = "BOTTOM",
+						["y"] = 41.75,
+					},
+				},
+			},
+		},
+		["StanceBar"] = {
+			["profiles"] = {
+				["Ayanamio - 阿拉索"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = -329.699866597012,
+						["point"] = "BOTTOM",
+						["scale"] = 1,
+						["y"] = 186.7489410748874,
+					},
+				},
+			},
+		},
+		["PetBar"] = {
+			["profiles"] = {
+				["Ayanamio - 阿拉索"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = -163.9999969909615,
+						["point"] = "BOTTOM",
+						["y"] = 182.3570140790862,
+					},
+				},
+			},
+		},
+		["RepBar"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Ayanamio - 阿拉索"] = "Ayanamio - 阿拉索",
+	},
+	["profiles"] = {
+		["Ayanamio - 阿拉索"] = {
+			["blizzardVehicle"] = true,
+			["focuscastmodifier"] = false,
+			["buttonlock"] = true,
+			["outofrange"] = "hotkey",
+		},
+	},
+}

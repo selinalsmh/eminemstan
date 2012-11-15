@@ -1,0 +1,23 @@
+
+Postal3DB = {
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"Shikinami|阿拉索|Alliance|70|MAGE", -- [1]
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Shikinami - 阿拉索"] = "Shikinami - 阿拉索",
+	},
+	["profiles"] = {
+		["Shikinami - 阿拉索"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"面面矿石|阿拉索|Alliance", -- [1]
+					"面面布料|阿拉索|Alliance", -- [2]
+				},
+			},
+		},
+	},
+}

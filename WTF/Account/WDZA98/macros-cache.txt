@@ -1,0 +1,4 @@
+MACRO 2 " " "INV_MISC_QUESTIONMARK"
+/cast 研磨
+/use 黄金参
+END

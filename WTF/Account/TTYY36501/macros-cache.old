@@ -1,0 +1,5 @@
+MACRO 1 "LiteMount" "ABILITY_MOUNT_MECHASTRIDER"
+# Auto-created by LiteMount addon
+/click [nobtn:2] LiteMount
+/click [btn:2] LiteMount RightButton
+END

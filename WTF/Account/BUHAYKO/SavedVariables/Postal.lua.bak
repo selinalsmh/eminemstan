@@ -1,0 +1,22 @@
+
+Postal3DB = {
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"澜安|阿拉索|Alliance|83|WARRIOR", -- [1]
+			},
+		},
+	},
+	["profileKeys"] = {
+		["澜安 - 阿拉索"] = "澜安 - 阿拉索",
+	},
+	["profiles"] = {
+		["澜安 - 阿拉索"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"面面矿石|阿拉索|Alliance", -- [1]
+				},
+			},
+		},
+	},
+}

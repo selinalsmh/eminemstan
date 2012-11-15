@@ -1,0 +1,1 @@
+SkadaSkin and tooltips: disabled

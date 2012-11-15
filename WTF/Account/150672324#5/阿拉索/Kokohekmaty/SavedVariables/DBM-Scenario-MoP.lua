@@ -1,0 +1,50 @@
+
+DBMScenarioMoP_SavedVars = {
+	["TheramoreFall"] = {
+		["Enabled"] = true,
+		["Announce"] = false,
+		["当你受到$spell:114570影响时时大喊"] = true,
+		["战争机器的视线 -> >%s<"] = true,
+		["SpeedKillTimer"] = false,
+		["战争机器的视线 - 快躲开"] = true,
+	},
+	["ArenaAnnihilation"] = {
+		["Enabled"] = true,
+		["火墙"] = true,
+		["火墙!"] = true,
+		["SpeedKillTimer"] = false,
+		["Announce"] = false,
+	},
+}
+DBMScenarioMoP_SavedStats = {
+	["TheramoreFall"] = {
+		["heroic25Pulls"] = 0,
+		["lfr25Pulls"] = 0,
+		["normal25Pulls"] = 0,
+		["normalPulls"] = 0,
+		["heroicPulls"] = 0,
+		["heroic25Kills"] = 0,
+		["heroicKills"] = 0,
+		["lfr25Kills"] = 0,
+		["normal25Kills"] = 0,
+		["challengeKills"] = 0,
+		["normalKills"] = 0,
+		["challengePulls"] = 0,
+	},
+	["ArenaAnnihilation"] = {
+		["heroic25Pulls"] = 0,
+		["lfr25Pulls"] = 0,
+		["normal25Pulls"] = 0,
+		["normalBestTime"] = 831.7260000000001,
+		["normalPulls"] = 1,
+		["heroicPulls"] = 0,
+		["heroic25Kills"] = 0,
+		["normalLastTime"] = 831.7260000000001,
+		["heroicKills"] = 0,
+		["lfr25Kills"] = 0,
+		["normal25Kills"] = 0,
+		["challengeKills"] = 0,
+		["normalKills"] = 1,
+		["challengePulls"] = 0,
+	},
+}

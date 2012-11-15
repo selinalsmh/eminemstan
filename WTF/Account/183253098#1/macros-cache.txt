@@ -1,0 +1,15 @@
+MACRO 3 " " "INV_Misc_QuestionMark"
+#showtooltip
+/cast [flyable]铁锈始祖幼龙;化石迅猛龙
+/cast [swimming] 深渊海马
+END
+MACRO 1 "BF_Mount" "ability_mount_charger"
+/bfmount
+END
+MACRO 2 "Decursive" "INV_Misc_QuestionMark"
+/stopcasting
+/cast [@mouseover,nomod,exists] 清洁术;  [@mouseover,exists,mod:ctrl] 清洁术; [@mouseover,exists,mod:shift] 清洁术
+END
+MACRO 4 "坐骑" "Ability_Mount_Charger"
+/RandomMount
+END

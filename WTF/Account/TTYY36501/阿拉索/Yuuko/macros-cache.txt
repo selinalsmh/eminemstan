@@ -1,0 +1,39 @@
+MACRO 16777219 " " "INV_MISC_QUESTIONMARK"
+/use 气定神闲
+/use [harm]13
+/use [harm]12
+/use [harm]奥术强化
+/use [harm]冰冷血脉
+/use [harm]10
+/cancelAura [mod]操控时间
+/castsequence reset=1 操控时间,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11
+END
+MACRO 16777220 " " "INV_MISC_QUESTIONMARK"
+/cast 寒冰屏障
+/cancelAura 寒冰屏障
+END
+MACRO 16777221 " " "INV_MISC_QUESTIONMARK"
+#showtooltip 召唤水元素
+/use [nopet,nomounted] [@pet,dead] 召唤水元素
+/use [harm,pet,nochanneling]寒冰箭
+/petattack [harm]
+/use [nomod,pet]冰冻术
+/dismount 
+END
+MACRO 16777222 " " "INV_MISC_QUESTIONMARK"
+/cast [@mouseover,exists,harm][]活动炸弹
+/targetenemy
+END
+MACRO 16777223 " " "INV_MISC_QUESTIONMARK"
+#showtooltip 寒冰炸弹
+/castsequence reset=0 0,寒冰箭
+/castsequence reset=0 寒冰炸弹
+END
+MACRO 16777217 " " "INV_MISC_QUESTIONMARK"
+/cast 研磨
+/use 绿茶叶
+/use 雨粟花
+END
+MACRO 16777218 " " "INV_MISC_QUESTIONMARK"
+/cast !冰冻术
+END

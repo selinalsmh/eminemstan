@@ -1,0 +1,61 @@
+MACRO 90 " " "INV_Misc_QuestionMark"
+#showtooltip 治疗术
+/cast [mod,@player][@mouseover,help,nodead][help,nodead][nogroup,@player][@targettarget,help,nodead]治疗术
+/cast 治疗术
+END
+MACRO 94 " " "INV_Misc_QuestionMark"
+/castsequence 心灵之火,心灵意志
+END
+MACRO 117 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [flyable]金色云端翔龙;金黄骑乘仙鹤
+/cast [swimming] 深渊海马
+END
+MACRO 88 " " "INV_Misc_QuestionMark"
+#showtooltip 强效治疗术
+/cast 心灵专注
+/use 13
+/cast [mod,@player][@mouseover,help,nodead][help,nodead][nogroup,@player][@targettarget,help,nodead]强效治疗术
+/cast 强效治疗术
+END
+MACRO 89 " " "INV_Misc_QuestionMark"
+#showtooltip 漂浮术
+/cast [mod,@player][@mouseover,help,nodead][help,nodead][nogroup,@player][@targettarget,help,nodead]漂浮术
+/cast 漂浮术
+END
+MACRO 119 " " "SPELL_MISC_PETHEAL"
+/run local S=GetZoneText();local G=C_PetJournal.GetPetInfoByIndex;for i=1,600 do local M=select(12,G(i));if(M and string.find(M,S)) then M=select(8,G(i))print(select(3,G(i)) and C_PetJournal.GetBattlePetLink(G(i)) or M)end;end
+END
+MACRO 120 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nocombat] 勘测
+/cast 暗言术：灭
+END
+MACRO 121 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/console Sound_EnableSFX 0
+/施放 [harm] 沉默;钓鱼
+/console Sound_EnableSFX 1
+END
+MACRO 118 "LiteMount" "ABILITY_MOUNT_MECHASTRIDER"
+# Auto-created by LiteMount addon
+/click [nobtn:2] LiteMount
+/click [btn:2] LiteMount RightButton
+END
+MACRO 91 "偷懒" "INV_Misc_QuestionMark"
+#showtooltip 精神灼烧
+/stopcasting 
+/cast [@focus,exists] 精神灼烧;精神灼烧
+END
+MACRO 51 "惩击" "INV_Misc_QuestionMark"
+#showtooltip 快速治疗
+/cast 心灵专注
+/cast [mod:alt,@player]快速治疗;[@mouseover,help,exists]快速治疗;[@mouseover,harm,exists]惩击;[harm]惩击;[help]快速治疗;[]快速治疗
+END
+MACRO 70 "痛" "INV_Misc_QuestionMark"
+#showtooltip 恢复
+/cast [mod:alt@player]恢复;[@mouseover,help,exists]恢复;[@mouseover,harm,exists]暗言术：痛;[harm]暗言术：痛;[help]恢复;[]恢复
+END
+MACRO 65 "鼠标驱散" "INV_Misc_QuestionMark"
+/Cast [modifier:alt,@player] 驱散魔法 ; [@mouseover,exists] 驱散魔法 ; 驱散魔法
+END

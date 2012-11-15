@@ -1,0 +1,17 @@
+
+Postal3DB = {
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"藍安|阿拉索|Alliance|90|PRIEST", -- [1]
+			},
+		},
+	},
+	["profileKeys"] = {
+		["藍安 - 阿拉索"] = "藍安 - 阿拉索",
+	},
+	["profiles"] = {
+		["藍安 - 阿拉索"] = {
+		},
+	},
+}

@@ -1,0 +1,62 @@
+
+DCTSA_CONFIG = {
+	["DCTSA_SAVE"] = {
+		["DCTSA_FILTER_CASTSUCCESS_SORT"] = {
+			["filt"] = {
+			},
+			["buffer"] = {
+			},
+		},
+		["DCTSA_FILTER_CASTSUCCESS"] = {
+			["filt"] = {
+			},
+			["buffer"] = {
+			},
+		},
+		["DCTSA_SAVEDATA_VER"] = 2001,
+		["DCTSA_FILTER_BUFF_SORT"] = {
+			["filt"] = {
+			},
+			["buffer"] = {
+				"黑曜石护甲", -- [1]
+				"俯冲轰炸", -- [2]
+			},
+		},
+		["DCTSA_FILTER_CASTSTART"] = {
+			["filt"] = {
+			},
+			["buffer"] = {
+				["火球术"] = 0,
+			},
+		},
+		["DCTSA_FILTER_DISPELLED"] = {
+			["filt"] = {
+			},
+			["buffer"] = {
+			},
+		},
+		["DCTSA_FILTER_CASTSTART_SORT"] = {
+			["filt"] = {
+			},
+			["buffer"] = {
+				"火球术", -- [1]
+			},
+		},
+		["DCTSA_FILTER_BUFF"] = {
+			["filt"] = {
+			},
+			["buffer"] = {
+				["俯冲轰炸"] = 0,
+				["黑曜石护甲"] = 0,
+			},
+		},
+		["DCTSA_FILTER_DISPELLED_SORT"] = {
+			["filt"] = {
+			},
+			["buffer"] = {
+			},
+		},
+		["PROFILE"] = {
+		},
+	},
+}

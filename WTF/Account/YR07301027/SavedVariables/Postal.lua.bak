@@ -1,0 +1,17 @@
+
+Postal3DB = {
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"岚黯|阿拉索|Alliance|90|SHAMAN", -- [1]
+			},
+		},
+	},
+	["profileKeys"] = {
+		["岚黯 - 阿拉索"] = "岚黯 - 阿拉索",
+	},
+	["profiles"] = {
+		["岚黯 - 阿拉索"] = {
+		},
+	},
+}

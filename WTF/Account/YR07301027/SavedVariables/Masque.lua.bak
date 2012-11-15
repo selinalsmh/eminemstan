@@ -1,0 +1,10 @@
+
+MasqueDB = {
+	["profileKeys"] = {
+		["岚黯 - 阿拉索"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

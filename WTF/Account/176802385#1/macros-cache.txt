@@ -1,0 +1,31 @@
+MACRO 2 " " "INV_Misc_QuestionMark"
+#showtooltip 传染
+/startattack
+/use 10
+/cast 传染
+END
+MACRO 1 " " "INV_Misc_Food_20"
+/g 25人开组，密我打1 进组。。
+/run F=F or CreateFrame("frame")F:RegisterEvent("CHAT_MSG_WHISPER")F:SetScript("OnEvent",function()if arg1=="1"then InviteUnit(arg2)end;end)
+END
+MACRO 3 " " "INV_Misc_QuestionMark"
+#showtooltip 天灾领主护手
+/startattack
+/cast 传染
+/use 10
+END
+MACRO 4 " " "INV_Misc_QuestionMark"
+#showtooltip 寒冰锁链
+/目标 瓦格里暗影戒卫者
+/cast 寒冰锁链
+END
+MACRO 5 " " "INV_Misc_QuestionMark"
+#showtooltip 心灵冰冻
+/cast 心灵冰冻
+/Y 轻轻的。我捅了%t的菊花。
+END
+MACRO 6 "LiteMount" "ABILITY_MOUNT_MECHASTRIDER"
+# Auto-created by LiteMount addon
+/click [nobtn:2] LiteMount
+/click [btn:2] LiteMount RightButton
+END

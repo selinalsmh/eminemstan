@@ -1,0 +1,19 @@
+﻿## Interface: 50001
+## Title: Beauty
+## Title-zhTW: 美化
+## Notes: 
+## Notes-zhTW: 
+## Author: Tukz, Elv, Ray
+## OptionalDeps: Skada,DBM-Core,AtlasLoot
+core.lua
+mirror.lua
+timertracker.lua
+dbm.lua
+skada.lua
+buff.lua
+minimapbuttoncollector.lua
+raidutility.lua
+Tooltips.lua
+ilevel.lua
+talent.lua
+Reminder.lua

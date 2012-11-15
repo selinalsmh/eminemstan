@@ -1,0 +1,23 @@
+MACRO 16777217 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack
+/cast 毁灭打击
+END
+MACRO 16777218 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack
+/cast 顺劈斩
+END
+MACRO 16777219 " " "INV_MISC_QUESTIONMARK"
+/cast [modifier:alt] 雷霆一击(战斗，防御姿态)
+/cast [nomodifier:alt]挫志怒吼
+END
+MACRO 16777220 " " "INV_MISC_QUESTIONMARK"
+/cast [flyable]堕落火鹰;银色作战塔布羊
+/cast [swimming] 深渊海马
+END
+MACRO 16777221 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack
+/cast 英勇打击
+END

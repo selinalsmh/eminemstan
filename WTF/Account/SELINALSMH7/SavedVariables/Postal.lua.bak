@@ -1,0 +1,17 @@
+
+Postal3DB = {
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"萌喵喵|阿拉索|Alliance|90|DRUID", -- [1]
+			},
+		},
+	},
+	["profileKeys"] = {
+		["萌喵喵 - 阿拉索"] = "萌喵喵 - 阿拉索",
+	},
+	["profiles"] = {
+		["萌喵喵 - 阿拉索"] = {
+		},
+	},
+}

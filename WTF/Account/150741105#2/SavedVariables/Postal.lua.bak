@@ -1,0 +1,24 @@
+
+Postal3DB = {
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"萌喵喵丶|阿拉索|Alliance|85|PALADIN", -- [1]
+			},
+		},
+	},
+	["profileKeys"] = {
+		["萌喵喵丶 - 阿拉索"] = "萌喵喵丶 - 阿拉索",
+	},
+	["profiles"] = {
+		["萌喵喵丶 - 阿拉索"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"面面仓库|阿拉索|Alliance", -- [1]
+					"面面矿石|阿拉索|Alliance", -- [2]
+					"澜安|阿拉索|Alliance", -- [3]
+				},
+			},
+		},
+	},
+}

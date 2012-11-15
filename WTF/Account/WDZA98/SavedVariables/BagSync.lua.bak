@@ -1,0 +1,125 @@
+
+BagSyncDB = {
+	["阿拉索"] = {
+		["Shikinami"] = {
+			["bag"] = {
+				{
+				}, -- [1]
+				{
+				}, -- [2]
+				{
+				}, -- [3]
+				{
+					[20] = "6948",
+					[17] = "76061,19",
+					[15] = "74839",
+					[18] = "82870",
+					[14] = "20815",
+					[16] = "89112,8",
+					[19] = "6365",
+				}, -- [4]
+				[0] = {
+					"33470,20", -- [1]
+					"33445,6", -- [2]
+					"43851,20", -- [3]
+					"33448", -- [4]
+					"33447", -- [5]
+					"43852,13", -- [6]
+					"43463", -- [7]
+					"33470,20", -- [8]
+					"33368", -- [9]
+					"33470,20", -- [10]
+					"35947,6", -- [11]
+					"33415", -- [12]
+					"43851,16", -- [13]
+					"33470,20", -- [14]
+					"33366", -- [15]
+					"33470,12", -- [16]
+				},
+			},
+			["guild"] = "獨特魅儷",
+			["class"] = "MAGE",
+			["AH_LastScan"] = 1352825003,
+			["auction"] = {
+				[0] = {
+					"87458,1,4", -- [1]
+				},
+			},
+			["gold"] = 16129784,
+			["equip"] = {
+				[0] = {
+					"87450", -- [1]
+					"90905", -- [2]
+					"82398", -- [3]
+					nil, -- [4]
+					"90477", -- [5]
+					"90472", -- [6]
+					"90475", -- [7]
+					"90473", -- [8]
+					"82681", -- [9]
+					"90476", -- [10]
+					"90904", -- [11]
+					"90904", -- [12]
+					"81662", -- [13]
+					"81662", -- [14]
+					"82702", -- [15]
+					"87417", -- [16]
+					[19] = "31405",
+				},
+			},
+			["mailbox"] = {
+				[0] = {
+				},
+			},
+			["faction"] = "Alliance",
+			["AH_Count"] = 1,
+		},
+	},
+}
+BagSyncOpt = {
+	["enableAuction"] = true,
+	["showGuildNames"] = false,
+	["tooltipOnlySearch"] = false,
+	["enableTooltips"] = true,
+	["enableMailbox"] = true,
+	["enableFaction"] = true,
+	["enableGuild"] = true,
+	["dbversion"] = "7.1",
+	["showTotal"] = true,
+	["enableUnitClass"] = false,
+	["enableMinimap"] = true,
+}
+BagSyncGUILD_DB = {
+	["阿拉索"] = {
+	},
+}
+BagSyncTOKEN_DB = {
+	["阿拉索"] = {
+		["荣誉点数"] = {
+			["icon"] = "Interface\\Icons\\PVPCurrency-Honor-Alliance",
+			["header"] = "PvP",
+			["Shikinami"] = 984,
+		},
+		["征服点数"] = {
+			["icon"] = "Interface\\Icons\\PVPCurrency-Conquest-Alliance",
+			["header"] = "PvP",
+			["Shikinami"] = 0,
+		},
+	},
+}
+BagSyncCRAFT_DB = {
+	["阿拉索"] = {
+		["Shikinami"] = {
+			{
+				"裁缝", -- [1]
+				"|cffffd000|Htrade:51309:366:450:400000001FBE260:4//+vuoKy/jv8/Pw27PR9fPZ3f3nNznLAAAAA4dA4PAIAgEAAsAwDAiRsDAAAAAAAASACBAAAAAAAAAAAAAAAAAAAAAAA|h[裁缝]|h|r", -- [2]
+				366, -- [3]
+			}, -- [1]
+			[4] = "钓鱼,146",
+		},
+	},
+}
+BagSyncBLACKLIST_DB = {
+	["阿拉索"] = {
+	},
+}

@@ -1,0 +1,52 @@
+MACRO 26 " " "INV_MISC_QUESTIONMARK"
+#showtooltip 狂风打击
+/startattack 
+/castsequence reset=0.6 0,0,0,狂风打击
+/click MultiBarBottomLeftButton1
+/cast !嗜血
+/script UIErrorsFrame:Clear()
+END
+MACRO 23 " " "INV_MISC_QUESTIONMARK"
+/cast [flyable]堕落火鹰;金黄骑乘仙鹤
+/cast [swimming] 深渊海马
+END
+MACRO 20 " " "INV_Misc_QuestionMark"
+#showtooltips 
+/startattack 
+/castsequence reset=0 0,0,0,0,盾牌猛击
+/castsequence reset=0 0,0,0,盾牌猛击,0 
+/castsequence reset=0 0,0,毁灭打击,0,0 
+/castsequence reset=0 0,复仇,0,0,0 
+/castsequence reset=0 盾牌猛击,0,0,0,0
+/cast 盾牌猛击
+END
+MACRO 25 " " "INV_MISC_QUESTIONMARK"
+#showtooltip 挫志战旗
+/cast [@mouseover] 捍卫
+/castsequence 挫志战旗,挑战战旗
+END
+MACRO 28 " 3" "INV_MISC_QUESTIONMARK"
+#showtooltip 巨人打击
+/startattack 
+/castsequence reset=0.5 巨人打击
+/click MultiBarBottomLeftButton1
+/cast !巨龙怒吼
+END
+MACRO 24 " 冲锋断筋" "INV_MISC_QUESTIONMARK"
+#showtooltip 冲锋 
+/cast 冲锋 
+/cast 断筋 
+/startattack
+END
+MACRO 27 "2" "INV_MISC_QUESTIONMARK"
+#show 怒击
+/startattack 
+/castsequence reset=0 0,0,怒击
+/click MultiBarBottomLeftButton2
+/cast 狂暴之怒
+END
+MACRO 22 "LiteMount" "ABILITY_MOUNT_MECHASTRIDER"
+# Auto-created by LiteMount addon
+/click [nobtn:2] LiteMount
+/click [btn:2] LiteMount RightButton
+END

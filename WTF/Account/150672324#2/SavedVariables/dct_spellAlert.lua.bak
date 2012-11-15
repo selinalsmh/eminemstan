@@ -1,0 +1,64 @@
+
+DCTSA_CONFIG = {
+	["DCTSA_SAVE"] = {
+		["DCTSA_FILTER_CASTSUCCESS_SORT"] = {
+			["filt"] = {
+			},
+			["buffer"] = {
+			},
+		},
+		["DCTSA_FILTER_CASTSUCCESS"] = {
+			["filt"] = {
+			},
+			["buffer"] = {
+			},
+		},
+		["DCTSA_SAVEDATA_VER"] = 2001,
+		["DCTSA_FILTER_BUFF_SORT"] = {
+			["filt"] = {
+			},
+			["buffer"] = {
+				"咔啡刺激", -- [1]
+				"咔啡疯狂", -- [2]
+				"咔啡疲惫", -- [3]
+				"咔啡冲刺", -- [4]
+			},
+		},
+		["DCTSA_FILTER_CASTSTART"] = {
+			["filt"] = {
+			},
+			["buffer"] = {
+			},
+		},
+		["DCTSA_FILTER_DISPELLED"] = {
+			["filt"] = {
+			},
+			["buffer"] = {
+			},
+		},
+		["DCTSA_FILTER_CASTSTART_SORT"] = {
+			["filt"] = {
+			},
+			["buffer"] = {
+			},
+		},
+		["DCTSA_FILTER_BUFF"] = {
+			["filt"] = {
+			},
+			["buffer"] = {
+				["咔啡冲刺"] = 0,
+				["咔啡刺激"] = 0,
+				["咔啡疯狂"] = 0,
+				["咔啡疲惫"] = 0,
+			},
+		},
+		["DCTSA_FILTER_DISPELLED_SORT"] = {
+			["filt"] = {
+			},
+			["buffer"] = {
+			},
+		},
+		["PROFILE"] = {
+		},
+	},
+}

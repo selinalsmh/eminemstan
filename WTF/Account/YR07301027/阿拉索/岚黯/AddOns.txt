@@ -1,0 +1,2 @@
+oUF_Freebgrid: enabled
+oUF_Freebgrid_Config: enabled

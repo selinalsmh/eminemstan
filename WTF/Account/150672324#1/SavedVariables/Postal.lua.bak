@@ -1,0 +1,17 @@
+
+Postal3DB = {
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"Eminemstan|阿拉索|Alliance|90|DEATHKNIGHT", -- [1]
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Eminemstan - 阿拉索"] = "Eminemstan - 阿拉索",
+	},
+	["profiles"] = {
+		["Eminemstan - 阿拉索"] = {
+		},
+	},
+}

@@ -1,0 +1,3 @@
+
+stAddonProfiles = nil
+stLockedAddons = nil

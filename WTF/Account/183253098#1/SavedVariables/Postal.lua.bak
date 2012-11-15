@@ -1,0 +1,17 @@
+
+Postal3DB = {
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"晴天小猫|阿拉索|Alliance|85|PALADIN", -- [1]
+			},
+		},
+	},
+	["profileKeys"] = {
+		["晴天小猫 - 阿拉索"] = "晴天小猫 - 阿拉索",
+	},
+	["profiles"] = {
+		["晴天小猫 - 阿拉索"] = {
+		},
+	},
+}

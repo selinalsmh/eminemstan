@@ -1,0 +1,94 @@
+MACRO 8 " " "INV_MISC_QUESTIONMARK"
+#showtooltip 多重射击
+/startattack
+/petattack
+/cast 多重射击
+/cast !寒冰气息
+END
+MACRO 2 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/console Sound_EnableSFX 0
+/assist [help]
+/dismount [nopet]
+/施放 [harm] 猎人印记;!照明弹
+/console Sound_EnableSFX 1
+END
+MACRO 3 " " "INV_MISC_QUESTIONMARK"
+/cast [flyable]堕落火鹰;金色骑乘牦牛
+/cast [swimming] 深渊海马
+END
+MACRO 4 " " "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/castsequence !雄鹰守护,!灵狐守护
+END
+MACRO 6 " " "INV_MISC_QUESTIONMARK"
+#showtooltip 眼镜蛇射击
+/startattack
+/use 10
+/cast 眼镜蛇射击
+END
+MACRO 7 " " "INV_MISC_QUESTIONMARK"
+#showtooltip 误导
+/cast [@mouseover,help,exists]误导;[help] 误导;[@pet] 误导;[@targettarget,help,exists] 误导;误导
+END
+MACRO 14 " " "INV_MISC_QUESTIONMARK"
+#showtooltips
+/cast 逃脱
+/use 15
+END
+MACRO 9 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopattack
+/stopcasting
+/cast 假死
+END
+MACRO 10 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopattack
+/stopcasting
+/cancelaura 威慑
+/cast 威慑
+END
+MACRO 11 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/castsequence [nopet][@pet,dead]复活宠物;治疗宠物
+/施放 灵魂治愈(稀有技能)
+END
+MACRO 12 " " "INV_MISC_QUESTIONMARK"
+#showtooltip 黑箭
+/startattack
+/use 10
+/cast 黑箭
+END
+MACRO 13 " " "INV_MISC_QUESTIONMARK"
+#showtooltip 爆炸射击
+/startattack
+/use 10
+/cast 爆炸射击
+END
+MACRO 15 " " "INV_MISC_QUESTIONMARK"
+#showtooltip 奥术射击
+/use 10
+/cast 奥术射击
+END
+MACRO 16 " " "INV_MISC_QUESTIONMARK"
+#showtooltip 治疗宠物
+/castsequence [nopet][target=pet,dead]复活宠物;治疗宠物
+/cast [help][target=player] 灵魂治愈
+END
+MACRO 17 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt] 准备就绪
+/cast [nomod] 急速射击
+END
+MACRO 18 " " "INV_MISC_QUESTIONMARK"
+#showtooltip 夺命黑鸦
+/cast 山猫冲锋
+/cast 夺命黑鸦
+/cast 疯乱(狂野技能)
+END
+MACRO 1 "LiteMount" "ABILITY_MOUNT_MECHASTRIDER"
+# Auto-created by LiteMount addon
+/click [nobtn:2] LiteMount
+/click [btn:2] LiteMount RightButton
+END

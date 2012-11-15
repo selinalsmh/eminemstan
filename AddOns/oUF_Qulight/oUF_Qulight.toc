@@ -1,0 +1,32 @@
+﻿## Interface: 50001
+## Title: oUF_Qulight
+## Title-zhTW: oUF_Qulight
+## Notes: 
+## Notes-zhTW: 
+## Dependencies: oUF
+## Author: Qulight	
+## Version: 0.1 beta
+## X-Category: UnitFrame
+
+template.xml
+cfg.lua
+tags.lua
+castbar.lua
+raid_debuffs.lua
+lib.lua
+core.lua
+
+
+Elements\DebuffHighlight.lua
+Elements\AuraWatch.lua
+Elements\raidDebuffs.lua
+
+Plugins\Smooth.lua
+Plugins\Experience.lua
+Plugins\TotemBar.lua
+Plugins\HarmonyBar.lua
+Plugins\WarlockSpecBars.lua
+Plugins\Reputation.lua
+Plugins\WeaponEnchant.lua
+Plugins\BarFader.lua
+Plugins\oUF_HolyPower.lua

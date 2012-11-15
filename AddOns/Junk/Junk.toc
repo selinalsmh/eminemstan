@@ -1,0 +1,7 @@
+## Interface: 40300
+## Title: Junk!
+## Notes: Sell your junk!
+## Author: Kremonte *Fan Update* All rights reserved for and to Kremonte
+## Version: 1.0.5.2
+## SavedVariables: JunkAuto, JunkItems
+Junk.lua

@@ -1,0 +1,182 @@
+
+Bartender4DB = {
+	["namespaces"] = {
+		["ActionBars"] = {
+			["profiles"] = {
+				["Shikinami - 阿拉索"] = {
+					["actionbars"] = {
+						{
+							["version"] = 3,
+							["padding"] = 6,
+							["position"] = {
+								["x"] = -400,
+								["point"] = "BOTTOM",
+								["scale"] = 1.2,
+								["y"] = 45,
+							},
+						}, -- [1]
+						{
+							["version"] = 3,
+							["position"] = {
+								["x"] = -400,
+								["point"] = "BOTTOM",
+								["scale"] = 1.200000047683716,
+								["y"] = 90,
+							},
+							["padding"] = 6,
+						}, -- [2]
+						{
+							["version"] = 3,
+							["position"] = {
+								["x"] = -400,
+								["point"] = "BOTTOM",
+								["scale"] = 1.200000047683716,
+								["y"] = 135,
+							},
+							["padding"] = 6,
+						}, -- [3]
+						{
+							["rows"] = 3,
+							["version"] = 3,
+							["position"] = {
+								["x"] = 202.4000289050305,
+								["point"] = "BOTTOM",
+								["scale"] = 1.200000047683716,
+								["y"] = 136.200001760223,
+							},
+						}, -- [4]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["position"] = {
+								["x"] = -149.7249956249264,
+								["point"] = "CENTER",
+								["y"] = -114.3477711333496,
+							},
+							["padding"] = 6,
+						}, -- [5]
+						{
+							["buttons"] = 5,
+							["version"] = 3,
+							["position"] = {
+								["x"] = -128.4000117352503,
+								["point"] = "CENTER",
+								["scale"] = 1.2,
+								["y"] = -177.2755511310531,
+							},
+							["padding"] = 6,
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						[10] = {
+						},
+					},
+				},
+			},
+		},
+		["LibDualSpec-1.0"] = {
+		},
+		["ExtraActionBar"] = {
+			["profiles"] = {
+				["Shikinami - 阿拉索"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = -138.6134982322924,
+						["point"] = "CENTER",
+						["y"] = 5.526686855035564,
+					},
+				},
+			},
+		},
+		["MicroMenu"] = {
+			["profiles"] = {
+				["Shikinami - 阿拉索"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = -306.5000438020268,
+						["point"] = "BOTTOMRIGHT",
+						["scale"] = 1,
+						["y"] = 40.50002178133577,
+					},
+				},
+			},
+		},
+		["XPBar"] = {
+		},
+		["BlizzardArt"] = {
+			["profiles"] = {
+				["Shikinami - 阿拉索"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = -512,
+						["point"] = "BOTTOM",
+						["y"] = 47,
+					},
+				},
+			},
+		},
+		["Vehicle"] = {
+			["profiles"] = {
+				["Shikinami - 阿拉索"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = 352.3002451477373,
+						["point"] = "BOTTOM",
+						["y"] = 172.3999895777847,
+					},
+				},
+			},
+		},
+		["BagBar"] = {
+			["profiles"] = {
+				["Shikinami - 阿拉索"] = {
+					["version"] = 3,
+					["onebag"] = true,
+					["position"] = {
+						["x"] = -338.8854392693615,
+						["point"] = "BOTTOMRIGHT",
+						["y"] = 36.00000355613645,
+					},
+				},
+			},
+		},
+		["StanceBar"] = {
+			["profiles"] = {
+				["Shikinami - 阿拉索"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = -82.49996720831859,
+						["point"] = "CENTER",
+						["y"] = -14.99995424893689,
+					},
+				},
+			},
+		},
+		["PetBar"] = {
+			["profiles"] = {
+				["Shikinami - 阿拉索"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = -400.1001112591998,
+						["point"] = "BOTTOM",
+						["y"] = 169.2000007385822,
+					},
+				},
+			},
+		},
+		["RepBar"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Shikinami - 阿拉索"] = "Shikinami - 阿拉索",
+	},
+	["profiles"] = {
+		["Shikinami - 阿拉索"] = {
+			["blizzardVehicle"] = true,
+			["focuscastmodifier"] = false,
+			["outofrange"] = "hotkey",
+		},
+	},
+}

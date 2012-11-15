@@ -1,0 +1,99 @@
+MACRO 9 " " "INV_Misc_QuestionMark"
+#showtooltip
+/stopcasting
+/Cast [target=focus,harm,nodead]变形术;[target=mouseover,harm,nodead]变形术;变形术
+END
+MACRO 8 " " "INV_Misc_QuestionMark"
+#showtooltip
+/stopcasting
+/cast [target=focus,harm,nodead]法术反制;[target=mouseover,harm,nodead]法术反制;法术反制
+END
+MACRO 12 " " "INV_Misc_QuestionMark"
+#showtooltip 奥术冲击
+/cancelAura 寒冰屏障
+/cancelAura 隐身术
+/tar [@target,harm]
+/targetenemy [noharm][dead]
+/cast [nochanneling] 奥术冲击
+END
+MACRO 10 " " "INV_Misc_QuestionMark"
+#showtooltip 闪现术
+/stopcasting
+/cast 闪现术
+END
+MACRO 7 " " "INV_Misc_QuestionMark"
+#showtooltip
+/stopcasting
+/Cast [target=focus,harm,nodead]法术吸取;[target=mouseover,harm,nodead]法术吸取;法术吸取
+END
+MACRO 21 " " "INV_Misc_QuestionMark"
+#showtooltip
+/cast 时间扭曲
+/S [时间扭曲]开始!
+/脚本 local i,s;i=1;s=GetTime();F=F or CreateFrame("frame")F:SetScript("OnUpdate",function()if i<9 and GetTime()-s>4 then SendChatMessage("[时间扭曲]还剩"..(40-i*5).."秒!")i=i+1;s=s+5;end;end)
+END
+MACRO 22 " " "INV_MISC_QUESTIONMARK"
+#showtooltip 火球术
+/cancelAura 寒冰屏障
+/cancelAura 隐身术
+/tar [@target,harm]
+/targetenemy [noharm][dead]
+/cast 火球术
+END
+MACRO 24 " " "INV_MISC_QUESTIONMARK"
+#showtooltip 燃烧
+/stopcasting
+/cast 燃烧
+END
+MACRO 25 " " "INV_MISC_QUESTIONMARK"
+#showtooltip 炎爆术
+/cancelAura 寒冰屏障
+/cancelAura 隐身术
+/tar [@target,harm]
+/targetenemy [noharm][dead]
+/cast 炎爆术
+END
+MACRO 26 " " "INV_MISC_QUESTIONMARK"
+/use [nomod,@mouseover,exists,harm][]活动炸弹 
+/targetenemy [mod]
+END
+MACRO 27 " " "INV_MISC_QUESTIONMARK"
+#showtooltip 寒冰箭
+/cancelAura 寒冰屏障
+/cancelAura 隐身术
+/tar [@target,harm]
+/targetenemy [noharm][dead]
+/cast 寒冰箭
+END
+MACRO 28 " " "INV_MISC_QUESTIONMARK"
+#showtooltip 霜火之箭
+/cancelAura 寒冰屏障
+/cancelAura 隐身术
+/tar [@target,harm]
+/targetenemy [noharm][dead]
+/cast 霜火之箭
+END
+MACRO 29 " " "INV_MISC_QUESTIONMARK"
+#showtooltip 冰枪术
+/cancelAura 寒冰屏障
+/cancelAura 隐身术
+/tar [@target,harm]
+/targetenemy [noharm][dead]
+/cast 冰枪术
+END
+MACRO 2 "BF_Mount" "Ability_Mage_FieryPayback"
+/bfmount
+END
+MACRO 1 "Decursive" "1"
+/stopcasting
+/cast [@mouseover,nomod,exists] 解除诅咒;  [@mouseover,exists,mod:ctrl] 变形术; [@mouseover,exists,mod:shift] 解除诅咒
+END
+MACRO 19 "点门" "Ability_Creature_Cursed_04"
+/g 　　█　　　●███◣　█ 
+/g 　　██　　█　　　█　▉ 
+/g 　　█　　　█　　　█　▊ 
+/g █████　█　　　█　▋ 
+/g █　　　█　█　　　█　▌ 
+/g █████　█　　　█　▍ 
+/g ● ●  ● ●   █          █  ●
+END

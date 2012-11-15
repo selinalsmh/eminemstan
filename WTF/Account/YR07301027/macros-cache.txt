@@ -1,0 +1,90 @@
+MACRO 8 " " "INV_Misc_QuestionMark"
+#showtooltip 风剪
+/stopcasting
+/cast [modifier:shift,target=target]风剪
+/cast [target=focus,exits]风剪;风剪
+END
+MACRO 7 " " "INV_Misc_QuestionMark"
+#showtooltip 激流(等级 4)
+/cast 激流(等级 4) 
+/clearfocus [target=focus,dead] 
+/clearfocus [target=focus,noexists] 
+/cast [target=focus,harm,exists] 风剪;[harm] 风剪[target=targettarget, harm] 风剪
+END
+MACRO 5 " " "INV_Misc_QuestionMark"
+#showtooltip 闪电箭
+/USE 10
+/use 13
+/cast 闪电箭
+END
+MACRO 10 " " "INV_Misc_QuestionMark"
+/use 13
+/use 邪能治疗石
+END
+MACRO 11 " " "INV_Misc_QuestionMark"
+#showtooltip 闪电箭
+/USE 10
+/cast 闪电箭
+END
+MACRO 16 " " "INV_Misc_QuestionMark"
+#showtooltip 净化术(等级 2)
+/stopcasting 
+/clearfocus [target=focus,dead] 
+/clearfocus [target=focus,noexists] 
+/cast [target=focus,harm,exists] 净化术(等级 2);[harm] 净化术(等级 2)[target=targettarget, harm] 净化术(等级 2)
+END
+MACRO 18 " " "INV_Misc_QuestionMark"
+#showtooltip 风剪
+/stopcasting 
+/clearfocus [target=focus,dead] 
+/clearfocus [target=focus,noexists] 
+/cast [target=focus,harm,exists] 风剪;[harm] 风剪[target=targettarget, harm] 风剪
+END
+MACRO 21 " " "INV_Misc_QuestionMark"
+#showtooltip 元素掌握
+/USE 14
+/cast 元素掌握
+END
+MACRO 22 " " "Spell_Shaman_SpectralTransformation"
+/g 25人开组，密我打1 进组。。
+/run F=F or CreateFrame("frame")F:RegisterEvent("CHAT_MSG_WHISPER")F:SetScript("OnEvent",function()if arg1=="1"then InviteUnit(arg2)end;end)
+END
+MACRO 23 " " "Spell_Shadow_ShadowMend"
+/ 脚本 local n,t,m,c={}for i=1,GetNumLootItems()do _,_,m,t=GetLootSlotInfo(i)if t>3 then t=GetLootSlotLink(i)_,_,c=t:find(".-m:(%d+)")n[c]=n[c] and n[c]+m or m;end;end;for i,j in pairs(n)do _,i=GetItemInfo(i)SendChatMessage(i.."X"..j,"raid")end
+END
+MACRO 24 " " "INV_Misc_QuestionMark"
+#showtooltip 自然迅捷
+/cast 潮汐之力
+/cast 自然迅捷
+END
+MACRO 25 " " "INV_Misc_QuestionMark"
+/castsequence reset=17.7 烈焰震击
+/castsequence reset=8 熔岩爆裂,闪电箭,闪电箭,闪电箭,闪电箭,闪电箭,闪电箭
+/castsequence reset=4.9 闪电链,闪电箭,闪电箭,闪电箭,闪电箭
+/castsequence reset=2.9 闪电链,闪电箭,闪电箭,闪电箭,闪电箭
+/施放 闪电箭
+END
+MACRO 28 " " "INV_Misc_QuestionMark"
+#showtooltip
+/startattack
+/castsequence reset=combat 烈焰震击,熔岩猛击,风暴打击,大地震击,大地震击,熔岩猛击,风暴打击,烈焰震击,大地震击,熔岩猛击,风暴打击,大地震击
+END
+MACRO 29 "BF_Mount" "ability_mount_charger"
+/stopcasting
+/bfmount
+END
+MACRO 33 "BF_Pet" "achievement_worldevent_brewmaster"
+/BFPET
+END
+MACRO 30 "Decursive" "1"
+/stopcasting
+/cast [@mouseover,nomod,exists] 净化灵魂;  [@mouseover,exists,mod:ctrl] 净化术; [@mouseover,exists,mod:shift] 妖术
+END
+MACRO 32 "LiteMount" "ABILITY_MOUNT_MECHASTRIDER"
+# Auto-created by LiteMount addon
+/click [nobtn:2] LiteMount
+/click [btn:2] LiteMount RightButton
+END
+MACRO 31 "坐骑" "Ability_Mount_Charger"
+/RandomMount
+END

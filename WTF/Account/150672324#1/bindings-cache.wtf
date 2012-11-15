@@ -1,0 +1,31 @@
+BINDINGMODE 0
+bind BUTTON3 JUMP
+bind A ACTIONBUTTON6
+bind D ACTIONBUTTON7
+bind SPACE NONE
+bind NUMPAD0 NONE
+bind X CLICK BT4Button18:LeftButton
+bind Z CLICK BT4Button19:LeftButton
+bind SHIFT-3 CLICK BT4Button15:LeftButton
+bind SHIFT-4 CLICK BT4Button50:LeftButton
+bind SHIFT-5 CLICK BT4Button51:LeftButton
+bind G CLICK BT4Button45:LeftButton
+bind F CLICK BT4Button16:LeftButton
+bind V ACTIONBUTTON11
+bind SHIFT-V CLICK BT4Button23:LeftButton
+bind CTRL-V NAMEPLATES
+bind T CLICK BT4Button14:LeftButton
+bind SHIFT-T CLICK BT4Button17:LeftButton
+bind C CLICK BT4Button20:LeftButton
+bind B ACTIONBUTTON12
+bind SHIFT-B CLICK BT4Button24:LeftButton
+bind N CLICK BT4Button21:LeftButton
+bind NUMPADPLUS CAMERAZOOMIN
+bind NUMPADMINUS CAMERAZOOMOUT
+bind MOUSEWHEELUP CLICK BT4Button54:LeftButton
+bind MOUSEWHEELDOWN JUMP
+bind ` CLICK BT4Button49:LeftButton
+bind SHIFT-A CLICK BT4Button53:LeftButton
+bind BUTTON5 CLICK BT4Button40:LeftButton
+bind SHIFT-N CLICK BT4Button22:LeftButton
+bind SHIFT-D CLICK BT4Button52:LeftButton

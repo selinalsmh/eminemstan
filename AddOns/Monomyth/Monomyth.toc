@@ -1,0 +1,9 @@
+## Interface: 50001
+## Author: p3lim
+## Version: 50001.8-Beta
+## Title: Monomyth
+## Notes: Questing enhancements
+## SavedVariables: MonomythDB
+
+Config.lua
+Monomyth.lua

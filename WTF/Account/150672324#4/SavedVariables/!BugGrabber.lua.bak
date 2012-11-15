@@ -1,0 +1,23 @@
+
+BugGrabberDB = {
+	["lastSanitation"] = 3,
+	["session"] = 1,
+	["errors"] = {
+		{
+			["message"] = "oUF_Qulight-0.1 beta\\lib.lua:1580: bad argument #1 to \"pairs\" (table expected, got nil)",
+			["time"] = "2012/11/04 17:05:28",
+			["locals"] = "self = oUF_Boss1 {\n 0 = <userdata>\n Highlight = <unnamed> {}\n __tags = <table> {}\n UNIT_ENTERED_VEHICLE = <func> @oUF\\ouf.lua:38\n mystyle = \"boss\"\n unit = \"boss1\"\n UNIT_PET = <func> @oUF\\ouf.lua:175\n RaidIcon = <unnamed> {}\n __elements = <table> {}\n onUpdateFrequency = 0.5\n Power = <unnamed> {}\n __eventless = true\n style = \"Boss\"\n PLAYER_ENTERING_WORLD = <func> @oUF\\ouf.lua:149\n id = \"1\"\n UNIT_EXITED_VEHICLE = <func> @oUF\\ouf.lua:38\n Health = <unnamed> {}\n}\nunit = nil\nauras = <table> {\n onlyShowPresent = true\n anyUnit = true\n icons = <table> {}\n PostCreateIcon = <func> @oUF_Qulight\\lib.lua:1524\n}\nspellIDs = <table> {\n DEATHKNIGHT = <table> {}\n WARRIOR = <table> {}\n PALADIN = <table> {}\n MAGE = <table> {}\n PRIEST = <table> {}\n WARLOCK = <table> {}\n SHAMAN = <table> {}\n DRUID = <table> {}\n ROGUE = <table> {}\n HUNTER = <table> {}\n}\ncfg = <unnamed> {\n 0 = <userdata>\n backdrop_texture = \"oUF_Qulight\\media\\textures\\backdrop\"\n MTFrames = true\n showRunebar = true\n HealFrames = true\n petx = -390\n showpet = true\n Experiencebar = false\n font = \"FONTS\\ARKai_T.TTF\"\n highlight_texture = \"oUF_Qulight\\media\\textures\\raidbg\"\n RaidShowSolo = false\n showShardbar = true\n pety = 423\n targety = 430\n showAuraWatch = true\n focusy = 550\n RCheckIcon = true\n targetx = 150\n playery = 430\n playerx = -150\n focusx = 300\n ShowParty = true\n showLFDIcons = true\n Reputationbar = false\n showfocustarget = true\n Castbars = true\n ShowRaid = true\n showPortrait = true\n showShadowOrbsBar = true\n showHarmonyBar = true\n showtot = true\n showEclipsebar = true\n showHolybar = true\n showBossFrames = true\n fade = false\n backdrop_edge_texture = \"oUF_Qulight\\media\\textures\\backdrop_edge\"\n fontsize = 12\n showPlayerAuras = false\n TotemBars = true\n enableDebuffHighlight = true\n powerbar_texture = \"oUF_Qulight\\media\\textures\\statusbar\"\n debuffBorder = \"oUF_Qulight\\media\\textures\\iconborder\"\n showfocus = true\n RaidShowAllGroups = false\n showRaidDebuffs = true\n statusbar_texture = \"oUF_Qulight\\media\\textures\\statusbar\"\n}\nAWPostCreateIcon = <func> @oUF_Qulight\\lib.lua:1524\nplayerClass = \"MONK\"\n",
+			["stack"] = "<in C code>\noUF_Qulight-0.1 beta\\lib.lua:1580: in function \"createAuraWatch\"\noUF_Qulight-0.1 beta\\core.lua:196: in function \"styleFunc\"\noUF-1.6.0\\ouf-1.6.0.lua:262: in function <oUF\\ouf.lua:192>\n(tail call): ?\noUF-1.6.0\\ouf-1.6.0.lua:552: in function \"Spawn\"\noUF_Qulight-0.1 beta\\core.lua:365: in function \"func\"\noUF-1.6.0\\factory.lua:20: in function <oUF\\factory.lua:16>\n(tail call): ?",
+			["session"] = 1,
+			["counter"] = 1,
+		}, -- [1]
+		{
+			["message"] = "SkadaSkin and tooltips\\ilevel.lua:49: attempt to perform arithmetic on local \"ilvlAdd\" (a nil value)",
+			["time"] = "2012/11/04 17:05:37",
+			["locals"] = "GetPlayerScore = <func> @SkadaSkin and tooltips\\ilevel.lua:40\nunit = \"player\"\nGetQuality = <func> @SkadaSkin and tooltips\\ilevel.lua:59\n",
+			["stack"] = "SkadaSkin and tooltips\\ilevel.lua:49: in function <SkadaSkin and tooltips\\ilevel.lua:40>\nSkadaSkin and tooltips\\ilevel.lua:78: in function <SkadaSkin and tooltips\\ilevel.lua:77>\nSkadaSkin and tooltips\\ilevel.lua:101: in function <SkadaSkin and tooltips\\ilevel.lua:94>\n<in C code>\n<in C code>\n<in C code>\n<in C code>\nFrameXML\\UnitFrame.lua:224: in function \"UnitFrame_UpdateTooltip\"\nFrameXML\\UnitFrame.lua:211: in function \"UnitFrame_OnEnter\"\noUF_Qulight-0.1 beta\\lib.lua:531: in function <oUF_Qulight\\lib.lua:530>",
+			["session"] = 1,
+			["counter"] = 6,
+		}, -- [2]
+	},
+}

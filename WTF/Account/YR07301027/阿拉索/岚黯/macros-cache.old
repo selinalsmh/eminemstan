@@ -1,0 +1,23 @@
+MACRO 16777219 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack
+/castsequence reset=combat 烈焰震击,熔岩猛击,风暴打击,大地震击,大地震击,熔岩猛击,风暴打击,烈焰震击,大地震击,熔岩猛击,风暴打击,大地震击
+END
+MACRO 16777220 " " "INV_MISC_QUESTIONMARK"
+#showtooltip 闪电箭
+/USE 10
+/use 13
+/cast 闪电箭
+END
+MACRO 16777222 " " "INV_MISC_QUESTIONMARK"
+#showtooltip 风剪
+/stopcasting 
+/clearfocus [@focus,dead] 
+/clearfocus [@focus,noexists] 
+/cast [@focus,harm,exists] 风剪;[harm] 风剪[@targettarget, harm] 风剪
+END
+MACRO 16777223 " " "INV_MISC_QUESTIONMARK"
+#showtooltip 自然迅捷
+/cast 潮汐之力
+/cast 自然迅捷
+END

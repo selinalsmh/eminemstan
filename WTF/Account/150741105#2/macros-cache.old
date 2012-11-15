@@ -1,0 +1,55 @@
+MACRO 4 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [flyable]堕落火鹰;金黄骑乘仙鹤
+/cast [swimming] 深渊海马
+END
+MACRO 2 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack
+/cast 十字军打击
+END
+MACRO 3 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack
+/cast  神圣风暴
+END
+MACRO 5 " " "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/施放 [mod,@player][@mouseover,help,nodead][help,nodead][nogroup,@player][@targettarget,help,nodead]圣光术
+/cast 圣光术
+END
+MACRO 6 " " "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/施放 [mod,@player][@mouseover,help,nodead][help,nodead][nogroup,@player][@targettarget,help,nodead]神圣震击
+/cast 神圣震击
+END
+MACRO 7 " " "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/施放 [mod,@player][@mouseover,help,nodead][help,nodead][nogroup,@player][@targettarget,help,nodead]荣耀圣令
+/cast 荣耀圣令
+END
+MACRO 8 " " "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/施放 [mod,@player][@mouseover,help,nodead][help,nodead][nogroup,@player][@targettarget,help,nodead]神圣之光
+/cast 神圣之光
+END
+MACRO 1 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack
+/cast 审判
+END
+MACRO 9 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack
+/cast 圣殿骑士的裁决
+END
+MACRO 10 " " "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/施放 [mod,@player][@mouseover,help,nodead][help,nodead][nogroup,@player][@targettarget,help,nodead]圣疗术
+/cast 圣疗术
+END
+MACRO 11 "LiteMount" "ABILITY_MOUNT_MECHASTRIDER"
+# Auto-created by LiteMount addon
+/click [nobtn:2] LiteMount
+/click [btn:2] LiteMount RightButton
+END

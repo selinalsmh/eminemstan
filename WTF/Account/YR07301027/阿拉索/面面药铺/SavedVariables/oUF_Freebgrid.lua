@@ -1,0 +1,2 @@
+
+Freebgridomf2Char = nil

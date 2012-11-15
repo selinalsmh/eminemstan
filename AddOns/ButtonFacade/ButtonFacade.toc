@@ -1,0 +1,14 @@
+﻿## Interface: 50001
+## Title: ButtonFacade
+## Title-zhTW: ButtonFacade
+## Notes: Loads Masque for add-ons still using ButtonFacade's API. Do NOT disable this!
+## Notes-zhTW: Loads Masque for add-ons still using ButtonFacade's API. Do NOT disable this!
+## Dependencies: Masque
+## Version: 5.0.387
+## Author: StormFX
+## X-Curse-Packaged-Version: v5.0.387
+## X-Curse-Project-Name: Masque
+## X-Curse-Project-ID: masque
+## X-Curse-Repository-ID: wow/masque/mainline
+
+ButtonFacade.lua

@@ -1,0 +1,111 @@
+MACRO 16777217 " " "INV_Misc_QuestionMark"
+#showtooltip 心脏打击
+/console Sound_EnableSFX 0
+/startattack
+/cast !符文打击
+/cast 心脏打击
+/console Sound_EnableSFX 1
+/script UIErrorsFrame:Clear()
+END
+MACRO 16777219 " " "INV_Misc_QuestionMark"
+#showtooltip 灵界打击
+/console Sound_EnableSFX 0
+/startattack
+/cast !符文打击
+/cast 灵界打击
+/console Sound_EnableSFX 1
+/script UIErrorsFrame:Clear()
+END
+MACRO 16777221 " " "INV_Misc_QuestionMark"
+#showtooltip 铜墙铁壁
+/castsequence reset=5/target/combat 铜墙铁壁,活力分流,湮没
+END
+MACRO 16777220 " " "INV_Misc_QuestionMark"
+#showtooltip 鲜血打击
+/console Sound_EnableSFX 0
+/startattack
+/cast !符文打击
+/cast 鲜血打击
+/console Sound_EnableSFX 1
+/script UIErrorsFrame:Clear()
+END
+MACRO 16777222 " " "INV_Misc_QuestionMark"
+#showtooltip 湮没
+/cast 湮没
+/use 14
+/use 13
+/use 10
+END
+MACRO 16777224 " " "INV_Misc_QuestionMark"
+#showtooltip 枯萎凋零
+/cast !枯萎凋零
+END
+MACRO 16777218 " " "INV_Misc_QuestionMark"
+#showtooltip 天灾打击
+/console Sound_EnableSFX 0
+/startattack
+/cast !符文打击
+/cast 天灾打击
+/console Sound_EnableSFX 1
+/script UIErrorsFrame:Clear()
+END
+MACRO 16777225 " " "INV_Misc_QuestionMark"
+#showtooltip 亡者复生
+/Y May the force be with you
+/E 的爪牙说到：别太放肆。。没什么用。。
+/CAST 亡者复生
+END
+MACRO 16777227 " " "INV_Misc_QuestionMark"
+#showtooltip 冰封之韧
+/cast 冰封之韧
+/use 治疗石
+END
+MACRO 16777231 " " "INV_Misc_QuestionMark"
+#showtooltip 狂乱
+/cast [@focus,nodead][@player]狂乱
+END
+MACRO 16777233 " " "INV_Misc_QuestionMark"
+#showtooltip 冰冷触摸
+/console Sound_EnableSFX 0
+/startattack
+/cast !符文打击
+/cast 冰冷触摸
+/console Sound_EnableSFX 1
+/script UIErrorsFrame:Clear()
+END
+MACRO 16777234 " " "INV_Misc_QuestionMark"
+#showtooltip 暗影打击
+/console Sound_EnableSFX 0
+/startattack
+/cast !符文打击
+/cast 暗影打击
+/console Sound_EnableSFX 1
+/script UIErrorsFrame:Clear()
+END
+MACRO 16777235 " " "INV_Misc_QuestionMark"
+#showtooltip 天灾领主护手
+/cast 活力分流
+/USE 天灾领主护手
+/cancelaura 活力分流
+END
+MACRO 16777236 " " "INV_Misc_QuestionMark"
+#showtooltip 鲜血打击
+/startattack
+/cancelaura 活力分流
+/cast 鲜血打击 
+END
+MACRO 16777237 " " "INV_Misc_QuestionMark"
+#showtooltip 传染
+/startattack
+/cancelaura 活力分流
+/cast 传染
+END
+MACRO 16777238 " " "INV_Misc_QuestionMark"
+#showtooltip 符文分流
+/cast 符文分流
+/use 10
+END
+MACRO 16777239 " " "INV_Misc_QuestionMark"
+#showtooltip 吸血鬼之血
+/cast 吸血鬼之血
+END
