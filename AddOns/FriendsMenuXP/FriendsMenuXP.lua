@@ -80,7 +80,7 @@ FriendsMenuXP_Buttons["REPORT_SPAM"] = {
     func = function(name, dropdown)
         local dialog = StaticPopup_Show("CONFIRM_REPORT_SPAM_CHAT", name);
         if ( dialog ) then
-            dialog.data = dropdown.lineID;
+            dialog.data = dropdown.unit or tonumber(dropdown.lineID);
         end
     end,
     show = function(name, dropdown) return dropdown.lineID and CanComplainChat(dropdown.lineID) end,
@@ -296,22 +296,12 @@ end
 FriendsMenuXP_Buttons["ARMORY"] = {
     text = FMXP_BUTTON_ARMORY,
     func = function(name)
-
         local n,r = name:match"(.*)-(.*)"
         n = n or name
         r = r or GetRealmName()
 
-
-
-
-
         local portal = GetCVar'portal'
         local host = portal == 'cn' and "http://www.battlenet.com.cn/" or ("http://%s.battle.net/"):format(GetCVar'portal')
-
-
-
-
-
 
         local armory = host.."wow/character/"..urlencode(r).."/"..urlencode(n).."/advanced"
 
@@ -320,7 +310,6 @@ FriendsMenuXP_Buttons["ARMORY"] = {
         editBox:SetText(armory);
         editBox:HighlightText();
     end,
-
 }
 
 FriendsMenuXP_Buttons["POP_OUT_CHAT"] = {
@@ -329,14 +318,12 @@ FriendsMenuXP_Buttons["POP_OUT_CHAT"] = {
         if ( (dropdownMenu.chatType ~= "WHISPER" and dropdownMenu.chatType ~= "BN_WHISPER") or dropdownMenu.chatTarget == UnitName("player") or
                 FCFManager_GetNumDedicatedFrames(dropdownMenu.chatType, dropdownMenu.chatTarget) > 0 ) then
             return false
-
         end
         return true
     end,
     func = function(name, dropdownFrame)
         FCF_OpenTemporaryWindow(dropdownFrame.chatType, dropdownFrame.chatTarget, dropdownFrame.chatFrame, true);
     end,
-
 }
 
 local _
@@ -349,7 +336,6 @@ for k,v in pairs(FriendsMenuXP_Buttons) do
             v.isSecure = 1
             v.attributes = "type:macro;macrotext:/targetexact $name$\n/cast "..v.text:gsub("%:","%^").."\n/targetlasttarget"
             v.show = function() return IsSpellKnown(v.spellId) end
-
         else
             v.show = function() return false end
         end
@@ -424,7 +410,6 @@ FriendsMenuXP_ButtonSet["OFFLINE"] = {
 }
 
 FriendsMenuXP_ButtonSet["UNITPOPUP"] = {
-    "ADD_FRIEND",
     "REMOVE_FRIEND",
     "SET_NOTE",
     "ADD_GUILD",
@@ -480,10 +465,8 @@ function FriendsMenuXP_ShowDropdown(buttonSet, closeOrigin, anchor, relative, of
     if(DropDownList1:IsVisible()) then
         if DropDownList1:GetTop() and DropDownList1:GetTop()<UIParent:GetHeight()/2 and appendBottom then
             appendBottom = nil
-
-
-            anchor = "TOPRIGHT"
-            relative = "TOPLEFT"
+            anchor = "TOPLEFT"
+            relative = "TOPRIGHT"
         end
         dropDown:SetPoint(anchor, DropDownList1, relative, offsetx or 0, offsety or 0);
         if appendBottom then
@@ -565,22 +548,6 @@ function FriendsMenuXP_ChatFrame_OnHyperlinkShow(self, playerString, text, butto
             InviteUnit(GetNameFromLink(playerString));
             return;
         end
-    elseif(playerString and strsub(playerString, 1, 8) == "BNplayer") then
-        local _, presenceID = playerString:match("^BNplayer:([^:]*):([^:]*):")
-        if presenceID then
-            if ( IsAltKeyDown() ) then
-                if(not IsShiftKeyDown()) then
-                    if (button=="RightButton") then
-                        HideDropDownMenu(1);
-                    else
-                        DEFAULT_CHAT_FRAME.editBox:Hide();
-                    end
-                end
-
-                BNInviteFriend(presenceID);
-                return;
-            end
-        end
     end
 end
 
@@ -631,7 +598,7 @@ function FriendsMenuXP_OnLoad(self)
     self:RegisterEvent("PLAYER_REGEN_ENABLED");
     self:RegisterEvent("ADDON_LOADED"); -- for RaidUI
 
-
+    if(FRIENDS_MENU_XP_LOADED) then DEFAULT_CHAT_FRAME:AddMessage(FRIENDS_MENU_XP_LOADED,1,1,0); end
 end
 
 function FriendsMenuXP_OnEvent(self, event, ...)
@@ -686,7 +653,7 @@ function FriendsMenuXP_OnUpdate(self, elapsed)
 
     if( IsControlKeyDown() and FRIENDSMENU_NOW_LINK_PLAYER.link) then
         if(ChatLinkMaskButton) then
-            local name, lineid, chatType, chatTarget = strsplit(":", FRIENDSMENU_NOW_LINK_PLAYER.link);
+            local _, name, lineid, chatType, chatTarget = strsplit(":", FRIENDSMENU_NOW_LINK_PLAYER.link);
             ChatLinkMaskButton:SetAttribute("macrotext", "/target "..name);
         end
 

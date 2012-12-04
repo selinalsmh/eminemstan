@@ -1,10 +1,8 @@
-﻿## Interface: 40300
+## Interface: 50100
 ## Title: tullaCooldownCount
-## Title-zhTW: tullaCooldownCount
 ## Notes: Adds text to cooldowns
-## Notes-zhTW: Adds text to cooldowns
 ## Author: Tuller
-## Version: 4.3.1
+## Version: 5.1.0
 config.lua
 cc.lua
 compat43.lua

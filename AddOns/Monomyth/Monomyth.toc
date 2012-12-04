@@ -4,6 +4,10 @@
 ## Title: Monomyth
 ## Notes: Questing enhancements
 ## SavedVariables: MonomythDB
+## X-Curse-Packaged-Version: 50001.8-Beta
+## X-Curse-Project-Name: Monomyth
+## X-Curse-Project-ID: monomyth
+## X-Curse-Repository-ID: wow/monomyth/mainline
 
 Config.lua
 Monomyth.lua

@@ -6,9 +6,6 @@
 		and also for people who don't care about the extra features of OmniCC
 --]]
 
---hacks!
-OmniCC = OmniCC or true --hack to work around detection from other addons for OmniCC
-
 local AddonName, Addon = ...
 local Timer = {}; Addon.Timer = Timer
 
@@ -150,9 +147,11 @@ function Timer.Create(cd)
 	return timer
 end
 
-function Timer.Start(cd, start, duration)
+function Timer.Start(cd, start, duration, charges, maxCharges)
+	local remainingCharges = charges or 0
+	
 	--start timer
-	if start > 0 and duration > MIN_DURATION and (not cd.noCooldownCount) then
+	if start > 0 and duration > MIN_DURATION and remainingCharges == 0 and (not cd.noCooldownCount) then
 		local timer = cd.timer or Timer.Create(cd)
 		timer.start = start
 		timer.duration = duration
@@ -171,4 +170,4 @@ end
 --hook the SetCooldown method of all cooldown frames
 --ActionButton1Cooldown is used here since its likely to always exist
 --and I'd rather not create my own cooldown frame to preserve a tiny bit of memory
-hooksecurefunc(getmetatable(ActionButton1Cooldown).__index, 'SetCooldown', Timer.Start)
+hooksecurefunc(getmetatable(_G['ActionButton1Cooldown']).__index, 'SetCooldown', Timer.Start)

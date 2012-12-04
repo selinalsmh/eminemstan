@@ -1,0 +1,13 @@
+tag 50001.8-Beta
+9034c13552dfee296e7ed8a88b0102753237d353
+Adrian L Lange <adrianlund@gmail.com>
+2012-11-06 20:54:12 +0100
+
+Tag 50001.8-Beta
+
+
+--------------------
+
+Adrian L Lange:
+	- Better logic for reverse behavior
+	- Avoid errors on first load due to early BAG_UPDATE updates
