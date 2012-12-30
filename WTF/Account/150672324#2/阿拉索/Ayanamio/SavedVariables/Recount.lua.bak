@@ -1,0 +1,717 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["银鼠草熏香 <夕下哥>"] = {
+			["GUID"] = "0xF130FF120018A725",
+			["LastEventHealth"] = {
+				"???", -- [1]
+			},
+			["LastEventType"] = {
+				"MISC", -- [1]
+			},
+			["TimeWindows"] = {
+				["DeathCount"] = {
+					1, -- [1]
+				},
+			},
+			["enClass"] = "PET",
+			["level"] = 1,
+			["LastFightIn"] = 0,
+			["type"] = "Pet",
+			["DeathLogs"] = {
+				{
+					["MessageTimes"] = {
+						0, -- [1]
+					},
+					["MessageIncoming"] = {
+						true, -- [1]
+					},
+					["Messages"] = {
+						"银鼠草熏香 <夕下哥>死亡。", -- [1]
+					},
+					["EventNum"] = {
+						0, -- [1]
+					},
+					["DeathAt"] = 1354977918,
+					["HealthNum"] = {
+						0, -- [1]
+					},
+					["Health"] = {
+						"???", -- [1]
+					},
+					["MessageType"] = {
+						"MISC", -- [1]
+					},
+				}, -- [1]
+			},
+			["Owner"] = "夕下哥",
+			["NextEventNum"] = 2,
+			["LastEventHealthNum"] = {
+				0, -- [1]
+			},
+			["LastEvents"] = {
+				"银鼠草熏香 <夕下哥>死亡。", -- [1]
+			},
+			["Name"] = "银鼠草熏香",
+			["TimeLast"] = {
+				["OVERALL"] = 1354977916,
+				["DeathCount"] = 1354977916,
+			},
+			["LastEventIncoming"] = {
+				true, -- [1]
+			},
+			["LastEventTimes"] = {
+				7186.372, -- [1]
+			},
+			["UnitLockout"] = 1354977916,
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["DeathCount"] = 1,
+				},
+				["OverallData"] = {
+					["DeathCount"] = 1,
+				},
+			},
+		},
+		["凶残的疯子"] = {
+			["GUID"] = "0x0400000001F4E718",
+			["type"] = "Ungrouped",
+			["GuardianReverseGUIDs"] = {
+				["古德利亚"] = {
+					["LatestGuardian"] = 0,
+					["GUIDs"] = {
+						[0] = "0xF140B49E2F004FBA",
+					},
+				},
+			},
+			["Owner"] = false,
+			["enClass"] = "UNGROUPED",
+			["Name"] = "凶残的疯子",
+			["Pet"] = {
+				"古德利亚 <凶残的疯子>", -- [1]
+			},
+			["Fights"] = {
+			},
+			["level"] = 1,
+			["UnitLockout"] = 1354976962,
+			["LastFightIn"] = 0,
+		},
+		["剑箭飙血"] = {
+			["GUID"] = "0x04000000018201F7",
+			["type"] = "Ungrouped",
+			["GuardianReverseGUIDs"] = {
+				["维尼"] = {
+					["LatestGuardian"] = 0,
+					["GUIDs"] = {
+						[0] = "0xF140B263C20051A3",
+					},
+				},
+			},
+			["Owner"] = false,
+			["enClass"] = "UNGROUPED",
+			["Name"] = "剑箭飙血",
+			["Pet"] = {
+				"维尼 <剑箭飙血>", -- [1]
+			},
+			["Fights"] = {
+			},
+			["level"] = 1,
+			["UnitLockout"] = 1354978992,
+			["LastFightIn"] = 0,
+		},
+		["水兰色鱼鱼"] = {
+			["GUID"] = "0x0400000001C81C8D",
+			["type"] = "Ungrouped",
+			["GuardianReverseGUIDs"] = {
+				["布林顿4000"] = {
+					["LatestGuardian"] = 0,
+					["GUIDs"] = {
+						[0] = "0xF130AB990018C8FC",
+					},
+				},
+			},
+			["Owner"] = false,
+			["enClass"] = "UNGROUPED",
+			["Name"] = "水兰色鱼鱼",
+			["Pet"] = {
+				"布林顿4000 <水兰色鱼鱼>", -- [1]
+			},
+			["Fights"] = {
+			},
+			["level"] = 1,
+			["UnitLockout"] = 1354978914,
+			["LastFightIn"] = 0,
+		},
+		["Hocolli"] = {
+			["GUID"] = "0x0400000001944CA8",
+			["type"] = "Ungrouped",
+			["GuardianReverseGUIDs"] = {
+				["颅骨战旗"] = {
+					["LatestGuardian"] = 0,
+					["GUIDs"] = {
+						[0] = "0xF130E8070018A758",
+					},
+				},
+			},
+			["Owner"] = false,
+			["enClass"] = "UNGROUPED",
+			["Name"] = "Hocolli",
+			["Pet"] = {
+				"颅骨战旗 <Hocolli>", -- [1]
+			},
+			["Fights"] = {
+			},
+			["level"] = 1,
+			["UnitLockout"] = 1354977902,
+			["LastFightIn"] = 0,
+		},
+		["刀锋如浪"] = {
+			["GUID"] = "0x04000000006909F1",
+			["type"] = "Ungrouped",
+			["GuardianReverseGUIDs"] = {
+				["挑战战旗"] = {
+					["LatestGuardian"] = 0,
+					["GUIDs"] = {
+						[0] = "0xF130E7FE00187CE8",
+					},
+				},
+				["颅骨战旗"] = {
+					["LatestGuardian"] = 0,
+					["GUIDs"] = {
+						[0] = "0xF130E80700188FCF",
+					},
+				},
+			},
+			["Owner"] = false,
+			["enClass"] = "UNGROUPED",
+			["Name"] = "刀锋如浪",
+			["Pet"] = {
+				"挑战战旗 <刀锋如浪>", -- [1]
+				"颅骨战旗 <刀锋如浪>", -- [2]
+			},
+			["Fights"] = {
+			},
+			["level"] = 1,
+			["UnitLockout"] = 1354976577,
+			["LastFightIn"] = 0,
+		},
+		["挑战战旗 <刀锋如浪>"] = {
+			["GUID"] = "0xF130E7FE00187CE8",
+			["LastEventHealth"] = {
+				"???", -- [1]
+				"???", -- [2]
+			},
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"MISC", -- [2]
+			},
+			["TimeWindows"] = {
+				["DeathCount"] = {
+					1, -- [1]
+				},
+			},
+			["enClass"] = "PET",
+			["level"] = 1,
+			["LastFightIn"] = 0,
+			["type"] = "Pet",
+			["DeathLogs"] = {
+				{
+					["MessageTimes"] = {
+						0, -- [1]
+					},
+					["MessageIncoming"] = {
+						true, -- [1]
+					},
+					["Messages"] = {
+						"挑战战旗 <刀锋如浪>死亡。", -- [1]
+					},
+					["EventNum"] = {
+						0, -- [1]
+					},
+					["DeathAt"] = 1354976610,
+					["HealthNum"] = {
+						0, -- [1]
+					},
+					["Health"] = {
+						"???", -- [1]
+					},
+					["MessageType"] = {
+						"MISC", -- [1]
+					},
+				}, -- [1]
+			},
+			["Owner"] = "刀锋如浪",
+			["TimeLast"] = {
+				["OVERALL"] = 1354976608,
+				["DeathCount"] = 1354976608,
+			},
+			["NextEventNum"] = 3,
+			["LastEventHealthNum"] = {
+				0, -- [1]
+				0, -- [2]
+			},
+			["LastEvents"] = {
+				"刀锋如浪 捍卫 挑战战旗 <刀锋如浪> Immune (Physical)", -- [1]
+				"挑战战旗 <刀锋如浪>死亡。", -- [2]
+			},
+			["Name"] = "挑战战旗",
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+			},
+			["LastEventTimes"] = {
+				5852.589, -- [1]
+				5878.303, -- [2]
+			},
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["PartialResist"] = {
+						["捍卫"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Immune"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["PartialAbsorb"] = {
+						["捍卫"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 1,
+				},
+				["OverallData"] = {
+					["PartialResist"] = {
+						["捍卫"] = {
+							["Details"] = {
+								["未被抵抗"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Immune"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["PartialAbsorb"] = {
+						["捍卫"] = {
+							["Details"] = {
+								["未被吸收"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 1,
+				},
+			},
+			["UnitLockout"] = 1354976608,
+			["LastActive"] = 1354976582,
+		},
+		["妖娆况且妖娆"] = {
+			["GUID"] = "0x0400000002043EC1",
+			["type"] = "Ungrouped",
+			["GuardianReverseGUIDs"] = {
+				["奉献"] = {
+					["LatestGuardian"] = 2,
+					["GUIDs"] = {
+						"0xF130A9EB0018B6B9", -- [1]
+						"0xF130A9EB0018B723", -- [2]
+						[0] = "0xF130A9EB0018B658",
+					},
+				},
+			},
+			["Owner"] = false,
+			["enClass"] = "UNGROUPED",
+			["Name"] = "妖娆况且妖娆",
+			["Pet"] = {
+				"奉献 <妖娆况且妖娆>", -- [1]
+			},
+			["Fights"] = {
+			},
+			["level"] = 1,
+			["UnitLockout"] = 1354978354,
+			["LastFightIn"] = 0,
+		},
+		["颅骨战旗 <刀锋如浪>"] = {
+			["GUID"] = "0xF130E80700188FCF",
+			["LastEventHealth"] = {
+				"???", -- [1]
+			},
+			["LastEventType"] = {
+				"MISC", -- [1]
+			},
+			["TimeWindows"] = {
+				["DeathCount"] = {
+					1, -- [1]
+				},
+			},
+			["enClass"] = "PET",
+			["level"] = 1,
+			["LastFightIn"] = 0,
+			["type"] = "Pet",
+			["DeathLogs"] = {
+				{
+					["MessageTimes"] = {
+						0, -- [1]
+					},
+					["MessageIncoming"] = {
+						true, -- [1]
+					},
+					["Messages"] = {
+						"颅骨战旗 <刀锋如浪>死亡。", -- [1]
+					},
+					["EventNum"] = {
+						0, -- [1]
+					},
+					["DeathAt"] = 1354977183,
+					["HealthNum"] = {
+						0, -- [1]
+					},
+					["Health"] = {
+						"???", -- [1]
+					},
+					["MessageType"] = {
+						"MISC", -- [1]
+					},
+				}, -- [1]
+			},
+			["Owner"] = "刀锋如浪",
+			["NextEventNum"] = 2,
+			["LastEventHealthNum"] = {
+				0, -- [1]
+			},
+			["LastEvents"] = {
+				"颅骨战旗 <刀锋如浪>死亡。", -- [1]
+			},
+			["Name"] = "颅骨战旗",
+			["TimeLast"] = {
+				["OVERALL"] = 1354977181,
+				["DeathCount"] = 1354977181,
+			},
+			["LastEventIncoming"] = {
+				true, -- [1]
+			},
+			["LastEventTimes"] = {
+				6451.748000000001, -- [1]
+			},
+			["UnitLockout"] = 1354977181,
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["DeathCount"] = 1,
+				},
+				["OverallData"] = {
+					["DeathCount"] = 1,
+				},
+			},
+		},
+		["愉悦的妈咪"] = {
+			["GUID"] = "0x04000000018276CC",
+			["type"] = "Ungrouped",
+			["GuardianReverseGUIDs"] = {
+				["尼克西阿拉德"] = {
+					["LatestGuardian"] = 0,
+					["GUIDs"] = {
+						[0] = "0xF140AA484F0051BC",
+					},
+				},
+			},
+			["Owner"] = false,
+			["enClass"] = "UNGROUPED",
+			["Name"] = "愉悦的妈咪",
+			["Pet"] = {
+				"尼克西阿拉德 <愉悦的妈咪>", -- [1]
+			},
+			["Fights"] = {
+			},
+			["level"] = 1,
+			["UnitLockout"] = 1354979082,
+			["LastFightIn"] = 0,
+		},
+		["秩序之神刺客"] = {
+			["GUID"] = "0x040000000204EC30",
+			["type"] = "Ungrouped",
+			["GuardianReverseGUIDs"] = {
+				["格布洛普"] = {
+					["LatestGuardian"] = 0,
+					["GUIDs"] = {
+						[0] = "0xF140B66724005048",
+					},
+				},
+			},
+			["Owner"] = false,
+			["enClass"] = "UNGROUPED",
+			["Name"] = "秩序之神刺客",
+			["Pet"] = {
+				"格布洛普 <秩序之神刺客>", -- [1]
+			},
+			["Fights"] = {
+			},
+			["level"] = 1,
+			["UnitLockout"] = 1354977468,
+			["LastFightIn"] = 0,
+		},
+		["夕下哥"] = {
+			["GUID"] = "0x0400000001FEEFB6",
+			["type"] = "Ungrouped",
+			["GuardianReverseGUIDs"] = {
+				["银鼠草熏香"] = {
+					["LatestGuardian"] = 0,
+					["GUIDs"] = {
+						[0] = "0xF130FF120018A725",
+					},
+				},
+				["可踢的土拨鼠"] = {
+					["LatestGuardian"] = 0,
+					["GUIDs"] = {
+						[0] = "0xF130FF2D0018A768",
+					},
+				},
+			},
+			["Owner"] = false,
+			["enClass"] = "UNGROUPED",
+			["Name"] = "夕下哥",
+			["Pet"] = {
+				"银鼠草熏香 <夕下哥>", -- [1]
+				"可踢的土拨鼠 <夕下哥>", -- [2]
+			},
+			["Fights"] = {
+			},
+			["level"] = 1,
+			["UnitLockout"] = 1354977896,
+			["LastFightIn"] = 0,
+		},
+		["颅骨战旗 <Hocolli>"] = {
+			["GUID"] = "0xF130E8070018A758",
+			["LastEventHealth"] = {
+				"???", -- [1]
+			},
+			["LastEventType"] = {
+				"MISC", -- [1]
+			},
+			["TimeWindows"] = {
+				["DeathCount"] = {
+					1, -- [1]
+				},
+			},
+			["enClass"] = "PET",
+			["level"] = 1,
+			["LastFightIn"] = 0,
+			["type"] = "Pet",
+			["DeathLogs"] = {
+				{
+					["MessageTimes"] = {
+						0, -- [1]
+					},
+					["MessageIncoming"] = {
+						true, -- [1]
+					},
+					["Messages"] = {
+						"颅骨战旗 <Hocolli>死亡。", -- [1]
+					},
+					["EventNum"] = {
+						0, -- [1]
+					},
+					["DeathAt"] = 1354977914,
+					["HealthNum"] = {
+						0, -- [1]
+					},
+					["Health"] = {
+						"???", -- [1]
+					},
+					["MessageType"] = {
+						"MISC", -- [1]
+					},
+				}, -- [1]
+			},
+			["Owner"] = "Hocolli",
+			["NextEventNum"] = 2,
+			["LastEventHealthNum"] = {
+				0, -- [1]
+			},
+			["LastEvents"] = {
+				"颅骨战旗 <Hocolli>死亡。", -- [1]
+			},
+			["Name"] = "颅骨战旗",
+			["TimeLast"] = {
+				["OVERALL"] = 1354977912,
+				["DeathCount"] = 1354977912,
+			},
+			["LastEventIncoming"] = {
+				true, -- [1]
+			},
+			["LastEventTimes"] = {
+				7182.832, -- [1]
+			},
+			["UnitLockout"] = 1354977912,
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["DeathCount"] = 1,
+				},
+				["OverallData"] = {
+					["DeathCount"] = 1,
+				},
+			},
+		},
+		["云一朵"] = {
+			["GUID"] = "0x0400000001B19E34",
+			["type"] = "Ungrouped",
+			["GuardianReverseGUIDs"] = {
+				["仲夏之魂"] = {
+					["LatestGuardian"] = 0,
+					["GUIDs"] = {
+						[0] = "0xF130413D0018B59C",
+					},
+				},
+			},
+			["Owner"] = false,
+			["enClass"] = "UNGROUPED",
+			["Name"] = "云一朵",
+			["Pet"] = {
+				"仲夏之魂 <云一朵>", -- [1]
+			},
+			["Fights"] = {
+			},
+			["level"] = 1,
+			["UnitLockout"] = 1354978334,
+			["LastFightIn"] = 0,
+		},
+		["青青小芳草"] = {
+			["GUID"] = "0x04000000000586DA",
+			["type"] = "Ungrouped",
+			["GuardianReverseGUIDs"] = {
+				["深渊魔"] = {
+					["LatestGuardian"] = 0,
+					["GUIDs"] = {
+						[0] = "0xF130E675001896F0",
+					},
+				},
+				["邪能小鬼"] = {
+					["LatestGuardian"] = 0,
+					["GUIDs"] = {
+						[0] = "0xF130E64F001897C9",
+					},
+				},
+				["德尔瑞莎"] = {
+					["LatestGuardian"] = 0,
+					["GUIDs"] = {
+						[0] = "0xF140B3E9E0005019",
+					},
+				},
+				["克伦卡哈格"] = {
+					["LatestGuardian"] = 0,
+					["GUIDs"] = {
+						[0] = "0xF14004381D005040",
+					},
+				},
+				["虚空领主"] = {
+					["LatestGuardian"] = 0,
+					["GUIDs"] = {
+						[0] = "0xF130E65000189678",
+					},
+				},
+				["吉格阿提克"] = {
+					["LatestGuardian"] = 1,
+					["GUIDs"] = {
+						"0xF140B3E9CD005036", -- [1]
+						[0] = "0xF140B3E9CD00501F",
+					},
+				},
+				["里恩耐里"] = {
+					["LatestGuardian"] = 0,
+					["GUIDs"] = {
+						[0] = "0xF14004381C005009",
+					},
+				},
+			},
+			["Owner"] = false,
+			["enClass"] = "UNGROUPED",
+			["Name"] = "青青小芳草",
+			["Pet"] = {
+				"里恩耐里 <青青小芳草>", -- [1]
+				"德尔瑞莎 <青青小芳草>", -- [2]
+				"吉格阿提克 <青青小芳草>", -- [3]
+				"虚空领主 <青青小芳草>", -- [4]
+				"深渊魔 <青青小芳草>", -- [5]
+				"邪能小鬼 <青青小芳草>", -- [6]
+				"克伦卡哈格 <青青小芳草>", -- [7]
+			},
+			["Fights"] = {
+			},
+			["level"] = 1,
+			["UnitLockout"] = 1354977274,
+			["LastFightIn"] = 0,
+		},
+		["Maitina"] = {
+			["GUID"] = "0x0400000001FD001D",
+			["type"] = "Ungrouped",
+			["GuardianReverseGUIDs"] = {
+				["反魔法领域"] = {
+					["LatestGuardian"] = 0,
+					["GUIDs"] = {
+						[0] = "0xF1306E920018829E",
+					},
+				},
+			},
+			["Owner"] = false,
+			["enClass"] = "UNGROUPED",
+			["Name"] = "Maitina",
+			["Pet"] = {
+				"反魔法领域 <Maitina>", -- [1]
+			},
+			["Fights"] = {
+			},
+			["level"] = 1,
+			["UnitLockout"] = 1354976761,
+			["LastFightIn"] = 0,
+		},
+	},
+	["FightNum"] = 0,
+	["CombatTimes"] = {
+	},
+	["FoughtWho"] = {
+	},
+}

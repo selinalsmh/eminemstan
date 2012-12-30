@@ -1,0 +1,17 @@
+
+TradeSkillMaster_AuctionDBDB = {
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+	["profileKeys"] = {
+		["萌喵喵丶 - 阿拉索"] = "Default",
+		["仓库萌喵喵丶 - 阿拉索"] = "Default",
+	},
+	["factionrealm"] = {
+		["Alliance - 阿拉索"] = {
+			["time"] = 10,
+			["scanData"] = "",
+		},
+	},
+}

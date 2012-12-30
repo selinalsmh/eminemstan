@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
 	["lastSanitation"] = 3,
-	["session"] = 35,
+	["session"] = 87,
 	["errors"] = {
 		{
 			["message"] = "SkadaSkin and tooltips\\ilevel.lua:49: attempt to perform arithmetic on local \"ilvlAdd\" (a nil value)",
@@ -35,5 +35,13 @@ BugGrabberDB = {
 			["session"] = 30,
 			["counter"] = 16,
 		}, -- [4]
+		{
+			["message"] = "TradeSkillMaster-v1.5.10\\Libs\\LibExtraTip\\LibExtraTip.lua:290: Invalid trade skill item in SetTradeSkillItem(index [,reagent])",
+			["time"] = "2012/12/03 00:08:20",
+			["locals"] = "hook = <func> @TradeSkillMaster\\Libs\\..\\LibExtraTip.lua:893\ncontrol = <table> {\n 1 = <func> @TradeSkillMaster\\Libs\\..\\LibExtraTip.lua:893\n 2 = <func> @TradeSkillMaster\\Libs\\..\\LibExtraTip.lua:1056\n}\norig = <func> =[C]:-1\n",
+			["stack"] = "<in C code>\nTradeSkillMaster-v1.5.10\\Libs\\LibExtraTip\\LibExtraTip.lua:290: in function \"SetTradeSkillItem\"\n<string>:\"*:OnEnter\":2: in function <string>:\"*:OnEnter\":1",
+			["session"] = 86,
+			["counter"] = 1,
+		}, -- [5]
 	},
 }

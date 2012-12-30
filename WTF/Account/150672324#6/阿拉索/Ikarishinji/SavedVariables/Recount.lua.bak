@@ -1,0 +1,126 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["邪夜之夏"] = {
+			["GUID"] = "0x0400000001C71311",
+			["type"] = "Ungrouped",
+			["GuardianReverseGUIDs"] = {
+				["Spectral Guise"] = {
+					["LatestGuardian"] = 0,
+					["GUIDs"] = {
+						[0] = "0xF530E8D7006937EF",
+					},
+				},
+			},
+			["Owner"] = false,
+			["enClass"] = "UNGROUPED",
+			["Name"] = "邪夜之夏",
+			["Pet"] = {
+				"Spectral Guise <邪夜之夏>", -- [1]
+			},
+			["Fights"] = {
+			},
+			["level"] = 1,
+			["UnitLockout"] = 1355501329,
+			["LastFightIn"] = 0,
+		},
+		["梧桐思雨"] = {
+			["GUID"] = "0x040000000202B032",
+			["type"] = "Ungrouped",
+			["GuardianReverseGUIDs"] = {
+				["虫洞"] = {
+					["LatestGuardian"] = 0,
+					["GUIDs"] = {
+						[0] = "0xF5308B3E006960F5",
+					},
+				},
+			},
+			["Owner"] = false,
+			["enClass"] = "UNGROUPED",
+			["Name"] = "梧桐思雨",
+			["Pet"] = {
+				"虫洞 <梧桐思雨>", -- [1]
+			},
+			["Fights"] = {
+			},
+			["level"] = 1,
+			["UnitLockout"] = 1355501735,
+			["LastFightIn"] = 0,
+		},
+		["钟离无垢"] = {
+			["GUID"] = "0x0400000001AD29AF",
+			["type"] = "Ungrouped",
+			["GuardianReverseGUIDs"] = {
+				["青皮"] = {
+					["LatestGuardian"] = 0,
+					["GUIDs"] = {
+						[0] = "0xF5408C73C801A3D0",
+					},
+				},
+			},
+			["Owner"] = false,
+			["enClass"] = "UNGROUPED",
+			["Name"] = "钟离无垢",
+			["Pet"] = {
+				"青皮 <钟离无垢>", -- [1]
+			},
+			["Fights"] = {
+			},
+			["level"] = 1,
+			["UnitLockout"] = 1355501557,
+			["LastFightIn"] = 0,
+		},
+		["瞳熙颜"] = {
+			["GUID"] = "0x0400000001AB01E3",
+			["type"] = "Ungrouped",
+			["GuardianReverseGUIDs"] = {
+				["布林顿4000"] = {
+					["LatestGuardian"] = 0,
+					["GUIDs"] = {
+						[0] = "0xF530AB9900694673",
+					},
+				},
+			},
+			["Owner"] = false,
+			["enClass"] = "UNGROUPED",
+			["Name"] = "瞳熙颜",
+			["Pet"] = {
+				"布林顿4000 <瞳熙颜>", -- [1]
+			},
+			["Fights"] = {
+			},
+			["level"] = 1,
+			["UnitLockout"] = 1355501467,
+			["LastFightIn"] = 0,
+		},
+		["破伤疯"] = {
+			["GUID"] = "0x0400000001E43086",
+			["type"] = "Ungrouped",
+			["GuardianReverseGUIDs"] = {
+				["翡翠牙"] = {
+					["LatestGuardian"] = 0,
+					["GUIDs"] = {
+						[0] = "0xF540A9118D01A3BC",
+					},
+				},
+			},
+			["Owner"] = false,
+			["enClass"] = "UNGROUPED",
+			["Name"] = "破伤疯",
+			["Pet"] = {
+				"翡翠牙 <破伤疯>", -- [1]
+			},
+			["Fights"] = {
+			},
+			["level"] = 1,
+			["UnitLockout"] = 1355501514,
+			["LastFightIn"] = 0,
+		},
+	},
+	["FightNum"] = 0,
+	["CombatTimes"] = {
+	},
+	["FoughtWho"] = {
+	},
+}

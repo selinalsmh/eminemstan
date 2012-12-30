@@ -1,0 +1,66 @@
+
+DCTSA_CONFIG = {
+	["DCTSA_SAVE"] = {
+		["DCTSA_FILTER_CASTSUCCESS_SORT"] = {
+			["filt"] = {
+			},
+			["buffer"] = {
+				"冲锋", -- [1]
+			},
+		},
+		["DCTSA_FILTER_CASTSUCCESS"] = {
+			["filt"] = {
+			},
+			["buffer"] = {
+				["冲锋"] = 0,
+			},
+		},
+		["DCTSA_SAVEDATA_VER"] = 2001,
+		["DCTSA_FILTER_BUFF_SORT"] = {
+			["filt"] = {
+			},
+			["buffer"] = {
+				"钉刺狂暴", -- [1]
+				"犀牛冲锋", -- [2]
+			},
+		},
+		["DCTSA_FILTER_CASTSTART"] = {
+			["filt"] = {
+			},
+			["buffer"] = {
+				["毒液喷吐"] = 0,
+				["伪造的文件"] = 0,
+			},
+		},
+		["DCTSA_FILTER_DISPELLED"] = {
+			["filt"] = {
+			},
+			["buffer"] = {
+			},
+		},
+		["DCTSA_FILTER_CASTSTART_SORT"] = {
+			["filt"] = {
+			},
+			["buffer"] = {
+				"伪造的文件", -- [1]
+				"毒液喷吐", -- [2]
+			},
+		},
+		["DCTSA_FILTER_BUFF"] = {
+			["filt"] = {
+			},
+			["buffer"] = {
+				["犀牛冲锋"] = 0,
+				["钉刺狂暴"] = 0,
+			},
+		},
+		["DCTSA_FILTER_DISPELLED_SORT"] = {
+			["filt"] = {
+			},
+			["buffer"] = {
+			},
+		},
+		["PROFILE"] = {
+		},
+	},
+}

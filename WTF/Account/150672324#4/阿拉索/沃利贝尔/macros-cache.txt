@@ -1,10 +1,10 @@
-MACRO 16777218 " " "INV_MISC_QUESTIONMARK"
+MACRO64 0000000001000002 " " "INV_MISC_QUESTIONMARK"
 #showtooltips 
 /castsequence reset=0 0,1,猛虎掌
 /castsequence reset=0 0,贯日击
 /castsequence reset=0 醉酿投
 END
-MACRO 16777217 " " "INV_MISC_QUESTIONMARK"
+MACRO64 0000000001000001 " " "INV_MISC_QUESTIONMARK"
 #showtooltips
 /castsequence reset=0 0,1,2,3,豪能酒
 /castsequence reset=0 0,1,2,贯日击

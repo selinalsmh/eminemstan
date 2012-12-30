@@ -2,23 +2,23 @@
 oUF_FreebgridDB = {
 	["powercolor"] = {
 		["a"] = 1,
-		["b"] = 1,
-		["g"] = 0.6,
 		["r"] = 0.17,
+		["g"] = 0.6,
+		["b"] = 1,
 	},
 	["otherhealcolor"] = {
 		["a"] = 0.4,
-		["b"] = 1,
-		["g"] = 0.72,
 		["r"] = 0.14,
+		["g"] = 0.72,
+		["b"] = 1,
 	},
 	["cluster"] = {
 		["enabled"] = false,
 		["textcolor"] = {
 			["a"] = 1,
-			["b"] = 0.6,
-			["g"] = 0.9,
 			["r"] = 0,
+			["g"] = 0.9,
+			["b"] = 0.6,
 		},
 		["perc"] = 90,
 		["freq"] = 250,
@@ -26,38 +26,38 @@ oUF_FreebgridDB = {
 	},
 	["powerbgcolor"] = {
 		["a"] = 1,
-		["b"] = 0.33,
-		["g"] = 0.33,
 		["r"] = 0.33,
+		["g"] = 0.33,
+		["b"] = 0.33,
 	},
 	["texturePath"] = "Interface\\TargetingFrame\\UI-StatusBar",
 	["texture"] = "Blizzard",
 	["hpcolor"] = {
 		["a"] = 1,
-		["b"] = 0.1,
-		["g"] = 0.1,
 		["r"] = 0.1,
+		["g"] = 0.1,
+		["b"] = 0.1,
 	},
 	["gradient"] = {
 		["a"] = 1,
-		["b"] = 0,
-		["g"] = 0,
 		["r"] = 1,
+		["g"] = 0,
+		["b"] = 0,
 	},
 	["Talent\"鲜血\""] = {
 		["powerbgcolor"] = {
 			["a"] = 1,
-			["b"] = 0.33,
-			["g"] = 0.33,
 			["r"] = 0.33,
+			["g"] = 0.33,
+			["b"] = 0.33,
 		},
 		["powerbar"] = true,
 		["ClickCastsetchange"] = true,
 		["powercolor"] = {
 			["a"] = 1,
-			["b"] = 1,
-			["g"] = 1,
 			["r"] = 1,
+			["g"] = 1,
+			["b"] = 1,
 		},
 		["texturePath"] = "Interface\\TargetingFrame\\UI-StatusBar",
 		["texture"] = "Blizzard",
@@ -72,8 +72,8 @@ oUF_FreebgridDB = {
 				["alt-shift-"] = {
 					["action"] = "NONE",
 				},
-				["ctrl-shift-"] = {
-					["action"] = "NONE",
+				["Click"] = {
+					["action"] = "target",
 				},
 				["alt-"] = {
 					["action"] = "NONE",
@@ -81,8 +81,8 @@ oUF_FreebgridDB = {
 				["alt-ctrl-"] = {
 					["action"] = "NONE",
 				},
-				["Click"] = {
-					["action"] = "target",
+				["ctrl-shift-"] = {
+					["action"] = "NONE",
 				},
 			},
 			["3"] = {
@@ -95,7 +95,7 @@ oUF_FreebgridDB = {
 				["alt-shift-"] = {
 					["action"] = "NONE",
 				},
-				["ctrl-shift-"] = {
+				["Click"] = {
 					["action"] = "NONE",
 				},
 				["alt-"] = {
@@ -104,7 +104,7 @@ oUF_FreebgridDB = {
 				["alt-ctrl-"] = {
 					["action"] = "NONE",
 				},
-				["Click"] = {
+				["ctrl-shift-"] = {
 					["action"] = "NONE",
 				},
 			},
@@ -118,8 +118,8 @@ oUF_FreebgridDB = {
 				["alt-shift-"] = {
 					["action"] = "NONE",
 				},
-				["ctrl-shift-"] = {
-					["action"] = "NONE",
+				["Click"] = {
+					["action"] = "凋零缠绕",
 				},
 				["alt-"] = {
 					["action"] = "邪恶狂热",
@@ -127,8 +127,8 @@ oUF_FreebgridDB = {
 				["alt-ctrl-"] = {
 					["action"] = "NONE",
 				},
-				["Click"] = {
-					["action"] = "凋零缠绕",
+				["ctrl-shift-"] = {
+					["action"] = "NONE",
 				},
 			},
 			["5"] = {
@@ -141,7 +141,7 @@ oUF_FreebgridDB = {
 				["alt-shift-"] = {
 					["action"] = "NONE",
 				},
-				["ctrl-shift-"] = {
+				["Click"] = {
 					["action"] = "NONE",
 				},
 				["alt-"] = {
@@ -150,7 +150,7 @@ oUF_FreebgridDB = {
 				["alt-ctrl-"] = {
 					["action"] = "NONE",
 				},
-				["Click"] = {
+				["ctrl-shift-"] = {
 					["action"] = "NONE",
 				},
 			},
@@ -164,7 +164,7 @@ oUF_FreebgridDB = {
 				["alt-shift-"] = {
 					["action"] = "NONE",
 				},
-				["ctrl-shift-"] = {
+				["Click"] = {
 					["action"] = "NONE",
 				},
 				["alt-"] = {
@@ -173,75 +173,75 @@ oUF_FreebgridDB = {
 				["alt-ctrl-"] = {
 					["action"] = "NONE",
 				},
-				["Click"] = {
+				["ctrl-shift-"] = {
 					["action"] = "NONE",
 				},
 			},
 		},
-		["hpcolor"] = {
-			["a"] = 1,
-			["b"] = 0.1,
-			["g"] = 0.1,
-			["r"] = 0.1,
-		},
+		["porientation"] = "HORIZONTAL",
 		["reversecolors"] = true,
-		["myhealcolor"] = {
-			["a"] = 0.4,
-			["b"] = 0.5,
-			["g"] = 1,
-			["r"] = 0,
-		},
-		["growth"] = "DOWN",
 		["width"] = 95,
+		["growth"] = "DOWN",
+		["otherhealcolor"] = {
+			["a"] = 0.4,
+			["r"] = 0,
+			["g"] = 1,
+			["b"] = 0,
+		},
 		["hpbgcolor"] = {
 			["a"] = 1,
-			["b"] = 0.33,
-			["g"] = 0.33,
 			["r"] = 0.33,
+			["g"] = 0.33,
+			["b"] = 0.33,
 		},
-		["gradient"] = {
-			["a"] = 1,
-			["b"] = 0,
-			["g"] = 0,
-			["r"] = 1,
-		},
-		["orientation"] = "HORIZONTAL",
+		["horizontal"] = true,
+		["height"] = 40,
 		["cluster"] = {
 			["enabled"] = false,
 			["textcolor"] = {
 				["a"] = 1,
-				["b"] = 0.6,
-				["g"] = 0.9,
 				["r"] = 0,
+				["g"] = 0.9,
+				["b"] = 0.6,
 			},
 			["perc"] = 90,
 			["freq"] = 250,
 			["range"] = 30,
 		},
-		["height"] = 40,
-		["horizontal"] = true,
-		["otherhealcolor"] = {
-			["a"] = 0.4,
+		["orientation"] = "HORIZONTAL",
+		["gradient"] = {
+			["a"] = 1,
+			["r"] = 1,
+			["g"] = 0,
 			["b"] = 0,
-			["g"] = 1,
-			["r"] = 0,
 		},
-		["porientation"] = "HORIZONTAL",
+		["myhealcolor"] = {
+			["a"] = 0.4,
+			["r"] = 0,
+			["g"] = 1,
+			["b"] = 0.5,
+		},
+		["hpcolor"] = {
+			["a"] = 1,
+			["r"] = 0.1,
+			["g"] = 0.1,
+			["b"] = 0.1,
+		},
 	},
 	["hpbgcolor"] = {
 		["a"] = 1,
-		["b"] = 0.33,
-		["g"] = 0.33,
 		["r"] = 0.33,
+		["g"] = 0.33,
+		["b"] = 0.33,
 	},
 	["Talent\"冰霜\""] = {
 		["arrow"] = true,
 		["ClickCastsetchange"] = true,
 		["powercolor"] = {
 			["a"] = 1,
-			["r"] = 1,
-			["g"] = 1,
 			["b"] = 1,
+			["g"] = 1,
+			["r"] = 1,
 		},
 		["dispel"] = true,
 		["petUnits"] = 5,
@@ -258,8 +258,8 @@ oUF_FreebgridDB = {
 				["alt-shift-"] = {
 					["action"] = "NONE",
 				},
-				["Click"] = {
-					["action"] = "target",
+				["ctrl-shift-"] = {
+					["action"] = "NONE",
 				},
 				["alt-"] = {
 					["action"] = "NONE",
@@ -267,8 +267,8 @@ oUF_FreebgridDB = {
 				["alt-ctrl-"] = {
 					["action"] = "NONE",
 				},
-				["ctrl-shift-"] = {
-					["action"] = "NONE",
+				["Click"] = {
+					["action"] = "target",
 				},
 			},
 			["3"] = {
@@ -281,7 +281,7 @@ oUF_FreebgridDB = {
 				["alt-shift-"] = {
 					["action"] = "NONE",
 				},
-				["Click"] = {
+				["ctrl-shift-"] = {
 					["action"] = "NONE",
 				},
 				["alt-"] = {
@@ -290,7 +290,7 @@ oUF_FreebgridDB = {
 				["alt-ctrl-"] = {
 					["action"] = "NONE",
 				},
-				["ctrl-shift-"] = {
+				["Click"] = {
 					["action"] = "NONE",
 				},
 			},
@@ -304,8 +304,8 @@ oUF_FreebgridDB = {
 				["alt-shift-"] = {
 					["action"] = "NONE",
 				},
-				["Click"] = {
-					["action"] = "凋零缠绕",
+				["ctrl-shift-"] = {
+					["action"] = "NONE",
 				},
 				["alt-"] = {
 					["action"] = "邪恶狂热",
@@ -313,8 +313,8 @@ oUF_FreebgridDB = {
 				["alt-ctrl-"] = {
 					["action"] = "NONE",
 				},
-				["ctrl-shift-"] = {
-					["action"] = "NONE",
+				["Click"] = {
+					["action"] = "凋零缠绕",
 				},
 			},
 			["5"] = {
@@ -327,7 +327,7 @@ oUF_FreebgridDB = {
 				["alt-shift-"] = {
 					["action"] = "NONE",
 				},
-				["Click"] = {
+				["ctrl-shift-"] = {
 					["action"] = "NONE",
 				},
 				["alt-"] = {
@@ -336,7 +336,7 @@ oUF_FreebgridDB = {
 				["alt-ctrl-"] = {
 					["action"] = "NONE",
 				},
-				["ctrl-shift-"] = {
+				["Click"] = {
 					["action"] = "NONE",
 				},
 			},
@@ -350,7 +350,7 @@ oUF_FreebgridDB = {
 				["alt-shift-"] = {
 					["action"] = "NONE",
 				},
-				["Click"] = {
+				["ctrl-shift-"] = {
 					["action"] = "NONE",
 				},
 				["alt-"] = {
@@ -359,7 +359,7 @@ oUF_FreebgridDB = {
 				["alt-ctrl-"] = {
 					["action"] = "NONE",
 				},
-				["ctrl-shift-"] = {
+				["Click"] = {
 					["action"] = "NONE",
 				},
 			},
@@ -374,9 +374,9 @@ oUF_FreebgridDB = {
 			["enabled"] = false,
 			["textcolor"] = {
 				["a"] = 1,
-				["r"] = 0,
-				["g"] = 0.9,
 				["b"] = 0.6,
+				["g"] = 0.9,
+				["r"] = 0,
 			},
 			["perc"] = 90,
 			["freq"] = 250,
@@ -384,23 +384,23 @@ oUF_FreebgridDB = {
 		},
 		["gradient"] = {
 			["a"] = 1,
-			["r"] = 1,
-			["g"] = 0,
 			["b"] = 0,
+			["g"] = 0,
+			["r"] = 1,
 		},
 		["powerdefinecolors"] = false,
 		["powerbgcolor"] = {
 			["a"] = 1,
-			["r"] = 0.33,
-			["g"] = 0.33,
 			["b"] = 0.33,
+			["g"] = 0.33,
+			["r"] = 0.33,
 		},
 		["highlight"] = true,
 		["hpcolor"] = {
 			["a"] = 1,
-			["r"] = 0.1,
-			["g"] = 0.1,
 			["b"] = 0.1,
+			["g"] = 0.1,
+			["r"] = 0.1,
 		},
 		["arrowmouseover"] = true,
 		["healtext"] = false,
@@ -426,69 +426,69 @@ oUF_FreebgridDB = {
 		["hidemenu"] = false,
 		["powerbarsize"] = 0.1,
 		["leadersize"] = 12,
-		["player"] = true,
+		["ppreversed"] = false,
 		["hpreversed"] = false,
 		["hpinverted"] = false,
 		["scaleYes"] = true,
 		["scale"] = 1,
 		["ClickCastenable"] = true,
 		["height"] = 40,
-		["autorez"] = false,
+		["definecolors"] = false,
 		["classOrder"] = "DEATHKNIGHT,DRUID,HUNTER,MAGE,PALADIN,PRIEST,ROGUE,SHAMAN,WARLOCK,WARRIOR",
-		["outsideRange"] = 0.4,
-		["omfChar"] = false,
-		["otherhealcolor"] = {
-			["a"] = 0.4,
-			["r"] = 0,
-			["g"] = 1,
-			["b"] = 0,
-		},
-		["spacing"] = 5,
-		["reversecolors"] = true,
-		["arrowmouseoveralways"] = false,
-		["afk"] = true,
-		["healothersonly"] = false,
-		["healalpha"] = 0.4,
-		["deficit"] = false,
-		["porientation"] = "HORIZONTAL",
-		["numCol"] = 8,
-		["indicatorsize"] = 6,
-		["roleicon"] = false,
-		["MT"] = false,
-		["symbolsize"] = 11,
-		["smooth"] = false,
-		["sortClass"] = false,
-		["colorSmooth"] = false,
-		["outline"] = "OUTLINE",
-		["fborder"] = true,
-		["altpower"] = false,
-		["scale40"] = 1,
-		["horizontal"] = true,
-		["width"] = 90,
 		["hpbgcolor"] = {
 			["a"] = 1,
-			["r"] = 0.33,
-			["g"] = 0.33,
 			["b"] = 0.33,
+			["g"] = 0.33,
+			["r"] = 0.33,
 		},
 		["myhealcolor"] = {
 			["a"] = 0.4,
-			["r"] = 0,
-			["g"] = 1,
 			["b"] = 0.5,
+			["g"] = 1,
+			["r"] = 0,
 		},
+		["otherhealcolor"] = {
+			["a"] = 0.4,
+			["b"] = 0,
+			["g"] = 1,
+			["r"] = 0,
+		},
+		["horizontal"] = true,
+		["reversecolors"] = true,
+		["arrowmouseoveralways"] = false,
+		["afk"] = true,
+		["altpower"] = false,
+		["fborder"] = true,
+		["outline"] = "OUTLINE",
+		["colorSmooth"] = false,
+		["sortClass"] = false,
+		["smooth"] = false,
+		["roleicon"] = false,
+		["MT"] = false,
+		["symbolsize"] = 11,
+		["indicatorsize"] = 6,
+		["numCol"] = 8,
+		["porientation"] = "HORIZONTAL",
+		["deficit"] = false,
+		["healalpha"] = 0.4,
+		["healothersonly"] = false,
+		["scale40"] = 1,
+		["spacing"] = 5,
+		["width"] = 90,
+		["omfChar"] = false,
+		["outsideRange"] = 0.4,
 		["healoverflow"] = true,
-		["definecolors"] = false,
+		["autorez"] = false,
 		["orientation"] = "HORIZONTAL",
 		["healbar"] = true,
 		["fontsizeEdge"] = 12,
-		["ppreversed"] = false,
+		["player"] = true,
 	},
 	["myhealcolor"] = {
 		["a"] = 0.6,
-		["b"] = 0.6,
-		["g"] = 0.6,
 		["r"] = 0.3,
+		["g"] = 0.6,
+		["b"] = 0.6,
 	},
 }
 Freebgridomf2 = {
@@ -498,6 +498,6 @@ Freebgridomf2 = {
 		},
 	},
 	["Freebgrid"] = {
-		["oUF_FreebgridRaidFrame"] = "BOTTOMRIGHTUIParent-480203",
+		["oUF_FreebgridRaidFrame"] = "BOTTOMRIGHTUIParent-402200",
 	},
 }

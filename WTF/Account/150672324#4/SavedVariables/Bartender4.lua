@@ -285,19 +285,18 @@ Bartender4DB = {
 								["Gloss"] = 0.3,
 								["ID"] = "Darion",
 							},
-							["enabled"] = false,
-							["hidehotkey"] = true,
+							["buttons"] = 6,
 							["show"] = "alwayshide",
 							["version"] = 3,
 							["position"] = {
-								["y"] = -266.7948988830055,
-								["x"] = 344.0160633672025,
-								["point"] = "TOPLEFT",
-								["scale"] = 0.8999999761581421,
+								["y"] = -167.1409097819293,
+								["x"] = -153.4000139520295,
+								["point"] = "CENTER",
+								["scale"] = 1.300000071525574,
 							},
-							["hidemacrotext"] = true,
 							["visibility"] = {
-								["always"] = true,
+								["always"] = false,
+								["overridebar"] = false,
 								["possess"] = false,
 								["vehicleui"] = false,
 							},
@@ -657,16 +656,15 @@ Bartender4DB = {
 								["Gloss"] = 0.3,
 								["ID"] = "Darion",
 							},
-							["enabled"] = true,
 							["buttons"] = 6,
-							["fadeoutalpha"] = 0,
+							["version"] = 3,
 							["position"] = {
 								["y"] = -168.1101356483513,
 								["x"] = -158.2000000823919,
 								["point"] = "CENTER",
 								["scale"] = 1.399999976158142,
 							},
-							["version"] = 3,
+							["fadeoutalpha"] = 0,
 							["padding"] = 0,
 							["visibility"] = {
 								["always"] = false,
@@ -698,16 +696,16 @@ Bartender4DB = {
 										0.01176470588235294, -- [3]
 										0, -- [4]
 									},
-									["Border"] = {
-										0.407843137254902, -- [1]
-										0.403921568627451, -- [2]
-										0.4117647058823529, -- [3]
-										1, -- [4]
-									},
 									["Backdrop"] = {
 										0.1098039215686275, -- [1]
 										0.1098039215686275, -- [2]
 										0.1098039215686275, -- [3]
+										1, -- [4]
+									},
+									["Border"] = {
+										0.407843137254902, -- [1]
+										0.403921568627451, -- [2]
+										0.4117647058823529, -- [3]
 										1, -- [4]
 									},
 									["Highlight"] = {
@@ -722,15 +720,15 @@ Bartender4DB = {
 							},
 							["enabled"] = true,
 							["alpha"] = 0,
-							["version"] = 3,
 							["hidehotkey"] = true,
+							["fadeoutalpha"] = 0,
 							["position"] = {
-								["y"] = 65.20006318506091,
-								["x"] = -103.0250394585505,
-								["point"] = "RIGHT",
+								["y"] = 100.299998976815,
+								["x"] = -35.7000141385471,
+								["point"] = "CENTER",
 								["scale"] = 0.8500000238418579,
 							},
-							["fadeoutalpha"] = 0,
+							["version"] = 3,
 							["hidemacrotext"] = true,
 							["visibility"] = {
 								["custom"] = false,
@@ -939,16 +937,16 @@ Bartender4DB = {
 								0.984313725490196, -- [3]
 								1, -- [4]
 							},
-							["Backdrop"] = {
-								0.9803921568627451, -- [1]
-								1, -- [2]
-								0.9686274509803922, -- [3]
-								1, -- [4]
-							},
 							["Border"] = {
 								0.08235294117647059, -- [1]
 								1, -- [2]
 								0.04313725490196078, -- [3]
+								1, -- [4]
+							},
+							["Backdrop"] = {
+								0.9803921568627451, -- [1]
+								1, -- [2]
+								0.9686274509803922, -- [3]
 								1, -- [4]
 							},
 						},
@@ -984,7 +982,7 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 						["scale"] = 0.8999999761581421,
 					},
-					["fadeoutdelay"] = 1,
+					["fadeoutalpha"] = 1,
 					["skin"] = {
 						["Colors"] = {
 							["Normal"] = {
@@ -1039,14 +1037,14 @@ Bartender4DB = {
 						["Gloss"] = 0.3,
 						["ID"] = "Darion",
 					},
-					["fadeoutalpha"] = 1,
+					["version"] = 3,
 					["padding"] = 0,
 					["visibility"] = {
 						["nopet"] = false,
 						["possess"] = false,
 						["always"] = false,
 					},
-					["version"] = 3,
+					["fadeoutdelay"] = 1,
 				},
 				["沃利贝尔 - 阿拉索"] = {
 					["version"] = 3,
@@ -1061,15 +1059,15 @@ Bartender4DB = {
 		["StanceBar"] = {
 			["profiles"] = {
 				["沃利贝尔"] = {
+					["fadeoutalpha"] = 1,
 					["fadeoutdelay"] = 1,
-					["version"] = 3,
 					["position"] = {
 						["y"] = 189.6999930193892,
 						["x"] = -301.6498475444965,
 						["point"] = "BOTTOM",
 						["scale"] = 1.200000047683716,
 					},
-					["fadeoutalpha"] = 1,
+					["version"] = 3,
 					["padding"] = 1,
 					["visibility"] = {
 						["vehicleui"] = false,

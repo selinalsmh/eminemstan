@@ -1,58 +1,58 @@
-MACRO 90 " " "INV_Misc_QuestionMark"
+MACRO64 000000000000005A " " "INV_Misc_QuestionMark"
 #showtooltip 治疗术
 /cast [mod,@player][@mouseover,help,nodead][help,nodead][nogroup,@player][@targettarget,help,nodead]治疗术
 /cast 治疗术
 END
-MACRO 117 " " "INV_MISC_QUESTIONMARK"
+MACRO64 0000000000000075 " " "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [swimming] 海龟
-/cast [flyable]金色云端翔龙;金黄骑乘仙鹤
+/cast [flyable]玛瑙云端翔龙;深蓝其拉作战坦克
 END
-MACRO 88 " " "INV_Misc_QuestionMark"
+MACRO64 0000000000000058 " " "INV_Misc_QuestionMark"
 #showtooltip 强效治疗术
 /cast 心灵专注
 /use 13
 /cast [mod,@player][@mouseover,help,nodead][help,nodead][nogroup,@player][@targettarget,help,nodead]强效治疗术
 /cast 强效治疗术
 END
-MACRO 120 " " "INV_MISC_QUESTIONMARK"
+MACRO64 0000000000000078 " " "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [nocombat] 勘测
 /cast 暗言术：灭
 END
-MACRO 121 " " "INV_MISC_QUESTIONMARK"
+MACRO64 0000000000000079 " " "INV_MISC_QUESTIONMARK"
 #showtooltip
 /console Sound_EnableSFX 0
 /施放 [harm] 沉默;钓鱼
 /console Sound_EnableSFX 1
 END
-MACRO 124 " " "SPELL_SHADOW_MINDFLAY"
+MACRO64 000000000000007C " " "SPELL_SHADOW_MINDFLAY"
 #showtooltip
 /stopcasting 
 /cast 暗言术：乱
 END
-MACRO 123 " " "INV_MISC_QUESTIONMARK"
+MACRO64 000000000000007B " " "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [nomod] 吸血鬼之触
 /cast [modifier:alt,@focus] 精神灼烧;精神灼烧
 /cast [mod:ctrl] 精神灼烧
 END
-MACRO 122 " " "INV_MISC_QUESTIONMARK"
+MACRO64 000000000000007A " " "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [mod:alt] 暗影形态
 /cast [nomod] 暗言术：痛
 /cast [mod:ctrl] 心灵惊骇
 END
-MACRO 118 "LiteMount" "ABILITY_MOUNT_MECHASTRIDER"
+MACRO64 0000000000000076 "LiteMount" "ABILITY_MOUNT_MECHASTRIDER"
 # Auto-created by LiteMount addon
 /click [nobtn:2] LiteMount
 /click [btn:2] LiteMount RightButton
 END
-MACRO 91 "偷懒" "INV_Misc_QuestionMark"
+MACRO64 000000000000005B "偷懒" "INV_Misc_QuestionMark"
 #showtooltip 精神灼烧
 /stopcasting 
 /cast [@focus,exists] 精神灼烧;精神灼烧
 END
-MACRO 65 "鼠标驱散" "INV_Misc_QuestionMark"
+MACRO64 0000000000000041 "鼠标驱散" "INV_Misc_QuestionMark"
 /Cast [modifier:alt,@player] 驱散魔法 ; [@mouseover,exists] 驱散魔法 ; 驱散魔法
 END

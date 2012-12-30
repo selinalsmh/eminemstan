@@ -1,0 +1,24 @@
+
+AtlasLootDB = {
+	["namespaces"] = {
+		["WishList"] = {
+		},
+		["AtlasLootPanel"] = {
+		},
+		["DefaultFrame"] = {
+		},
+		["Filter"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Misato - 阿拉索"] = "Misato - 阿拉索",
+		["Mockebird - 希尔瓦娜斯"] = "Mockebird - 希尔瓦娜斯",
+	},
+	["showWarning"] = true,
+	["profiles"] = {
+		["Misato - 阿拉索"] = {
+		},
+		["Mockebird - 希尔瓦娜斯"] = {
+		},
+	},
+}

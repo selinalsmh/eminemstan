@@ -1,0 +1,15 @@
+﻿## Interface: 60001
+## Title: Monomyth
+## Title-zhTW: Monomyth
+## Notes: Questing enhancements
+## Notes-zhTW: Questing enhancements
+## Author: p3lim
+## Version: 50001.8-Beta
+## SavedVariables: MonomythDB
+## X-Curse-Packaged-Version: 50001.8-Beta
+## X-Curse-Project-Name: Monomyth
+## X-Curse-Project-ID: monomyth
+## X-Curse-Repository-ID: wow/monomyth/mainline
+
+Config.lua
+Monomyth.lua

@@ -1,0 +1,63 @@
+
+TradeSkillMaster_ItemTrackerDB = {
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+	["profileKeys"] = {
+		["親愛的偏執狂 - 阿拉索"] = "Default",
+	},
+	["factionrealm"] = {
+		["Alliance - 阿拉索"] = {
+			["characters"] = {
+				["親愛的偏執狂"] = {
+					["guild"] = "Sword Art Online",
+					["mailInfo"] = {
+						["|cffffffff|Hitem:41426:0:0:0:0:0:0:1994661888:85:0:0|h[魔法包装的礼物]|h|r"] = 1,
+					},
+					["lastUpdate"] = 1354557897,
+					["bags"] = {
+						[81406] = 59,
+						[81402] = 80,
+						[72988] = 11,
+						[40772] = 1,
+					},
+					["lastMailUpdate"] = 1354557877,
+					["mail"] = {
+						[41426] = 1,
+					},
+					["auctions"] = {
+						["time"] = 1354470918,
+					},
+					["bank"] = {
+					},
+				},
+			},
+			["guilds"] = {
+				["Amazing"] = {
+					["items"] = {
+						[41599] = 1,
+						[72238] = 21,
+						[40772] = 5,
+						[36908] = 17,
+						[45773] = 2,
+					},
+					["characters"] = {
+					},
+				},
+				["Sword Art Online"] = {
+					["items"] = {
+						[38347] = 1,
+						[41599] = 1,
+						[72238] = 72,
+						[40772] = 3,
+						[45773] = 1,
+					},
+					["characters"] = {
+						["親愛的偏執狂"] = true,
+					},
+				},
+			},
+		},
+	},
+}

@@ -1,4 +1,5 @@
 SET deselectOnClick "1"
+SET autoInteract "1"
 SET alwaysCompareItems "1"
 SET interactOnLeftClick "0"
 SET showTargetOfTarget "1"

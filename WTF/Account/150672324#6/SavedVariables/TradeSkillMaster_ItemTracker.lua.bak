@@ -1,0 +1,67 @@
+
+TradeSkillMaster_ItemTrackerDB = {
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Ikarishinji - 阿拉索"] = "Default",
+	},
+	["factionrealm"] = {
+		["Alliance - 阿拉索"] = {
+			["characters"] = {
+				["Ikarishinji"] = {
+					["guild"] = "Sword Art Online",
+					["mailInfo"] = {
+					},
+					["lastUpdate"] = 1354472430,
+					["bags"] = {
+						[40772] = 1,
+						[81414] = 36,
+					},
+					["lastMailUpdate"] = 1354286985,
+					["mail"] = {
+					},
+					["auctions"] = {
+					},
+					["bank"] = {
+					},
+				},
+			},
+			["guilds"] = {
+				["獨特魅儷"] = {
+					["items"] = {
+						[72237] = 1400,
+						[72238] = 369,
+						[89639] = 40,
+						[72092] = 1800,
+						[72093] = 6,
+						[72094] = 88,
+						[79010] = 700,
+						[72234] = 4640,
+						[72235] = 340,
+						[72103] = 79,
+					},
+					["characters"] = {
+					},
+				},
+				["Sword Art Online"] = {
+					["items"] = {
+						[72238] = 21,
+						[36908] = 17,
+						[72092] = 2,
+						[40772] = 4,
+						[72094] = 4,
+						[41599] = 1,
+						[72093] = 45,
+						[45773] = 1,
+						[72103] = 3,
+					},
+					["characters"] = {
+						["Ikarishinji"] = true,
+					},
+				},
+			},
+		},
+	},
+}

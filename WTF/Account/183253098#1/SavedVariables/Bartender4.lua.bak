@@ -7,29 +7,29 @@ Bartender4DB = {
 					["actionbars"] = {
 						{
 							["version"] = 3,
-							["padding"] = 6,
 							["position"] = {
+								["y"] = 41.75,
 								["x"] = -510,
 								["point"] = "BOTTOM",
-								["y"] = 41.75,
 							},
+							["padding"] = 6,
 						}, -- [1]
 						{
 							["enabled"] = false,
 							["version"] = 3,
 							["position"] = {
+								["y"] = -189.5000120019606,
 								["x"] = -231.4999749360767,
 								["point"] = "CENTER",
-								["y"] = -189.5000120019606,
 							},
 						}, -- [2]
 						{
 							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
+								["y"] = 610,
 								["x"] = -82,
 								["point"] = "BOTTOMRIGHT",
-								["y"] = 610,
 							},
 							["padding"] = 5,
 						}, -- [3]
@@ -37,27 +37,27 @@ Bartender4DB = {
 							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
+								["y"] = 610,
 								["x"] = -42,
 								["point"] = "BOTTOMRIGHT",
-								["y"] = 610,
 							},
 							["padding"] = 5,
 						}, -- [4]
 						{
 							["version"] = 3,
 							["position"] = {
+								["y"] = 83,
 								["x"] = 3,
 								["point"] = "BOTTOM",
-								["y"] = 83,
 							},
 							["padding"] = 6,
 						}, -- [5]
 						{
 							["version"] = 3,
 							["position"] = {
+								["y"] = 83,
 								["x"] = -510,
 								["point"] = "BOTTOM",
-								["y"] = 83,
 							},
 							["padding"] = 6,
 						}, -- [6]
@@ -65,8 +65,9 @@ Bartender4DB = {
 						}, -- [7]
 						{
 						}, -- [8]
-						[10] = {
-						},
+						nil, -- [9]
+						{
+						}, -- [10]
 					},
 				},
 			},
@@ -76,25 +77,25 @@ Bartender4DB = {
 		["ExtraActionBar"] = {
 			["profiles"] = {
 				["晴天小猫 - 阿拉索"] = {
-					["version"] = 3,
 					["position"] = {
+						["y"] = 222.9999816038326,
 						["x"] = -31.49981463638733,
 						["point"] = "BOTTOM",
-						["y"] = 222.9999816038326,
 					},
+					["version"] = 3,
 				},
 			},
 		},
 		["MicroMenu"] = {
 			["profiles"] = {
 				["晴天小猫 - 阿拉索"] = {
-					["version"] = 3,
 					["position"] = {
+						["y"] = 41.75,
 						["x"] = 37.5,
 						["point"] = "BOTTOM",
 						["scale"] = 1,
-						["y"] = 41.75,
 					},
+					["version"] = 3,
 				},
 			},
 		},
@@ -104,12 +105,25 @@ Bartender4DB = {
 			["profiles"] = {
 				["晴天小猫 - 阿拉索"] = {
 					["enabled"] = true,
-					["version"] = 3,
 					["position"] = {
+						["y"] = 47,
 						["x"] = -512,
 						["point"] = "BOTTOM",
-						["y"] = 47,
 					},
+					["version"] = 3,
+				},
+			},
+		},
+		["BagBar"] = {
+			["profiles"] = {
+				["晴天小猫 - 阿拉索"] = {
+					["onebag"] = true,
+					["position"] = {
+						["y"] = 41.75,
+						["x"] = 463.5,
+						["point"] = "BOTTOM",
+					},
+					["version"] = 3,
 				},
 			},
 		},
@@ -118,22 +132,9 @@ Bartender4DB = {
 				["晴天小猫 - 阿拉索"] = {
 					["version"] = 3,
 					["position"] = {
+						["y"] = 47.50003894653275,
 						["x"] = 99.50018146553998,
 						["point"] = "CENTER",
-						["y"] = 47.50003894653275,
-					},
-				},
-			},
-		},
-		["BagBar"] = {
-			["profiles"] = {
-				["晴天小猫 - 阿拉索"] = {
-					["version"] = 3,
-					["onebag"] = true,
-					["position"] = {
-						["x"] = 463.5,
-						["point"] = "BOTTOM",
-						["y"] = 41.75,
 					},
 				},
 			},
@@ -141,13 +142,13 @@ Bartender4DB = {
 		["StanceBar"] = {
 			["profiles"] = {
 				["晴天小猫 - 阿拉索"] = {
-					["version"] = 3,
 					["position"] = {
+						["y"] = 116,
 						["x"] = -460,
 						["point"] = "BOTTOM",
 						["scale"] = 1,
-						["y"] = 116,
 					},
+					["version"] = 3,
 				},
 			},
 		},
@@ -156,9 +157,9 @@ Bartender4DB = {
 				["晴天小猫 - 阿拉索"] = {
 					["version"] = 3,
 					["position"] = {
+						["y"] = 116,
 						["x"] = -120,
 						["point"] = "BOTTOM",
-						["y"] = 116,
 					},
 				},
 			},
@@ -171,8 +172,8 @@ Bartender4DB = {
 	},
 	["profiles"] = {
 		["晴天小猫 - 阿拉索"] = {
-			["blizzardVehicle"] = true,
 			["focuscastmodifier"] = false,
+			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",
 		},
 	},

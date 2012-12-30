@@ -1,0 +1,118 @@
+
+BagSyncDB = {
+	["阿拉索"] = {
+		["親愛的偏執狂"] = {
+			["bag"] = {
+				{
+				}, -- [1]
+				{
+					[32] = "89112,19",
+				}, -- [2]
+				{
+				}, -- [3]
+				{
+					[13] = "81406,20",
+					[14] = "81406,19",
+					[15] = "81406,20",
+					[16] = "81402,20",
+					[17] = "81402,20",
+					[18] = "81402,20",
+					[19] = "81402,20",
+					[20] = "6948",
+					[11] = "40772",
+					[12] = "72988,11",
+				}, -- [4]
+				[0] = {
+				},
+			},
+			["guild"] = "Sword Art Online",
+			["class"] = "DRUID",
+			["AH_LastScan"] = 1354470918,
+			["auction"] = {
+				[0] = {
+				},
+			},
+			["faction"] = "Alliance",
+			["equip"] = {
+				[0] = {
+					"87452", -- [1]
+					"90905", -- [2]
+					"81593", -- [3]
+					nil, -- [4]
+					"85835", -- [5]
+					"85832", -- [6]
+					"81611", -- [7]
+					"85833", -- [8]
+					"85834", -- [9]
+					"90493", -- [10]
+					"81658", -- [11]
+					"81658", -- [12]
+					"81663", -- [13]
+					"81663", -- [14]
+					"81668", -- [15]
+					"90377", -- [16]
+				},
+			},
+			["AH_Count"] = 0,
+			["gold"] = 9557824,
+			["mailbox"] = {
+				[0] = {
+					"41426", -- [1]
+				},
+			},
+		},
+	},
+}
+BagSyncOpt = {
+	["enableAuction"] = true,
+	["showGuildNames"] = false,
+	["tooltipOnlySearch"] = false,
+	["enableTooltips"] = true,
+	["enableMailbox"] = true,
+	["enableFaction"] = true,
+	["enableGuild"] = true,
+	["dbversion"] = "7.1",
+	["showTotal"] = true,
+	["enableUnitClass"] = false,
+	["enableMinimap"] = true,
+}
+BagSyncGUILD_DB = {
+	["阿拉索"] = {
+		["Sword Art Online"] = {
+			"72238,20", -- [1]
+			"72238,20", -- [2]
+			"72238,20", -- [3]
+			"72238,12", -- [4]
+			"38347", -- [5]
+			"45773", -- [6]
+			"41599", -- [7]
+			"40772", -- [8]
+			"40772", -- [9]
+			"40772", -- [10]
+		},
+	},
+}
+BagSyncTOKEN_DB = {
+	["阿拉索"] = {
+		["荣誉点数"] = {
+			["親愛的偏執狂"] = 159,
+			["header"] = "PvP",
+			["icon"] = "Interface\\Icons\\PVPCurrency-Honor-Alliance",
+		},
+		["征服点数"] = {
+			["親愛的偏執狂"] = 0,
+			["header"] = "PvP",
+			["icon"] = "Interface\\Icons\\PVPCurrency-Conquest-Alliance",
+		},
+	},
+}
+BagSyncCRAFT_DB = {
+	["阿拉索"] = {
+		["親愛的偏執狂"] = {
+		},
+	},
+}
+BagSyncBLACKLIST_DB = {
+	["阿拉索"] = {
+	},
+}

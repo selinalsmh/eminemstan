@@ -1,0 +1,9 @@
+﻿## Interface: 60001
+## Title: bNameplates
+## Title-zhTW: bNameplates
+## Notes: custom nameplates
+## Notes-zhTW: custom nameplates
+## Author: Fernir
+## Version: 1
+
+bNameplates.lua

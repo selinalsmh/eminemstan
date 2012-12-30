@@ -1,0 +1,6 @@
+MACRO64 0000000000000001 " " "INV_MISC_QUESTIONMARK"
+/cast 选矿
+/use 幽冥铁矿石
+/use 白色延极矿石
+/use 黑色延极矿石
+END

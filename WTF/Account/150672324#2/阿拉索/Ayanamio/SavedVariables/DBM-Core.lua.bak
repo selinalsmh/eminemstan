@@ -2,10 +2,11 @@
 DBM_SavedOptions = {
 	["SpecialWarningFontSize"] = 50,
 	["ArrowPosX"] = 0,
-	["HPFramePoint"] = "CENTER",
+	["HPFramePoint"] = "RIGHT",
 	["UseMasterVolume"] = true,
 	["StatusEnabled"] = true,
 	["InfoFrameX"] = 75,
+	["CountdownPullTimer"] = true,
 	["AprilFools"] = true,
 	["RangeFrameX"] = 50,
 	["DisableCinematicsOutside"] = false,
@@ -32,7 +33,7 @@ DBM_SavedOptions = {
 	["HealthFrameWidth"] = 200,
 	["WarningIconLeft"] = true,
 	["RangeFrameSound1"] = "none",
-	["HPFrameY"] = 50,
+	["HPFrameY"] = 127.9753149420442,
 	["ShowMinimapButton"] = true,
 	["MoviesSeen"] = {
 	},
@@ -99,8 +100,8 @@ DBM_SavedOptions = {
 	["ArrowPosY"] = -150,
 	["HPFrameMaxEntries"] = 5,
 	["AlwaysShowHealthFrame"] = false,
-	["HPFrameX"] = -50,
-	["LastRevision"] = 7956,
+	["HPFrameX"] = -247.3359998429829,
+	["LastRevision"] = 8085,
 	["SpamBlockBossWhispers"] = false,
 	["SpecialWarningFontColor"] = {
 		0, -- [1]
@@ -111,10 +112,17 @@ DBM_SavedOptions = {
 }
 DBT_SavedOptions = {
 	["DBM"] = {
+		["ExpandUpwards"] = false,
+		["TimerPoint"] = "TOPLEFT",
+		["Scale"] = 1,
+		["HugeTimerY"] = 170.0000067019495,
+		["TimerY"] = -220.0000117626052,
+		["HugeTimerPoint"] = "CENTER",
 		["Font"] = "JUI Font",
 		["HugeScale"] = 1,
 		["BarYOffset"] = 9,
-		["Scale"] = 1,
+		["HugeTimerX"] = -250.0000077961453,
+		["TimerX"] = 126.499997572253,
 		["BarXOffset"] = 0,
 		["Texture"] = "JUI Normal",
 	},

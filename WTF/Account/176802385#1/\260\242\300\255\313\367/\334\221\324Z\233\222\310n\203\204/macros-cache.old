@@ -1,0 +1,15 @@
+MACRO 16777218 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack
+/cast 撕碎
+END
+MACRO 16777219 " " "INV_MISC_QUESTIONMARK"
+#showtooltip 裂伤
+/startattack
+/cast 裂伤
+END
+MACRO 16777217 " " "INV_MISC_QUESTIONMARK"
+#showtooltip 横扫
+/startattack
+/cast 横扫
+END

@@ -1,0 +1,11 @@
+
+AtlasLootCharDB = {
+	["namespaces"] = {
+		["WishList"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Karuta - 阿拉索"] = "Karuta - 阿拉索",
+	},
+	["AtlasLootVersion"] = "70401",
+}

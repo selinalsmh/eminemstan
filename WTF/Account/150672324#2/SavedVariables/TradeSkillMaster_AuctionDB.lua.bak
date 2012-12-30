@@ -1,0 +1,16 @@
+
+TradeSkillMaster_AuctionDBDB = {
+	["factionrealm"] = {
+		["Alliance - 阿拉索"] = {
+			["time"] = 10,
+			["scanData"] = "",
+		},
+	},
+	["profileKeys"] = {
+		["Ayanamio - 阿拉索"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

@@ -1,0 +1,13 @@
+﻿## Interface: 60001
+## Title: Masque: |cffff8000Darion|r
+## Title-zhTW: Masque: |cffff8000Darion|r
+## Notes: Darion skin for Masque.
+## Notes-zhTW: Darion skin for Masque.
+## Dependencies: Masque
+## Version: 4.1.2
+## Author: Darsain
+## X-Website: http://www.curse.com/addons/wow/masque_darion
+## X-Category: Interface Enhancements
+## X-Credits: StormFX
+
+Darion.lua

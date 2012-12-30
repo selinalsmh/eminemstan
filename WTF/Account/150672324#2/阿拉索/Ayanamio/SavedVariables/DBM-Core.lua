@@ -17,7 +17,7 @@ DBM_SavedOptions = {
 	["ModelSoundValue"] = "Short",
 	["SpecialWarningSound2"] = "Sound\\Creature\\AlgalonTheObserver\\UR_Algalon_BHole01.wav",
 	["InfoFramePoint"] = "CENTER",
-	["RangeFrameRadarPoint"] = "CENTER",
+	["RangeFrameRadarPoint"] = "RIGHT",
 	["SpecialWarningY"] = 75,
 	["RangeFrameUpdates"] = "Average",
 	["SpecialWarningPoint"] = "CENTER",
@@ -47,7 +47,7 @@ DBM_SavedOptions = {
 	["WarningIconRight"] = true,
 	["HealthFrameGrowUp"] = false,
 	["HideBossEmoteFrame"] = false,
-	["RangeFrameRadarX"] = 100,
+	["RangeFrameRadarX"] = -303.4112952878251,
 	["ShowBigBrotherOnCombatStart"] = false,
 	["InfoFrameShowSelf"] = false,
 	["SpecialWarningFont"] = "Fonts\\ARKai_T.ttf",
@@ -56,59 +56,60 @@ DBM_SavedOptions = {
 	["LatencyThreshold"] = 250,
 	["ShowLoadMessage"] = true,
 	["DontShowBossAnnounces"] = false,
+	["EnableReadyCheckSound"] = true,
 	["RangeFramePoint"] = "CENTER",
-	["ShowEngageMessage"] = true,
-	["ShowRecoveryMessage"] = true,
+	["BlockVersionUpdateNotice"] = false,
+	["SpecialWarningFontColor"] = {
+		0, -- [1]
+		0, -- [2]
+		1, -- [3]
+	},
 	["DontSendBossWhispers"] = false,
-	["AutoRespond"] = true,
+	["LastRevision"] = 8085,
 	["WarningColors"] = {
 		{
-			["b"] = 0.94,
-			["g"] = 0.8,
 			["r"] = 0.41,
+			["g"] = 0.8,
+			["b"] = 0.94,
 		}, -- [1]
 		{
-			["b"] = 0,
-			["g"] = 0.95,
 			["r"] = 0.95,
+			["g"] = 0.95,
+			["b"] = 0,
 		}, -- [2]
 		{
-			["b"] = 0,
-			["g"] = 0.5,
 			["r"] = 1,
+			["g"] = 0.5,
+			["b"] = 0,
 		}, -- [3]
 		{
-			["b"] = 0.1,
-			["g"] = 0.1,
 			["r"] = 1,
+			["g"] = 0.1,
+			["b"] = 0.1,
 		}, -- [4]
 	},
 	["ShowPizzaMessage"] = true,
 	["RangeFrameSound2"] = "none",
 	["ShowLHFrame"] = true,
 	["DontSendBossAnnounces"] = false,
-	["ShowSpecialWarnings"] = true,
+	["HPFrameMaxEntries"] = 5,
 	["Enabled"] = true,
-	["RangeFrameFrames"] = "radar",
-	["RangeFrameLocked"] = false,
+	["ArrowPosY"] = -150,
+	["HealthFrameLocked"] = false,
 	["DisableCinematics"] = false,
 	["MovieFilters"] = {
 	},
-	["RangeFrameRadarY"] = -100,
+	["RangeFrameRadarY"] = 77.32940170534523,
 	["ShowWipeMessage"] = true,
-	["HealthFrameLocked"] = false,
-	["ArrowPosY"] = -150,
-	["HPFrameMaxEntries"] = 5,
+	["RangeFrameLocked"] = false,
+	["RangeFrameFrames"] = "radar",
+	["ShowSpecialWarnings"] = true,
 	["AlwaysShowHealthFrame"] = false,
 	["HPFrameX"] = -247.3359998429829,
-	["LastRevision"] = 8085,
+	["AutoRespond"] = true,
 	["SpamBlockBossWhispers"] = false,
-	["SpecialWarningFontColor"] = {
-		0, -- [1]
-		0, -- [2]
-		1, -- [3]
-	},
-	["BlockVersionUpdateNotice"] = false,
+	["ShowRecoveryMessage"] = true,
+	["ShowEngageMessage"] = true,
 }
 DBT_SavedOptions = {
 	["DBM"] = {
@@ -116,8 +117,8 @@ DBT_SavedOptions = {
 		["TimerPoint"] = "TOPLEFT",
 		["Scale"] = 1,
 		["HugeTimerY"] = 170.0000067019495,
-		["TimerY"] = -220.0000117626052,
 		["HugeTimerPoint"] = "CENTER",
+		["TimerY"] = -220.0000117626052,
 		["Font"] = "JUI Font",
 		["HugeScale"] = 1,
 		["BarYOffset"] = 9,

@@ -1,0 +1,22 @@
+﻿## Interface: 60001
+## Title: Already Known
+## Title-zhTW: Already Known
+## Notes: Colorizes the item that is already known in some default frames.
+## Notes-zhTW: Colorizes the item that is already known in some default frames.
+## Author: villiv
+
+## LoadManagers: AddonLoader
+## X-LoadOn-Always: delayed
+
+CompanionPets.lua
+AlreadyKnown.lua
+
+Auction.lua
+BlackMarket.lua
+GuildBank.lua
+GuildRewards.lua
+Loot.lua
+Merchant.lua
+OpenMail.lua
+QuestInfo.lua
+Trade.lua

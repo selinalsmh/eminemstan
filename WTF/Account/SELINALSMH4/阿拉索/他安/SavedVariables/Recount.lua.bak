@@ -1,0 +1,302 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["武狂丶"] = {
+			["Fights"] = {
+			},
+			["type"] = "Grouped",
+			["Name"] = "武狂丶",
+			["UnitLockout"] = 1354633686,
+			["level"] = 90,
+			["Owner"] = false,
+			["enClass"] = "WARRIOR",
+			["LastFightIn"] = 0,
+		},
+		["藍安"] = {
+			["GUID"] = "0x0400000001911F69",
+			["LastEventHealth"] = {
+				"372671 (100%)", -- [1]
+				"372671 (100%)", -- [2]
+				"372671 (100%)", -- [3]
+				"372671 (100%)", -- [4]
+				"372671 (100%)", -- [5]
+				"372671 (100%)", -- [6]
+			},
+			["LastEventType"] = {
+				"HEAL", -- [1]
+				"HEAL", -- [2]
+				"HEAL", -- [3]
+				"HEAL", -- [4]
+				"HEAL", -- [5]
+				"HEAL", -- [6]
+			},
+			["enClass"] = "PRIEST",
+			["unit"] = "藍安",
+			["level"] = 90,
+			["LastFightIn"] = 0,
+			["LastEventNum"] = {
+				1.713844114513874, -- [1]
+				1.932804001384599, -- [2]
+				1.932535668189905, -- [3]
+				1.932804001384599, -- [4]
+				1.932535668189905, -- [5]
+				1.932804001384599, -- [6]
+			},
+			["type"] = "Self",
+			["Owner"] = false,
+			["NextEventNum"] = 7,
+			["LastEventHealthNum"] = {
+				100, -- [1]
+				100, -- [2]
+				100, -- [3]
+				100, -- [4]
+				100, -- [5]
+				100, -- [6]
+			},
+			["LastEvents"] = {
+				"周綉娜 迅捷治愈 藍安 Hit +6387 (6387过量治疗)", -- [1]
+				"周綉娜 迅捷治愈 藍安 Hit +7203 (7203过量治疗)", -- [2]
+				"周綉娜 迅捷治愈 藍安 Hit +7202 (7202过量治疗)", -- [3]
+				"周綉娜 迅捷治愈 藍安 Hit +7203 (7203过量治疗)", -- [4]
+				"周綉娜 迅捷治愈 藍安 Hit +7202 (7202过量治疗)", -- [5]
+				"周綉娜 迅捷治愈 藍安 Hit +7203 (7203过量治疗)", -- [6]
+			},
+			["Name"] = "藍安",
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+				true, -- [5]
+				true, -- [6]
+			},
+			["LastEventTimes"] = {
+				42782.91, -- [1]
+				42784.806, -- [2]
+				42784.806, -- [3]
+				42785.377, -- [4]
+				42785.377, -- [5]
+				42785.538, -- [6]
+			},
+			["Fights"] = {
+			},
+			["UnitLockout"] = 1354633669,
+			["LastActive"] = 1354633672,
+		},
+		["Vividbick"] = {
+			["GUID"] = "0x0400000001E29DC9",
+			["type"] = "Ungrouped",
+			["GuardianReverseGUIDs"] = {
+				["暗影幻灵"] = {
+					["LatestGuardian"] = 1,
+					["GUIDs"] = {
+						"0xF530F20E0010DBEC", -- [1]
+						[0] = "0xF530F20E0010DBB6",
+					},
+				},
+			},
+			["Owner"] = false,
+			["enClass"] = "UNGROUPED",
+			["Name"] = "Vividbick",
+			["Pet"] = {
+				"暗影幻灵 <Vividbick>", -- [1]
+			},
+			["Fights"] = {
+			},
+			["level"] = 1,
+			["UnitLockout"] = 1354633683,
+			["LastFightIn"] = 0,
+		},
+		["暗影幻灵 <Vividbick>"] = {
+			["GUID"] = "0xF530F20E0010DBB6",
+			["LastEventHealth"] = {
+				"???", -- [1]
+			},
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+			},
+			["TimeWindows"] = {
+				["Damage"] = {
+					8968, -- [1]
+				},
+				["TimeDamage"] = {
+					3.5, -- [1]
+				},
+				["ActiveTime"] = {
+					3.5, -- [1]
+				},
+			},
+			["enClass"] = "PET",
+			["level"] = 1,
+			["LastFightIn"] = 0,
+			["type"] = "Pet",
+			["TimeLast"] = {
+				["Damage"] = 1354633686,
+				["OVERALL"] = 1354633686,
+				["TimeDamage"] = 1354633686,
+				["ActiveTime"] = 1354633686,
+			},
+			["Owner"] = "Vividbick",
+			["LastAbility"] = 42799.296,
+			["NextEventNum"] = 2,
+			["LastEventHealthNum"] = {
+				0, -- [1]
+			},
+			["LastEvents"] = {
+				"暗影幻灵 <Vividbick> 暗影幻灵 训练假人 Hit -8968 (Shadow)", -- [1]
+			},
+			["Name"] = "暗影幻灵",
+			["LastEventIncoming"] = {
+				false, -- [1]
+			},
+			["LastEventTimes"] = {
+				42799.296, -- [1]
+			},
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["TimeSpent"] = {
+						["训练假人"] = {
+							["Details"] = {
+								["暗影幻灵"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["ElementDone"] = {
+						["Shadow"] = 8968,
+					},
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["DamagedWho"] = {
+						["训练假人"] = {
+							["Details"] = {
+								["暗影幻灵"] = {
+									["count"] = 8968,
+								},
+							},
+							["amount"] = 8968,
+						},
+					},
+					["TimeDamage"] = 3.5,
+					["TimeDamaging"] = {
+						["训练假人"] = {
+							["Details"] = {
+								["暗影幻灵"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["Attacks"] = {
+						["暗影幻灵"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 8968,
+									["min"] = 8968,
+									["count"] = 1,
+									["amount"] = 8968,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 8968,
+						},
+					},
+					["ActiveTime"] = 3.5,
+					["Damage"] = 8968,
+				},
+				["OverallData"] = {
+					["TimeSpent"] = {
+						["训练假人"] = {
+							["Details"] = {
+								["暗影幻灵"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["ElementDone"] = {
+						["Shadow"] = 8968,
+					},
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["DamagedWho"] = {
+						["训练假人"] = {
+							["Details"] = {
+								["暗影幻灵"] = {
+									["count"] = 8968,
+								},
+							},
+							["amount"] = 8968,
+						},
+					},
+					["TimeDamage"] = 3.5,
+					["TimeDamaging"] = {
+						["训练假人"] = {
+							["Details"] = {
+								["暗影幻灵"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["Attacks"] = {
+						["暗影幻灵"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 8968,
+									["min"] = 8968,
+									["count"] = 1,
+									["amount"] = 8968,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 8968,
+						},
+					},
+					["ActiveTime"] = 3.5,
+					["Damage"] = 8968,
+				},
+			},
+			["UnitLockout"] = 1354633686,
+			["LastActive"] = 1354633686,
+		},
+		["坦卡"] = {
+			["Fights"] = {
+			},
+			["type"] = "Grouped",
+			["Name"] = "坦卡",
+			["UnitLockout"] = 1354633686,
+			["level"] = 90,
+			["Owner"] = false,
+			["enClass"] = "WARRIOR",
+			["LastFightIn"] = 0,
+		},
+	},
+	["FightNum"] = 0,
+	["CombatTimes"] = {
+	},
+	["FoughtWho"] = {
+	},
+}

@@ -1,0 +1,17 @@
+
+TradeSkillMaster_AuctioningDB = {
+	["factionrealm"] = {
+		["Alliance - 阿拉索"] = {
+			["player"] = {
+				["Ayanamio"] = true,
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Ayanamio - 阿拉索"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

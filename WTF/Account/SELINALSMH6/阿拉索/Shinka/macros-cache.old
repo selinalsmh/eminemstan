@@ -1,0 +1,32 @@
+MACRO 16777227 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [btn:1]治疗石;[btn:2]制造治疗石
+END
+MACRO 16777228 " " "INV_MISC_QUESTIONMARK"
+#showtooltip 灵魂石
+/cast [btn:1]灵魂石;[btn:2]制造灵魂石
+END
+MACRO 16777229 " " "INV_MISC_QUESTIONMARK"
+/cast [flyable]堕落火鹰;天蓝骑乘仙鹤
+/cast [swimming] 海龟
+END
+MACRO 16777218 " " "INV_MISC_QUESTIONMARK"
+#show [modifier:alt]恐惧嚎叫;恐惧
+/cast [modifier:alt,harm]恐惧嚎叫;[harm]恐惧
+END
+MACRO 16777219 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [btn:2]魔甲术;[btn:1]邪甲术
+END
+MACRO 16777221 " " "INV_MISC_QUESTIONMARK"
+#show [modifier:alt]吸取灵魂;吸取生命
+/cast [modifier:alt, harm]吸取灵魂;[harm]吸取生命
+END
+MACRO 16777225 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [btn:2]灵魂仪式;[btn:1]召唤仪式
+END
+MACRO 16777226 " " "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/cast [mod:altl]恶魔法阵：召唤;恶魔法阵：传送
+END

@@ -1,0 +1,11 @@
+
+AtlasLootCharDB = {
+	["namespaces"] = {
+		["WishList"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Shikinami - 阿拉索"] = "Shikinami - 阿拉索",
+	},
+	["AtlasLootVersion"] = "70401",
+}

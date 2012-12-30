@@ -1,5 +1,8 @@
 
 Postal3DB = {
+	["profileKeys"] = {
+		["Yuuko - 阿拉索"] = "Yuuko - 阿拉索",
+	},
 	["global"] = {
 		["BlackBook"] = {
 			["alts"] = {
@@ -7,11 +10,22 @@ Postal3DB = {
 			},
 		},
 	},
-	["profileKeys"] = {
-		["Yuuko - 阿拉索"] = "Yuuko - 阿拉索",
-	},
 	["profiles"] = {
 		["Yuuko - 阿拉索"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Shinka|阿拉索|Alliance", -- [1]
+					"萌喵喵|阿拉索|Alliance", -- [2]
+					"小影迹|阿拉索|Alliance", -- [3]
+					"Misato|阿拉索|Alliance", -- [4]
+					"铭文面面|阿拉索|Alliance", -- [5]
+					"Ayanamio|阿拉索|Alliance", -- [6]
+					"面面肉铺|阿拉索|Alliance", -- [7]
+					"面面仓库|阿拉索|Alliance", -- [8]
+					"沃利贝尔|阿拉索|Alliance", -- [9]
+					"面面矿石|阿拉索|Alliance", -- [10]
+				},
+			},
 		},
 	},
 }

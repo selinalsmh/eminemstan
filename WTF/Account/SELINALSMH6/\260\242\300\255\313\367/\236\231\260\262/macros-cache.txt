@@ -1,0 +1,47 @@
+MACRO 16777217 " " "INV_MISC_QUESTIONMARK"
+/cast [swimming] 深海龟
+/cast [flyable]火山石幼龙;帝王骑乘仙鹤
+END
+MACRO 16777218 " " "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/use [nomodifier] 速效药膏; [modifier:ctrl] 减速药膏; [modifier:shift] 致伤药膏; [modifier:alt] 致命药膏;
+/use [button:1] 16; [button:2] 17; [button:3] 18
+/click StaticPopup1Button1
+END
+MACRO 16777219 " " "INV_MISC_QUESTIONMARK"
+#showtooltip 刀扇
+/startattack
+/cast 刀扇
+END
+MACRO 16777220 " " "INV_MISC_QUESTIONMARK"
+#showtooltip 背刺
+/startattack
+/use 10
+/cast 背刺
+END
+MACRO 16777221 " " "INV_MISC_QUESTIONMARK"
+#showtooltip 出血
+/startattack
+/cast 出血
+END
+MACRO 16777224 " " "INV_MISC_QUESTIONMARK"
+#showtooltip 嫁祸诀窍
+/cast [help, exists] [@focus, help, exists] [@targettarget, help] 嫁祸诀窍
+END
+MACRO 16777223 " " "INV_MISC_QUESTIONMARK"
+#showtooltip 影袭
+/startattack
+/cast 影袭
+END
+MACRO 16777225 " " "INV_MISC_QUESTIONMARK"
+#showtooltip 要害打击
+/startattack
+/cast 要害打击
+END
+MACRO 16777222 "抓贼" "INV_MISC_QUESTIONMARK"
+#showtooltip 闷棍 
+/script SetCVar("targetNearestDistance",12) 
+/targetenemy [noharm][dead][noexists] 
+/script SetCVar("targetNearestDistance",50) 
+/cast 闷棍
+END

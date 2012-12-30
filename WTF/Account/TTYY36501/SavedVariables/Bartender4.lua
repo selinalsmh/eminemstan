@@ -6,13 +6,15 @@ Bartender4DB = {
 				["Yuuko - 阿拉索"] = {
 					["actionbars"] = {
 						{
+							["enabled"] = false,
 							["version"] = 3,
 							["position"] = {
-								["y"] = 41.75,
-								["x"] = -510,
-								["point"] = "BOTTOM",
+								["y"] = -236.7092605309834,
+								["x"] = -204.1053869319642,
+								["point"] = "CENTER",
+								["scale"] = 1.200000047683716,
 							},
-							["padding"] = 6,
+							["padding"] = 4,
 						}, -- [1]
 						{
 							["enabled"] = false,
@@ -25,25 +27,28 @@ Bartender4DB = {
 						}, -- [2]
 						{
 							["rows"] = 12,
+							["enabled"] = false,
 							["version"] = 3,
 							["position"] = {
-								["y"] = 610,
-								["x"] = -82,
-								["point"] = "BOTTOMRIGHT",
+								["y"] = 114.4776390481836,
+								["x"] = -145.4146693774455,
+								["point"] = "RIGHT",
 							},
 							["padding"] = 5,
 						}, -- [3]
 						{
 							["rows"] = 12,
+							["enabled"] = false,
 							["version"] = 3,
 							["position"] = {
-								["y"] = 610,
-								["x"] = -42,
-								["point"] = "BOTTOMRIGHT",
+								["y"] = 116.2714199263046,
+								["x"] = -70.31354933807643,
+								["point"] = "RIGHT",
 							},
 							["padding"] = 5,
 						}, -- [4]
 						{
+							["enabled"] = false,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 83,
@@ -53,6 +58,7 @@ Bartender4DB = {
 							["padding"] = 6,
 						}, -- [5]
 						{
+							["enabled"] = false,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 83,
@@ -62,11 +68,49 @@ Bartender4DB = {
 							["padding"] = 6,
 						}, -- [6]
 						{
+							["enabled"] = true,
+							["buttons"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = -160.4384858490731,
+								["x"] = -132.5500059052381,
+								["point"] = "CENTER",
+								["scale"] = 1.1,
+							},
+							["padding"] = 3,
 						}, -- [7]
 						{
+							["enabled"] = true,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 51.60000328137014,
+								["x"] = -290.9998616389822,
+								["point"] = "BOTTOM",
+								["scale"] = 1.200000047683716,
+							},
+							["padding"] = 4,
 						}, -- [8]
-						nil, -- [9]
 						{
+							["enabled"] = true,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 98.03006235756394,
+								["x"] = -290.9998616389822,
+								["point"] = "BOTTOM",
+								["scale"] = 1.200000047683716,
+							},
+							["padding"] = 4,
+						}, -- [9]
+						{
+							["enabled"] = true,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 145.6408393155407,
+								["x"] = -291.600042361402,
+								["point"] = "BOTTOM",
+								["scale"] = 1.200000047683716,
+							},
+							["padding"] = 4,
 						}, -- [10]
 					},
 				},
@@ -78,9 +122,9 @@ Bartender4DB = {
 			["profiles"] = {
 				["Yuuko - 阿拉索"] = {
 					["position"] = {
-						["y"] = 222.9999816038326,
-						["x"] = -31.49981463638733,
-						["point"] = "BOTTOM",
+						["y"] = -8.748279496732835,
+						["x"] = -215.4918724159454,
+						["point"] = "CENTER",
 					},
 					["version"] = 3,
 				},
@@ -89,6 +133,7 @@ Bartender4DB = {
 		["MicroMenu"] = {
 			["profiles"] = {
 				["Yuuko - 阿拉索"] = {
+					["enabled"] = false,
 					["position"] = {
 						["y"] = 41.75,
 						["x"] = 37.5,
@@ -104,7 +149,6 @@ Bartender4DB = {
 		["BlizzardArt"] = {
 			["profiles"] = {
 				["Yuuko - 阿拉索"] = {
-					["enabled"] = true,
 					["position"] = {
 						["y"] = 47,
 						["x"] = -512,
@@ -117,6 +161,7 @@ Bartender4DB = {
 		["BagBar"] = {
 			["profiles"] = {
 				["Yuuko - 阿拉索"] = {
+					["enabled"] = false,
 					["onebag"] = true,
 					["position"] = {
 						["y"] = 41.75,
@@ -132,9 +177,9 @@ Bartender4DB = {
 				["Yuuko - 阿拉索"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = 47.50003894653275,
-						["x"] = 99.50018146553998,
-						["point"] = "CENTER",
+						["y"] = 181.8408512679439,
+						["x"] = 249.4997939834411,
+						["point"] = "BOTTOM",
 					},
 				},
 			},
@@ -156,8 +201,8 @@ Bartender4DB = {
 				["Yuuko - 阿拉索"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = 116,
-						["x"] = -460,
+						["y"] = 179.4333403247888,
+						["x"] = -163.9999794838282,
 						["point"] = "BOTTOM",
 					},
 				},

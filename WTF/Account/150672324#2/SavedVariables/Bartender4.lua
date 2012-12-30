@@ -142,18 +142,6 @@ Bartender4DB = {
 				},
 			},
 		},
-		["Vehicle"] = {
-			["profiles"] = {
-				["Ayanamio - 阿拉索"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 188.7489734904389,
-						["x"] = 288.7001912312378,
-						["point"] = "BOTTOM",
-					},
-				},
-			},
-		},
 		["StanceBar"] = {
 			["profiles"] = {
 				["Ayanamio - 阿拉索"] = {
@@ -164,6 +152,18 @@ Bartender4DB = {
 						["scale"] = 1,
 					},
 					["version"] = 3,
+				},
+			},
+		},
+		["Vehicle"] = {
+			["profiles"] = {
+				["Ayanamio - 阿拉索"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 188.7489734904389,
+						["x"] = 288.7001912312378,
+						["point"] = "BOTTOM",
+					},
 				},
 			},
 		},
@@ -187,9 +187,12 @@ Bartender4DB = {
 	},
 	["profiles"] = {
 		["Ayanamio - 阿拉索"] = {
+			["blizzardVehicle"] = true,
 			["focuscastmodifier"] = false,
 			["buttonlock"] = true,
-			["blizzardVehicle"] = true,
+			["minimapIcon"] = {
+				["minimapPos"] = 185.5042054173117,
+			},
 			["outofrange"] = "hotkey",
 		},
 	},

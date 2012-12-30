@@ -2,23 +2,23 @@
 oUF_FreebgridDB = {
 	["powercolor"] = {
 		["a"] = 1,
-		["b"] = 1,
-		["g"] = 0.6,
 		["r"] = 0.17,
+		["g"] = 0.6,
+		["b"] = 1,
 	},
 	["otherhealcolor"] = {
 		["a"] = 0.4,
-		["b"] = 1,
-		["g"] = 0.72,
 		["r"] = 0.14,
+		["g"] = 0.72,
+		["b"] = 1,
 	},
 	["cluster"] = {
 		["enabled"] = false,
 		["textcolor"] = {
 			["a"] = 1,
-			["b"] = 0.6,
-			["g"] = 0.9,
 			["r"] = 0,
+			["g"] = 0.9,
+			["b"] = 0.6,
 		},
 		["perc"] = 90,
 		["freq"] = 250,
@@ -26,133 +26,18 @@ oUF_FreebgridDB = {
 	},
 	["powerbgcolor"] = {
 		["a"] = 1,
-		["b"] = 0.33,
-		["g"] = 0.33,
 		["r"] = 0.33,
+		["g"] = 0.33,
+		["b"] = 0.33,
 	},
 	["hpcolor"] = {
 		["a"] = 1,
-		["b"] = 0.1,
-		["g"] = 0.1,
 		["r"] = 0.1,
+		["g"] = 0.1,
+		["b"] = 0.1,
 	},
 	["Talent\"NONE\""] = {
 		["ClickCastset"] = {
-			["1"] = {
-				["ctrl-"] = {
-					["action"] = "NONE",
-				},
-				["shift-"] = {
-					["action"] = "NONE",
-				},
-				["alt-shift-"] = {
-					["action"] = "NONE",
-				},
-				["ctrl-shift-"] = {
-					["action"] = "NONE",
-				},
-				["alt-"] = {
-					["action"] = "奥术光辉",
-				},
-				["alt-ctrl-"] = {
-					["action"] = "NONE",
-				},
-				["Click"] = {
-					["action"] = "target",
-				},
-			},
-			["3"] = {
-				["ctrl-"] = {
-					["action"] = "NONE",
-				},
-				["shift-"] = {
-					["action"] = "NONE",
-				},
-				["alt-shift-"] = {
-					["action"] = "NONE",
-				},
-				["ctrl-shift-"] = {
-					["action"] = "NONE",
-				},
-				["alt-"] = {
-					["action"] = "NONE",
-				},
-				["alt-ctrl-"] = {
-					["action"] = "NONE",
-				},
-				["Click"] = {
-					["action"] = "NONE",
-				},
-			},
-			["2"] = {
-				["ctrl-"] = {
-					["action"] = "NONE",
-				},
-				["shift-"] = {
-					["action"] = "缓落术",
-				},
-				["alt-shift-"] = {
-					["action"] = "NONE",
-				},
-				["ctrl-shift-"] = {
-					["action"] = "NONE",
-				},
-				["alt-"] = {
-					["action"] = "NONE",
-				},
-				["alt-ctrl-"] = {
-					["action"] = "NONE",
-				},
-				["Click"] = {
-					["action"] = "解除诅咒",
-				},
-			},
-			["5"] = {
-				["ctrl-"] = {
-					["action"] = "NONE",
-				},
-				["shift-"] = {
-					["action"] = "NONE",
-				},
-				["alt-shift-"] = {
-					["action"] = "NONE",
-				},
-				["ctrl-shift-"] = {
-					["action"] = "NONE",
-				},
-				["alt-"] = {
-					["action"] = "NONE",
-				},
-				["alt-ctrl-"] = {
-					["action"] = "NONE",
-				},
-				["Click"] = {
-					["action"] = "NONE",
-				},
-			},
-			["4"] = {
-				["ctrl-"] = {
-					["action"] = "NONE",
-				},
-				["shift-"] = {
-					["action"] = "NONE",
-				},
-				["alt-shift-"] = {
-					["action"] = "NONE",
-				},
-				["ctrl-shift-"] = {
-					["action"] = "NONE",
-				},
-				["alt-"] = {
-					["action"] = "NONE",
-				},
-				["alt-ctrl-"] = {
-					["action"] = "NONE",
-				},
-				["Click"] = {
-					["action"] = "NONE",
-				},
-			},
 		},
 		["hpcolor"] = {
 			["a"] = 1,
@@ -160,7 +45,6 @@ oUF_FreebgridDB = {
 			["g"] = 0.1,
 			["r"] = 0.1,
 		},
-		["ClickCastsetchange"] = true,
 		["powercolor"] = {
 			["a"] = 1,
 			["b"] = 1,
@@ -197,13 +81,13 @@ oUF_FreebgridDB = {
 			["g"] = 0,
 			["r"] = 1,
 		},
-		["hpbgcolor"] = {
+		["powerbgcolor"] = {
 			["a"] = 1,
 			["b"] = 0.33,
 			["g"] = 0.33,
 			["r"] = 0.33,
 		},
-		["powerbgcolor"] = {
+		["hpbgcolor"] = {
 			["a"] = 1,
 			["b"] = 0.33,
 			["g"] = 0.33,
@@ -212,21 +96,21 @@ oUF_FreebgridDB = {
 	},
 	["gradient"] = {
 		["a"] = 1,
-		["b"] = 0,
-		["g"] = 0,
 		["r"] = 1,
+		["g"] = 0,
+		["b"] = 0,
 	},
 	["myhealcolor"] = {
 		["a"] = 0.6,
-		["b"] = 0.6,
-		["g"] = 0.6,
 		["r"] = 0.3,
+		["g"] = 0.6,
+		["b"] = 0.6,
 	},
 	["hpbgcolor"] = {
 		["a"] = 1,
-		["b"] = 0.33,
-		["g"] = 0.33,
 		["r"] = 0.33,
+		["g"] = 0.33,
+		["b"] = 0.33,
 	},
 }
 Freebgridomf2 = {
@@ -238,7 +122,7 @@ Freebgridomf2 = {
 		},
 	},
 	["Freebgrid"] = {
-		["oUF_FreebgridRaidFrame"] = "BOTTOMRIGHTUIParent-440187",
+		["oUF_FreebgridRaidFrame"] = "BOTTOMRIGHTUIParent-409216",
 		["oUF_FreebgridMTFrame"] = "RIGHTUIParent-486-178",
 		["oUF_FreebgridPetFrame"] = "LEFTUIParent5-102",
 	},

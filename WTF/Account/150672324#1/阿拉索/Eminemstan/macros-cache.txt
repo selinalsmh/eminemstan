@@ -1,13 +1,12 @@
-MACRO 16777217 " " "INV_Misc_QuestionMark"
-#showtooltip 心脏打击
-/console Sound_EnableSFX 0
-/startattack
-/cast !符文打击
-/cast 心脏打击
-/console Sound_EnableSFX 1
-/script UIErrorsFrame:Clear()
+MACRO64 0000000001000001 " " "INV_Misc_QuestionMark"
+#showtooltip 凛风冲击
+/cast 凛风冲击
+/cast 冰霜之柱
+/use 10
+/use 14
+/script if (UnitHealth("target")/UnitHealthMax("target")<.35) then RaidNotice_AddMessage(RaidWarningFrame,"<==============灵魂收割!==============>",{g=1})end
 END
-MACRO 16777219 " " "INV_Misc_QuestionMark"
+MACRO64 0000000001000003 " " "INV_Misc_QuestionMark"
 #showtooltip 灵界打击
 /console Sound_EnableSFX 0
 /startattack
@@ -16,11 +15,14 @@ MACRO 16777219 " " "INV_Misc_QuestionMark"
 /console Sound_EnableSFX 1
 /script UIErrorsFrame:Clear()
 END
-MACRO 16777221 " " "INV_Misc_QuestionMark"
-#showtooltip 铜墙铁壁
-/castsequence reset=5/target/combat 铜墙铁壁,活力分流,湮没
+MACRO64 0000000001000005 " " "INV_Misc_QuestionMark"
+#showtooltip 符文分流
+/cast  符文分流
+/use 10
+/use 14
+/use 治疗石
 END
-MACRO 16777220 " " "INV_Misc_QuestionMark"
+MACRO64 0000000001000004 " " "INV_Misc_QuestionMark"
 #showtooltip 鲜血打击
 /console Sound_EnableSFX 0
 /startattack
@@ -29,42 +31,34 @@ MACRO 16777220 " " "INV_Misc_QuestionMark"
 /console Sound_EnableSFX 1
 /script UIErrorsFrame:Clear()
 END
-MACRO 16777222 " " "INV_Misc_QuestionMark"
+MACRO64 0000000001000006 " " "INV_Misc_QuestionMark"
 #showtooltip 湮没
 /cast 湮没
 /use 14
 /use 13
 /use 10
 END
-MACRO 16777224 " " "INV_Misc_QuestionMark"
+MACRO64 0000000001000008 " " "INV_Misc_QuestionMark"
 #showtooltip 枯萎凋零
 /cast !枯萎凋零
 END
-MACRO 16777218 " " "INV_Misc_QuestionMark"
-#showtooltip 天灾打击
-/console Sound_EnableSFX 0
-/startattack
-/cast !符文打击
-/cast 天灾打击
-/console Sound_EnableSFX 1
-/script UIErrorsFrame:Clear()
+MACRO64 0000000001000009 " " "INV_MISC_QUESTIONMARK"
+#showtooltip [nopet] [target=pet,dead] 亡者复生; [pet] 天灾契约
+/cast [nopet]亡者复生
+/cast [target=pet,dead]亡者复生
+/stopmacro [target=pet,dead]
+/cast 天灾契约
 END
-MACRO 16777225 " " "INV_Misc_QuestionMark"
-#showtooltip 亡者复生
-/Y May the force be with you
-/E 的爪牙说到：别太放肆。。没什么用。。
-/CAST 亡者复生
-END
-MACRO 16777227 " " "INV_Misc_QuestionMark"
+MACRO64 000000000100000B " " "INV_Misc_QuestionMark"
 #showtooltip 冰封之韧
 /cast 冰封之韧
 /use 治疗石
 END
-MACRO 16777231 " " "INV_Misc_QuestionMark"
+MACRO64 000000000100000F " " "INV_Misc_QuestionMark"
 #showtooltip 狂乱
 /cast [@focus,nodead][@player]狂乱
 END
-MACRO 16777233 " " "INV_Misc_QuestionMark"
+MACRO64 0000000001000011 " " "INV_Misc_QuestionMark"
 #showtooltip 冰冷触摸
 /console Sound_EnableSFX 0
 /startattack
@@ -73,7 +67,7 @@ MACRO 16777233 " " "INV_Misc_QuestionMark"
 /console Sound_EnableSFX 1
 /script UIErrorsFrame:Clear()
 END
-MACRO 16777234 " " "INV_Misc_QuestionMark"
+MACRO64 0000000001000012 " " "INV_Misc_QuestionMark"
 #showtooltip 暗影打击
 /console Sound_EnableSFX 0
 /startattack
@@ -82,36 +76,27 @@ MACRO 16777234 " " "INV_Misc_QuestionMark"
 /console Sound_EnableSFX 1
 /script UIErrorsFrame:Clear()
 END
-MACRO 16777235 " " "INV_Misc_QuestionMark"
-#showtooltip 天灾领主护手
-/cast 活力分流
-/USE 天灾领主护手
-/cancelaura 活力分流
-END
-MACRO 16777236 " " "INV_Misc_QuestionMark"
-#showtooltip 鲜血打击
+MACRO64 0000000001000014 " " "INV_Misc_QuestionMark"
+#showtooltip 冰霜打击
 /startattack
-/cancelaura 活力分流
-/cast 鲜血打击 
+/cast 冰霜打击
+/cast 活力分流
+/cast 冰霜之柱
+/use 10
+/use 14
 END
-MACRO 16777237 " " "INV_Misc_QuestionMark"
+MACRO64 0000000001000015 " " "INV_Misc_QuestionMark"
 #showtooltip 传染
 /startattack
 /cancelaura 活力分流
 /cast 传染
 END
-MACRO 16777238 " " "INV_Misc_QuestionMark"
-#showtooltip 符文分流
-/cast 符文分流
-/use 10
-/use 14
-END
-MACRO 16777239 " " "INV_Misc_QuestionMark"
+MACRO64 0000000001000017 " " "INV_Misc_QuestionMark"
 #showtooltip 吸血鬼之血
 /cast 吸血鬼之血
 END
-MACRO 16777240 " " "INV_MISC_QUESTIONMARK"
-#showtooltip 冰霜之柱
-/cast 冰霜之柱
-/use 10
+MACRO64 0000000001000018 " " "INV_MISC_QUESTIONMARK"
+#showtooltip 灵魂收割
+/castsequence reset=0 0,凛风冲击
+/castsequence reset=0 灵魂收割
 END

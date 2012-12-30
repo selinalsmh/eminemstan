@@ -1,7 +1,0 @@
-## Interface: 60001
-## Title: bNameplates
-## Notes: custom nameplates
-## Author: Fernir
-## Version: 1
-
-bNameplates.lua

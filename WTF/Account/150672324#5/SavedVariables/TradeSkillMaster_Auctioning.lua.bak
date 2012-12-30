@@ -1,0 +1,17 @@
+
+TradeSkillMaster_AuctioningDB = {
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Kokohekmaty - 阿拉索"] = "Default",
+	},
+	["factionrealm"] = {
+		["Alliance - 阿拉索"] = {
+			["player"] = {
+				["Kokohekmaty"] = true,
+			},
+		},
+	},
+}

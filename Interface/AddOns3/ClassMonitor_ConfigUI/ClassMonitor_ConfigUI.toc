@@ -1,0 +1,14 @@
+## Interface: 50100
+## Version: 1.1.1
+## Author: SinaC
+## Credits: Elv, Starinnia, Puffina
+## Title: |cFF148587Class|r Monitor Config
+## Notes: Config for ClassMonitor
+## RequiredDeps: ClassMonitor
+## OptionalDeps: Tukui, ElvUI
+
+#@no-lib-strip@
+embeds.xml
+#@end-no-lib-strip@
+
+ClassMonitor_ConfigUI.xml

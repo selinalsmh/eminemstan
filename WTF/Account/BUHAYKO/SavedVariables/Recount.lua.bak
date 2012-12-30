@@ -1,0 +1,33 @@
+
+RecountDB = {
+	["profileKeys"] = {
+		["澜安 - 阿拉索"] = "澜安 - 阿拉索",
+	},
+	["profiles"] = {
+		["澜安 - 阿拉索"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -121.0554541866703,
+					["x"] = 549.0890369715776,
+					["w"] = 140.0001157112092,
+					["h"] = 200.0000727640228,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["DetailWindowX"] = 0,
+			["GraphWindowX"] = 0,
+			["CurDataSet"] = "OverallData",
+		},
+	},
+}

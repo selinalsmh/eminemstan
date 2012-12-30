@@ -14,11 +14,13 @@ Postal3DB = {
 		["晴天小猫 - 阿拉索"] = {
 			["BlackBook"] = {
 				["recent"] = {
-					"Shinka|阿拉索|Alliance", -- [1]
-					"Shikinami|阿拉索|Alliance", -- [2]
-					"Ayanamio|阿拉索|Alliance", -- [3]
-					"Eminemstan|阿拉索|Alliance", -- [4]
-					"沃利贝尔|阿拉索|Alliance", -- [5]
+					"Eminemstan|阿拉索|Alliance", -- [1]
+					"沃利贝尔|阿拉索|Alliance", -- [2]
+					"瞪誰谁怀孕|阿拉索|Alliance", -- [3]
+					"面面药铺|阿拉索|Alliance", -- [4]
+					"Shinka|阿拉索|Alliance", -- [5]
+					"Shikinami|阿拉索|Alliance", -- [6]
+					"Ayanamio|阿拉索|Alliance", -- [7]
 				},
 			},
 		},

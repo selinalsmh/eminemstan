@@ -1,22 +1,22 @@
-MACRO 1 "BF_Mount" "ability_mount_charger"
+MACRO64 0000000000000001 "BF_Mount" "ability_mount_charger"
 /stopcasting
 /bfmount
 END
-MACRO 5 "BF_Pet" "achievement_worldevent_brewmaster"
+MACRO64 0000000000000005 "BF_Pet" "achievement_worldevent_brewmaster"
 /BFPET
 END
-MACRO 2 "Decursive" "INV_Misc_QuestionMark"
+MACRO64 0000000000000002 "Decursive" "INV_Misc_QuestionMark"
 /script DecursiveRootTable.Dcr:Println('没有相关技能')
 END
-MACRO 4 "LiteMount" "ABILITY_MOUNT_MECHASTRIDER"
+MACRO64 0000000000000004 "LiteMount" "ABILITY_MOUNT_MECHASTRIDER"
 # Auto-created by LiteMount addon
 /click [nobtn:2] LiteMount
 /click [btn:2] LiteMount RightButton
 END
-MACRO 3 "坐骑" "Ability_Mount_Charger"
+MACRO64 0000000000000003 "坐骑" "Ability_Mount_Charger"
 /RandomMount
 END
-MACRO 6 "选矿" "INV_ZulGurubTrinket"
+MACRO64 0000000000000006 "选矿" "INV_ZulGurubTrinket"
 /CAST 选矿
 /USE 幽冥铁矿石
 END

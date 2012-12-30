@@ -1,0 +1,24 @@
+
+AtlasLootDB = {
+	["namespaces"] = {
+		["DefaultFrame"] = {
+		},
+		["AtlasLootPanel"] = {
+		},
+		["WishList"] = {
+		},
+		["Filter"] = {
+		},
+	},
+	["showWarning"] = true,
+	["profileKeys"] = {
+		["矿矿喵呜 - 阿拉索"] = "矿矿喵呜 - 阿拉索",
+		["藍安 - 阿拉索"] = "藍安 - 阿拉索",
+	},
+	["profiles"] = {
+		["矿矿喵呜 - 阿拉索"] = {
+		},
+		["藍安 - 阿拉索"] = {
+		},
+	},
+}

@@ -1,0 +1,110 @@
+
+BagSyncDB = {
+	["阿拉索"] = {
+		["Ikarishinji"] = {
+			["bank"] = {
+				[-1] = {
+				},
+				[5] = {
+				},
+			},
+			["bag"] = {
+				{
+				}, -- [1]
+				{
+				}, -- [2]
+				{
+					[20] = "6948",
+					[17] = "81414,16",
+					[18] = "81414,20",
+					[19] = "87213",
+					[16] = "40772",
+				}, -- [3]
+				{
+					[32] = "89112,2",
+				}, -- [4]
+				[0] = {
+				},
+			},
+			["guild"] = "Sword Art Online",
+			["gold"] = 29736771,
+			["equip"] = {
+				[0] = {
+					"87452", -- [1]
+					"83803", -- [2]
+					"85804", -- [3]
+					nil, -- [4]
+					"85800", -- [5]
+					"85797", -- [6]
+					"85803", -- [7]
+					"85798", -- [8]
+					"85799", -- [9]
+					"85801", -- [10]
+					"83798", -- [11]
+					"83798", -- [12]
+					"88585", -- [13]
+					"77530", -- [14]
+					"87310", -- [15]
+					"87419", -- [16]
+				},
+			},
+			["class"] = "DRUID",
+			["faction"] = "Alliance",
+			["mailbox"] = {
+				[0] = {
+				},
+			},
+		},
+	},
+}
+BagSyncOpt = {
+	["enableAuction"] = true,
+	["showGuildNames"] = false,
+	["tooltipOnlySearch"] = false,
+	["enableTooltips"] = true,
+	["enableMailbox"] = true,
+	["enableFaction"] = true,
+	["enableGuild"] = true,
+	["dbversion"] = "7.1",
+	["showTotal"] = true,
+	["enableUnitClass"] = false,
+	["enableMinimap"] = true,
+}
+BagSyncGUILD_DB = {
+	["阿拉索"] = {
+		["Sword Art Online"] = {
+			"72238,20", -- [1]
+			"72238", -- [2]
+			"40772", -- [3]
+			"40772", -- [4]
+			"40772", -- [5]
+			"40772", -- [6]
+			"36908,17", -- [7]
+			"45773", -- [8]
+			"41599", -- [9]
+			"72103,3", -- [10]
+			"72094,4", -- [11]
+			"72093,45", -- [12]
+			"72092,2", -- [13]
+		},
+	},
+}
+BagSyncTOKEN_DB = {
+	["阿拉索"] = {
+		["征服点数"] = {
+			["Ikarishinji"] = 0,
+			["header"] = "PvP",
+			["icon"] = "Interface\\Icons\\PVPCurrency-Conquest-Alliance",
+		},
+	},
+}
+BagSyncCRAFT_DB = {
+	["阿拉索"] = {
+		["Ikarishinji"] = {
+		},
+	},
+}
+BagSyncBLACKLIST_DB = {
+	["阿拉索"] = {
+	},
+}

@@ -57,58 +57,58 @@ DBM_SavedOptions = {
 	["ShowLoadMessage"] = true,
 	["DontShowBossAnnounces"] = false,
 	["RangeFramePoint"] = "CENTER",
-	["BlockVersionUpdateNotice"] = false,
-	["SpecialWarningFontColor"] = {
-		0, -- [1]
-		0, -- [2]
-		1, -- [3]
-	},
+	["ShowEngageMessage"] = true,
+	["ShowRecoveryMessage"] = true,
 	["DontSendBossWhispers"] = false,
-	["LastRevision"] = 8085,
+	["AutoRespond"] = true,
 	["WarningColors"] = {
 		{
-			["r"] = 0.41,
-			["g"] = 0.8,
 			["b"] = 0.94,
+			["g"] = 0.8,
+			["r"] = 0.41,
 		}, -- [1]
 		{
-			["r"] = 0.95,
-			["g"] = 0.95,
 			["b"] = 0,
+			["g"] = 0.95,
+			["r"] = 0.95,
 		}, -- [2]
 		{
-			["r"] = 1,
-			["g"] = 0.5,
 			["b"] = 0,
+			["g"] = 0.5,
+			["r"] = 1,
 		}, -- [3]
 		{
-			["r"] = 1,
-			["g"] = 0.1,
 			["b"] = 0.1,
+			["g"] = 0.1,
+			["r"] = 1,
 		}, -- [4]
 	},
 	["ShowPizzaMessage"] = true,
 	["RangeFrameSound2"] = "none",
 	["ShowLHFrame"] = true,
 	["DontSendBossAnnounces"] = false,
-	["HPFrameMaxEntries"] = 5,
+	["ShowSpecialWarnings"] = true,
 	["Enabled"] = true,
-	["ArrowPosY"] = -150,
-	["HealthFrameLocked"] = false,
+	["RangeFrameFrames"] = "radar",
+	["RangeFrameLocked"] = false,
 	["DisableCinematics"] = false,
 	["MovieFilters"] = {
 	},
 	["RangeFrameRadarY"] = -100,
 	["ShowWipeMessage"] = true,
-	["RangeFrameLocked"] = false,
-	["RangeFrameFrames"] = "radar",
-	["ShowSpecialWarnings"] = true,
+	["HealthFrameLocked"] = false,
+	["ArrowPosY"] = -150,
+	["HPFrameMaxEntries"] = 5,
 	["AlwaysShowHealthFrame"] = false,
 	["HPFrameX"] = -50,
-	["AutoRespond"] = true,
+	["LastRevision"] = 8085,
 	["SpamBlockBossWhispers"] = false,
-	["ShowRecoveryMessage"] = true,
-	["ShowEngageMessage"] = true,
+	["SpecialWarningFontColor"] = {
+		0, -- [1]
+		0, -- [2]
+		1, -- [3]
+	},
+	["BlockVersionUpdateNotice"] = false,
 }
 DBT_SavedOptions = {
 	["DBM"] = {

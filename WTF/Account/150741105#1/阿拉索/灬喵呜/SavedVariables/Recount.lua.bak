@@ -1,0 +1,54 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["灬喵呜"] = {
+			["GUID"] = "0x0400000001F0B5FF",
+			["LastEventHealth"] = {
+				"327535 (100%)", -- [1]
+				"327535 (100%)", -- [2]
+			},
+			["LastEventType"] = {
+				"HEAL", -- [1]
+				"HEAL", -- [2]
+			},
+			["enClass"] = "MONK",
+			["unit"] = "灬喵呜",
+			["level"] = 90,
+			["LastFightIn"] = 0,
+			["LastEventNum"] = {
+				8.12798632207245, -- [1]
+				8.12798632207245, -- [2]
+			},
+			["type"] = "Self",
+			["Owner"] = false,
+			["NextEventNum"] = 3,
+			["LastEventHealthNum"] = {
+				100, -- [1]
+				100, -- [2]
+			},
+			["LastEvents"] = {
+				"醉卧清风 真气突 灬喵呜 Hit +26622 (26622过量治疗)", -- [1]
+				"醉卧清风 真气突 灬喵呜 Hit +26622 (26622过量治疗)", -- [2]
+			},
+			["Name"] = "灬喵呜",
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+			},
+			["LastEventTimes"] = {
+				51388.821, -- [1]
+				51396.055, -- [2]
+			},
+			["Fights"] = {
+			},
+			["UnitLockout"] = 1354642276,
+			["LastActive"] = 1354642283,
+		},
+	},
+	["FightNum"] = 0,
+	["CombatTimes"] = {
+	},
+	["FoughtWho"] = {
+	},
+}

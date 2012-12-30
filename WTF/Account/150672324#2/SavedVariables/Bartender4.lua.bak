@@ -7,21 +7,21 @@ Bartender4DB = {
 					["actionbars"] = {
 						{
 							["version"] = 3,
-							["padding"] = 6,
 							["position"] = {
+								["y"] = 57.20000279151158,
 								["x"] = -330.2000215458256,
 								["point"] = "BOTTOM",
 								["scale"] = 1.300000071525574,
-								["y"] = 57.20000279151158,
 							},
+							["padding"] = 6,
 						}, -- [1]
 						{
 							["enabled"] = false,
 							["version"] = 3,
 							["position"] = {
+								["y"] = -189.5000120019606,
 								["x"] = -231.4999749360767,
 								["point"] = "CENTER",
-								["y"] = -189.5000120019606,
 							},
 						}, -- [2]
 						{
@@ -29,9 +29,9 @@ Bartender4DB = {
 							["enabled"] = false,
 							["version"] = 3,
 							["position"] = {
+								["y"] = 30.65362485536946,
 								["x"] = -162.5855256629611,
 								["point"] = "RIGHT",
-								["y"] = 30.65362485536946,
 							},
 							["padding"] = 5,
 						}, -- [3]
@@ -40,38 +40,48 @@ Bartender4DB = {
 							["enabled"] = false,
 							["version"] = 3,
 							["position"] = {
+								["y"] = 57.73120764820999,
 								["x"] = -69.38679172960269,
 								["point"] = "RIGHT",
-								["y"] = 57.73120764820999,
 							},
 							["padding"] = 5,
 						}, -- [4]
 						{
 							["version"] = 3,
 							["position"] = {
+								["y"] = 105.8220691460067,
 								["x"] = -330.2000215458256,
 								["point"] = "BOTTOM",
 								["scale"] = 1.300000071525574,
-								["y"] = 105.8220691460067,
 							},
 							["padding"] = 6,
 						}, -- [5]
 						{
 							["version"] = 3,
 							["position"] = {
+								["y"] = 152.4489380077149,
 								["x"] = -329.5499525032665,
 								["point"] = "BOTTOM",
 								["scale"] = 1.300000071525574,
-								["y"] = 152.4489380077149,
 							},
 							["padding"] = 6,
 						}, -- [6]
 						{
 						}, -- [7]
 						{
+							["enabled"] = true,
+							["buttons"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = -173.0111636013569,
+								["x"] = -153.3999599934649,
+								["point"] = "CENTER",
+								["scale"] = 1.3,
+							},
 						}, -- [8]
-						[10] = {
-						},
+						nil, -- [9]
+						{
+						}, -- [10]
 					},
 				},
 			},
@@ -81,12 +91,12 @@ Bartender4DB = {
 		["ExtraActionBar"] = {
 			["profiles"] = {
 				["Ayanamio - 阿拉索"] = {
-					["version"] = 3,
 					["position"] = {
+						["y"] = 31.50002472198696,
 						["x"] = -182.2882635666092,
 						["point"] = "CENTER",
-						["y"] = 31.50002472198696,
 					},
+					["version"] = 3,
 				},
 			},
 		},
@@ -94,13 +104,13 @@ Bartender4DB = {
 			["profiles"] = {
 				["Ayanamio - 阿拉索"] = {
 					["enabled"] = false,
-					["version"] = 3,
 					["position"] = {
+						["y"] = 262.2126513520739,
 						["x"] = 413.5845955281175,
 						["point"] = "BOTTOM",
 						["scale"] = 1,
-						["y"] = 262.2126513520739,
 					},
+					["version"] = 3,
 				},
 			},
 		},
@@ -109,12 +119,26 @@ Bartender4DB = {
 		["BlizzardArt"] = {
 			["profiles"] = {
 				["Ayanamio - 阿拉索"] = {
-					["version"] = 3,
 					["position"] = {
+						["y"] = 47,
 						["x"] = -512,
 						["point"] = "BOTTOM",
-						["y"] = 47,
 					},
+					["version"] = 3,
+				},
+			},
+		},
+		["BagBar"] = {
+			["profiles"] = {
+				["Ayanamio - 阿拉索"] = {
+					["enabled"] = false,
+					["onebag"] = true,
+					["position"] = {
+						["y"] = 41.75,
+						["x"] = 463.5,
+						["point"] = "BOTTOM",
+					},
+					["version"] = 3,
 				},
 			},
 		},
@@ -123,23 +147,9 @@ Bartender4DB = {
 				["Ayanamio - 阿拉索"] = {
 					["version"] = 3,
 					["position"] = {
+						["y"] = 188.7489734904389,
 						["x"] = 288.7001912312378,
 						["point"] = "BOTTOM",
-						["y"] = 188.7489734904389,
-					},
-				},
-			},
-		},
-		["BagBar"] = {
-			["profiles"] = {
-				["Ayanamio - 阿拉索"] = {
-					["enabled"] = false,
-					["version"] = 3,
-					["onebag"] = true,
-					["position"] = {
-						["x"] = 463.5,
-						["point"] = "BOTTOM",
-						["y"] = 41.75,
 					},
 				},
 			},
@@ -147,13 +157,13 @@ Bartender4DB = {
 		["StanceBar"] = {
 			["profiles"] = {
 				["Ayanamio - 阿拉索"] = {
-					["version"] = 3,
 					["position"] = {
+						["y"] = 186.7489410748874,
 						["x"] = -329.699866597012,
 						["point"] = "BOTTOM",
 						["scale"] = 1,
-						["y"] = 186.7489410748874,
 					},
+					["version"] = 3,
 				},
 			},
 		},
@@ -162,9 +172,9 @@ Bartender4DB = {
 				["Ayanamio - 阿拉索"] = {
 					["version"] = 3,
 					["position"] = {
+						["y"] = 182.3570140790862,
 						["x"] = -163.9999969909615,
 						["point"] = "BOTTOM",
-						["y"] = 182.3570140790862,
 					},
 				},
 			},
@@ -180,6 +190,9 @@ Bartender4DB = {
 			["blizzardVehicle"] = true,
 			["focuscastmodifier"] = false,
 			["buttonlock"] = true,
+			["minimapIcon"] = {
+				["minimapPos"] = 185.5042054173117,
+			},
 			["outofrange"] = "hotkey",
 		},
 	},

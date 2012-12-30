@@ -1,0 +1,34 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["看货的"] = {
+			["GUID"] = "0x040000000201990F",
+			["type"] = "Ungrouped",
+			["GuardianReverseGUIDs"] = {
+				["仲夏之魂"] = {
+					["LatestGuardian"] = 0,
+					["GUIDs"] = {
+						[0] = "0xF130413D00093D9E",
+					},
+				},
+			},
+			["Owner"] = false,
+			["enClass"] = "UNGROUPED",
+			["Name"] = "看货的",
+			["Pet"] = {
+				"仲夏之魂 <看货的>", -- [1]
+			},
+			["Fights"] = {
+			},
+			["level"] = 1,
+			["UnitLockout"] = 1354641003,
+			["LastFightIn"] = 0,
+		},
+	},
+	["FightNum"] = 0,
+	["CombatTimes"] = {
+	},
+	["FoughtWho"] = {
+	},
+}

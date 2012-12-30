@@ -1,0 +1,23 @@
+﻿## Interface: 60001
+## Title: |cffffe00a<|r|cffff7d0aDBM|r|cffffe00a>|r |cff69ccf0Brawlers|r
+## Title-zhTW: |cffffe00a<|r|cffff7d0aDBM|r|cffffe00a>|r |cff69ccf0鬥陣俱樂部|r
+## Notes: 
+## Notes-zhTW: 
+## Dependencies: DBM-Core
+## X-Min-Interface: 50001
+## Title-zhCN:|cffffe00a<|r|cffff7d0aDBM|r|cffffe00a>|r |cff69ccf0搏击俱乐部|r
+## LoadOnDemand: 1
+## SavedVariablesPerCharacter: DBMBrawlers_SavedVars, DBMBrawlers_SavedStats
+## X-DBM-Mod: 1
+## X-DBM-Mod-Category: MOP
+## X-DBM-Mod-Has-Heroic-Mode: 0
+## X-DBM-Mod-Name: Brawlers
+## X-DBM-Mod-Name-zhCN: 搏击俱乐部
+## X-DBM-Mod-Name-zhTW: 鬥陣俱樂部
+## X-DBM-Mod-Sort: 15
+## X-DBM-Mod-LoadZoneID: 922
+localization.en.lua
+localization.cn.lua
+localization.tw.lua
+MapSizes.lua
+Brawlers.lua

@@ -2,10 +2,11 @@
 DBM_SavedOptions = {
 	["SpecialWarningFontSize"] = 50,
 	["ArrowPosX"] = 0,
-	["HPFramePoint"] = "CENTER",
+	["HPFramePoint"] = "RIGHT",
 	["UseMasterVolume"] = true,
 	["StatusEnabled"] = true,
-	["InfoFrameX"] = 75,
+	["InfoFrameX"] = -275.5215915953724,
+	["CountdownPullTimer"] = true,
 	["AprilFools"] = true,
 	["RangeFrameX"] = 50,
 	["DisableCinematicsOutside"] = false,
@@ -15,8 +16,8 @@ DBM_SavedOptions = {
 	["ArrowPoint"] = "TOP",
 	["ModelSoundValue"] = "Short",
 	["SpecialWarningSound2"] = "Sound\\Creature\\AlgalonTheObserver\\UR_Algalon_BHole01.wav",
-	["InfoFramePoint"] = "CENTER",
-	["RangeFrameRadarPoint"] = "CENTER",
+	["InfoFramePoint"] = "RIGHT",
+	["RangeFrameRadarPoint"] = "RIGHT",
 	["SpecialWarningY"] = 75,
 	["RangeFrameUpdates"] = "Average",
 	["SpecialWarningPoint"] = "CENTER",
@@ -32,7 +33,7 @@ DBM_SavedOptions = {
 	["HealthFrameWidth"] = 200,
 	["WarningIconLeft"] = true,
 	["RangeFrameSound1"] = "none",
-	["HPFrameY"] = 50,
+	["HPFrameY"] = 187.2801074992695,
 	["ShowMinimapButton"] = true,
 	["MoviesSeen"] = {
 	},
@@ -41,12 +42,12 @@ DBM_SavedOptions = {
 	["DontSetIcons"] = false,
 	["BigBrotherAnnounceToRaid"] = false,
 	["CountdownVoice"] = "Corsica",
-	["InfoFrameY"] = -75,
+	["InfoFrameY"] = 212.7574682797758,
 	["SpecialWarningSound"] = "Sound\\Spells\\PVPFlagTaken.wav",
 	["WarningIconRight"] = true,
 	["HealthFrameGrowUp"] = false,
 	["HideBossEmoteFrame"] = false,
-	["RangeFrameRadarX"] = 100,
+	["RangeFrameRadarX"] = -269.503409480017,
 	["ShowBigBrotherOnCombatStart"] = false,
 	["InfoFrameShowSelf"] = false,
 	["SpecialWarningFont"] = "Fonts\\ARKai_T.ttf",
@@ -55,59 +56,60 @@ DBM_SavedOptions = {
 	["LatencyThreshold"] = 250,
 	["ShowLoadMessage"] = true,
 	["DontShowBossAnnounces"] = false,
+	["BlockVersionUpdateNotice"] = false,
 	["RangeFramePoint"] = "CENTER",
-	["ShowEngageMessage"] = true,
-	["ShowRecoveryMessage"] = true,
-	["DontSendBossWhispers"] = false,
-	["AutoRespond"] = true,
-	["WarningColors"] = {
-		{
-			["b"] = 0.94,
-			["g"] = 0.8,
-			["r"] = 0.41,
-		}, -- [1]
-		{
-			["b"] = 0,
-			["g"] = 0.95,
-			["r"] = 0.95,
-		}, -- [2]
-		{
-			["b"] = 0,
-			["g"] = 0.5,
-			["r"] = 1,
-		}, -- [3]
-		{
-			["b"] = 0.1,
-			["g"] = 0.1,
-			["r"] = 1,
-		}, -- [4]
-	},
-	["ShowPizzaMessage"] = true,
-	["RangeFrameSound2"] = "none",
-	["ShowLHFrame"] = true,
-	["DontSendBossAnnounces"] = false,
-	["ShowSpecialWarnings"] = true,
-	["Enabled"] = true,
-	["RangeFrameFrames"] = "radar",
-	["RangeFrameLocked"] = false,
-	["DisableCinematics"] = false,
-	["MovieFilters"] = {
-	},
-	["RangeFrameRadarY"] = -100,
-	["ShowWipeMessage"] = true,
-	["HealthFrameLocked"] = false,
-	["ArrowPosY"] = -150,
-	["HPFrameMaxEntries"] = 5,
-	["AlwaysShowHealthFrame"] = false,
-	["HPFrameX"] = -50,
-	["LastRevision"] = 7956,
-	["SpamBlockBossWhispers"] = false,
 	["SpecialWarningFontColor"] = {
 		0, -- [1]
 		0, -- [2]
 		1, -- [3]
 	},
-	["BlockVersionUpdateNotice"] = false,
+	["ShowRecoveryMessage"] = true,
+	["LastRevision"] = 8085,
+	["AutoRespond"] = true,
+	["WarningColors"] = {
+		{
+			["r"] = 0.41,
+			["g"] = 0.8,
+			["b"] = 0.94,
+		}, -- [1]
+		{
+			["r"] = 0.95,
+			["g"] = 0.95,
+			["b"] = 0,
+		}, -- [2]
+		{
+			["r"] = 1,
+			["g"] = 0.5,
+			["b"] = 0,
+		}, -- [3]
+		{
+			["r"] = 1,
+			["g"] = 0.1,
+			["b"] = 0.1,
+		}, -- [4]
+	},
+	["ShowPizzaMessage"] = true,
+	["RangeFrameSound2"] = "none",
+	["ShowLHFrame"] = true,
+	["HPFrameMaxEntries"] = 5,
+	["ArrowPosY"] = -150,
+	["Enabled"] = true,
+	["HealthFrameLocked"] = false,
+	["RangeFrameLocked"] = false,
+	["DisableCinematics"] = false,
+	["MovieFilters"] = {
+	},
+	["RangeFrameRadarY"] = 192.9776289610659,
+	["ShowWipeMessage"] = true,
+	["RangeFrameFrames"] = "radar",
+	["ShowSpecialWarnings"] = true,
+	["DontSendBossAnnounces"] = false,
+	["AlwaysShowHealthFrame"] = false,
+	["HPFrameX"] = -157.2797088016634,
+	["DontSendBossWhispers"] = false,
+	["SpamBlockBossWhispers"] = false,
+	["ShowEngageMessage"] = true,
+	["EnableReadyCheckSound"] = true,
 }
 DBT_SavedOptions = {
 	["DBM"] = {
@@ -115,6 +117,7 @@ DBT_SavedOptions = {
 		["HugeScale"] = 1,
 		["BarYOffset"] = 9,
 		["Scale"] = 1,
+		["ExpandUpwards"] = false,
 		["BarXOffset"] = 0,
 		["Texture"] = "JUI Normal",
 	},

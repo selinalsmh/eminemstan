@@ -1,0 +1,33 @@
+
+RecountDB = {
+	["profileKeys"] = {
+		["Ayanamio - 阿拉索"] = "Ayanamio - 阿拉索",
+	},
+	["profiles"] = {
+		["Ayanamio - 阿拉索"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = 46.35825872684429,
+					["x"] = -882.4921612152577,
+					["w"] = 140.0001157112092,
+					["h"] = 200.0000727640228,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["DetailWindowX"] = 0,
+			["GraphWindowX"] = 0,
+			["CurDataSet"] = "OverallData",
+		},
+	},
+}

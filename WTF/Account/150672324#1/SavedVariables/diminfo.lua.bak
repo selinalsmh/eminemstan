@@ -4,7 +4,7 @@ diminfo = {
 	["AutoRepair"] = true,
 	["gold"] = {
 		["阿拉索"] = {
-			["Eminemstan"] = 107109064,
+			["Eminemstan"] = 92533746,
 		},
 	},
 }

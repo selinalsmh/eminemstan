@@ -1,17 +1,37 @@
 
 Postal3DB = {
+	["profileKeys"] = {
+		["布布喵呜 - 阿拉索"] = "布布喵呜 - 阿拉索",
+		["矿矿喵呜 - 阿拉索"] = "矿矿喵呜 - 阿拉索",
+		["藍安 - 阿拉索"] = "藍安 - 阿拉索",
+	},
 	["global"] = {
 		["BlackBook"] = {
 			["alts"] = {
-				"藍安|阿拉索|Alliance|90|PRIEST", -- [1]
+				"布布喵呜|阿拉索|Alliance|1|PRIEST", -- [1]
+				"矿矿喵呜|阿拉索|Alliance|1|HUNTER", -- [2]
+				"藍安|阿拉索|Alliance|90|PRIEST", -- [3]
 			},
 		},
 	},
-	["profileKeys"] = {
-		["藍安 - 阿拉索"] = "藍安 - 阿拉索",
-	},
 	["profiles"] = {
+		["布布喵呜 - 阿拉索"] = {
+		},
+		["矿矿喵呜 - 阿拉索"] = {
+		},
 		["藍安 - 阿拉索"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"面面布料|阿拉索|Alliance", -- [1]
+					"Shinka|阿拉索|Alliance", -- [2]
+					"萌喵喵|阿拉索|Alliance", -- [3]
+					"面面仓库|阿拉索|Alliance", -- [4]
+					"面面肉铺|阿拉索|Alliance", -- [5]
+					"铭文面面|阿拉索|Alliance", -- [6]
+					"Shikinami|阿拉索|Alliance", -- [7]
+					"Eminemstan|阿拉索|Alliance", -- [8]
+				},
+			},
 		},
 	},
 }

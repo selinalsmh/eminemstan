@@ -1,0 +1,4 @@
+MACRO 1 " " "INV_MISC_QUESTIONMARK"
+/cast 选矿
+/use 幽冥铁矿石
+END

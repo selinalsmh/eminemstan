@@ -4,7 +4,7 @@ MonomythDB = {
 	["gossip"] = true,
 	["faireport"] = true,
 	["toggle"] = true,
-	["reverse"] = false,
-	["modifier"] = "SHIFT",
 	["gossipraid"] = true,
+	["modifier"] = "SHIFT",
+	["reverse"] = false,
 }

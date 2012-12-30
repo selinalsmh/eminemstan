@@ -1,0 +1,17 @@
+
+TradeSkillMaster_AuctioningDB = {
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+	["profileKeys"] = {
+		["沃利贝尔 - 阿拉索"] = "Default",
+	},
+	["factionrealm"] = {
+		["Alliance - 阿拉索"] = {
+			["player"] = {
+				["沃利贝尔"] = true,
+			},
+		},
+	},
+}

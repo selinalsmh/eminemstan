@@ -1,0 +1,34 @@
+﻿## Interface: 60001
+## Title: |cffffe00a<|r|cffff7d0aDBM|r|cffffe00a>|r |cff69ccf0PvP|r
+## Title-zhTW: |cffffe00a<|r|cffff7d0aDBM|r|cffffe00a>|r |cff69ccf0PvP|r
+## Notes: 
+## Notes-zhTW: 
+## Dependencies: DBM-Core
+## X-Min-Interface: 50001
+## Title-zhCN:|cffffe00a<|r|cffff7d0aDBM|r|cffffe00a>|r |cff69ccf0PvP|r
+## Author: Nitram/Tandanu
+## LoadOnDemand: 1
+## SavedVariablesPerCharacter: DBMPvP_SavedVars
+## X-DBM-Mod: 1
+## X-DBM-Mod-Category: MOP
+## X-DBM-Mod-Has-Heroic-Mode: 0
+## X-DBM-Mod-SubCategories: Arena,Battlegrounds
+## X-DBM-Mod-SubCategories-zhTW: 競技場,戰場
+## X-DBM-Mod-SubCategories-zhCN: 竞技场,战场
+## X-DBM-Mod-Name: PvP
+## X-DBM-Mod-Name-zhTW: 競技場/戰場
+## X-DBM-Mod-Name-zhCN: PvP
+## X-DBM-Mod-Sort: 75
+## X-DBM-Mod-LoadZoneID: 461,443,401,540,482
+localization.en.lua
+localization.tw.lua
+localization.cn.lua
+Battlegrounds\Battlegrounds.lua
+Battlegrounds\Alterac.lua
+Battlegrounds\Arathi.lua
+Battlegrounds\Gilneas.lua
+Battlegrounds\EyeOfTheStorm.lua
+Battlegrounds\IsleOfConquest.lua
+Battlegrounds\TwinPeaks.lua
+Battlegrounds\Warsong.lua
+Arenas\Arenas.lua

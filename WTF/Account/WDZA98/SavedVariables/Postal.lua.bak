@@ -3,21 +3,43 @@ Postal3DB = {
 	["global"] = {
 		["BlackBook"] = {
 			["alts"] = {
-				"Shikinami|阿拉索|Alliance|70|MAGE", -- [1]
+				"Shikinami|阿拉索|Alliance|90|MAGE", -- [1]
+				"宠儿小号|希尔瓦娜斯|Horde|1|WARLOCK", -- [2]
 			},
 		},
 	},
 	["profileKeys"] = {
 		["Shikinami - 阿拉索"] = "Shikinami - 阿拉索",
+		["宠儿小号 - 希尔瓦娜斯"] = "宠儿小号 - 希尔瓦娜斯",
 	},
 	["profiles"] = {
 		["Shikinami - 阿拉索"] = {
 			["BlackBook"] = {
 				["recent"] = {
-					"面面矿石|阿拉索|Alliance", -- [1]
-					"面面布料|阿拉索|Alliance", -- [2]
+					"Shinka|阿拉索|Alliance", -- [1]
+					"铭文面面|阿拉索|Alliance", -- [2]
+					"千年幻想乡|阿拉索|Alliance", -- [3]
+					"面面药铺|阿拉索|Alliance", -- [4]
+					"Misato|阿拉索|Alliance", -- [5]
+					"温柔的忘却|阿拉索|Alliance", -- [6]
+					"老脸臭虫|阿拉索|Alliance", -- [7]
+					"藍安|阿拉索|Alliance", -- [8]
+					"親愛的偏執狂|阿拉索|Alliance", -- [9]
+					"岚黯|阿拉索|Alliance", -- [10]
+					"面面布料|阿拉索|Alliance", -- [11]
+					"面面附魔|阿拉索|Alliance", -- [12]
+					"Kokohekmaty|阿拉索|Alliance", -- [13]
+					"仙尼美|阿拉索|Alliance", -- [14]
+					"Sheknows|阿拉索|Alliance", -- [15]
+					"丛林大猩猩|阿拉索|Alliance", -- [16]
+					"Shekzeer|阿拉索|Alliance", -- [17]
+					"yuuko|阿拉索|Alliance", -- [18]
+					"寂寞灬湮灭|阿拉索|Alliance", -- [19]
+					"Eminemstan|阿拉索|Alliance", -- [20]
 				},
 			},
+		},
+		["宠儿小号 - 希尔瓦娜斯"] = {
 		},
 	},
 }

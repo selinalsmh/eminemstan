@@ -6,6 +6,8 @@ bind SPACE JUMP
 bind NUMPAD0 NONE
 bind X CLICK BT4Button17:LeftButton
 bind Z CLICK BT4Button98:LeftButton
+bind 8 NONE
+bind 9 NONE
 bind 0 NONE
 bind - CAMERAZOOMOUT
 bind = CAMERAZOOMIN
@@ -20,11 +22,11 @@ bind SHIFT-DOWN NEXTACTIONPAGE
 bind SHIFT-MOUSEWHEELDOWN NONE
 bind F CLICK BT4Button16:LeftButton
 bind V CLICK BT4Button30:LeftButton
-bind SHIFT-V CLICK BT4Button99:LeftButton
+bind SHIFT-V CLICK BT4Button38:LeftButton
 bind CTRL-V NAMEPLATES
 bind T CLICK BT4Button29:LeftButton
 bind SHIFT-T CLICK BT4Button13:LeftButton
-bind C CLICK BT4Button18:LeftButton
+bind C CLICK BT4Button21:LeftButton
 bind B CLICK BT4Button15:LeftButton
 bind SHIFT-C CLICK BT4Button20:LeftButton
 bind NUMPADPLUS CAMERAZOOMIN

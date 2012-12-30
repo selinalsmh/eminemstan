@@ -1,4 +1,14 @@
-MACRO 2 " " "INV_MISC_QUESTIONMARK"
+MACRO64 0000000000000002 " " "INV_MISC_QUESTIONMARK"
 /cast 研磨
-/use 黄金参
+/use 雨粟花
+/use 柔丝草
+/use 绿茶叶
+/use 雪百合
+END
+MACRO64 0000000000000003 " " "ABILITY_AMBUSH"
+/cast 研磨
+/use 燃烬草
+/use 鞭尾草
+/use 卷丹
+/use 心灵之花
 END

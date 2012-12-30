@@ -1,0 +1,34 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["怪人无情"] = {
+			["GUID"] = "0x04000000018D4177",
+			["type"] = "Ungrouped",
+			["GuardianReverseGUIDs"] = {
+				["幸巴"] = {
+					["LatestGuardian"] = 0,
+					["GUIDs"] = {
+						[0] = "0xF14096DF8A002390",
+					},
+				},
+			},
+			["Owner"] = false,
+			["enClass"] = "UNGROUPED",
+			["Name"] = "怪人无情",
+			["Pet"] = {
+				"幸巴 <怪人无情>", -- [1]
+			},
+			["Fights"] = {
+			},
+			["level"] = 1,
+			["UnitLockout"] = 1354641796,
+			["LastFightIn"] = 0,
+		},
+	},
+	["FightNum"] = 0,
+	["CombatTimes"] = {
+	},
+	["FoughtWho"] = {
+	},
+}

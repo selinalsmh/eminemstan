@@ -615,7 +615,6 @@ DCT_SAVE_PERCHAR = {
 	},
 	["DCT_SHOWACTIVE"] = {
 		["fSizeCh"] = 4,
-		["sound"] = "",
 		["colorEx"] = {
 			{
 				1, -- [1]
@@ -628,6 +627,7 @@ DCT_SAVE_PERCHAR = {
 				0, -- [3]
 			}, -- [2]
 		},
+		["sound"] = "",
 		["fEff"] = 4,
 		["color"] = {
 			1, -- [1]
@@ -838,18 +838,18 @@ DCT_SAVE_PERCHAR = {
 			["param4"] = 1,
 			["param5"] = 1,
 			["param3"] = 1,
-			["param1"] = 3,
+			["param1"] = 20,
 			["aniType"] = 3,
 			["speed"] = 100,
 			["angle"] = 0,
 			["fEn"] = 1,
 			["fCh"] = 1,
 			["alpha"] = 100,
-			["y"] = -150,
-			["x"] = 0,
+			["y"] = -100,
+			["x"] = 340,
 			["name"] = "",
 			["anchor"] = 1,
-			["param2"] = 3,
+			["param2"] = 1,
 			["fSizeEn"] = 18,
 			["fSizeCh"] = 18,
 			["fEff"] = 2,
@@ -878,7 +878,7 @@ DCT_SAVE_PERCHAR = {
 		{
 			["active"] = true,
 			["param4"] = 0,
-			["param5"] = 0,
+			["param5"] = 1,
 			["param3"] = 1,
 			["param1"] = 200,
 			["aniType"] = 6,
@@ -888,10 +888,10 @@ DCT_SAVE_PERCHAR = {
 			["fCh"] = 1,
 			["alpha"] = 100,
 			["anchor"] = 1,
-			["y"] = 60,
-			["x"] = 0,
+			["y"] = 240,
+			["x"] = 340,
 			["name"] = "",
-			["param2"] = 2.5,
+			["param2"] = 2,
 			["param6"] = 0,
 			["fSizeEn"] = 18,
 			["fSizeCh"] = 16,
@@ -1002,55 +1002,38 @@ DCT_SAVE_PERCHAR = {
 	},
 	["DCT_SPECBUFFFADE"] = {
 	},
-	["DCT_SHOWREFLECT"] = {
-		["show"] = {
-			"#ms", -- [1]
-			"#ms #c1(#sn)#ce", -- [2]
+	["DCT_SSColor8"] = {
+		["color"] = {
+			0.5, -- [1]
+			0.7, -- [2]
+			0.2, -- [3]
 		},
+	},
+	["DCT_SaveVer"] = 2011,
+	["DCT_SHOWCOMBAT"] = {
+		["show"] = {
+			"**进入战斗**", -- [1]
+		},
+		["fEff"] = 2,
 		["color"] = {
 			1, -- [1]
-			1, -- [2]
-			1, -- [3]
+			0.4, -- [2]
+			0, -- [3]
 		},
-		["frame"] = 1,
+		["frame"] = 2,
 		["colorEx"] = {
 			{
-				1, -- [1]
+				0, -- [1]
 				1, -- [2]
 				0, -- [3]
 			}, -- [1]
 			{
 				1, -- [1]
-				0, -- [2]
-				0, -- [3]
+				1, -- [2]
+				1, -- [3]
 			}, -- [2]
 		},
 		["sound"] = "",
-	},
-	["DCT_SaveVer"] = 2011,
-	["DCT_SHOWSHIELD"] = {
-		["show"] = {
-			"-#am #sn", -- [1]
-		},
-		["per"] = 0,
-		["color"] = {
-			1, -- [1]
-			0.5, -- [2]
-			1, -- [3]
-		},
-		["frame"] = 3,
-		["colorEx"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-				0, -- [3]
-			}, -- [1]
-			{
-				1, -- [1]
-				0, -- [2]
-				0, -- [3]
-			}, -- [2]
-		},
 	},
 	["DCT_SHOWBLOCK"] = {
 		["show"] = {
@@ -1109,30 +1092,29 @@ DCT_SAVE_PERCHAR = {
 			}, -- [2]
 		},
 	},
-	["DCT_SHOWCOMBAT"] = {
+	["DCT_SHOWSHIELD"] = {
 		["show"] = {
-			"**进入战斗**", -- [1]
+			"-#am #sn", -- [1]
 		},
-		["fEff"] = 2,
+		["per"] = 0,
 		["color"] = {
 			1, -- [1]
-			0.4, -- [2]
-			0, -- [3]
+			0.5, -- [2]
+			1, -- [3]
 		},
-		["frame"] = 2,
+		["frame"] = 3,
 		["colorEx"] = {
 			{
-				0, -- [1]
+				1, -- [1]
 				1, -- [2]
 				0, -- [3]
 			}, -- [1]
 			{
 				1, -- [1]
-				1, -- [2]
-				1, -- [3]
+				0, -- [2]
+				0, -- [3]
 			}, -- [2]
 		},
-		["sound"] = "",
 	},
 	["DCT_SHOWABSORB"] = {
 		["show"] = {
@@ -1161,12 +1143,30 @@ DCT_SAVE_PERCHAR = {
 	},
 	["DCT_SPECCOOLDOWN"] = {
 	},
-	["DCT_SSColor64"] = {
+	["DCT_SHOWRESIST"] = {
+		["show"] = {
+			"#ms", -- [1]
+			"#ms #c1(#sn)#ce", -- [2]
+		},
 		["color"] = {
-			0, -- [1]
+			1, -- [1]
 			1, -- [2]
 			1, -- [3]
 		},
+		["frame"] = 1,
+		["colorEx"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+				0, -- [3]
+			}, -- [1]
+			{
+				1, -- [1]
+				0, -- [2]
+				0, -- [3]
+			}, -- [2]
+		},
+		["sound"] = "",
 	},
 	["DCT_SHOWCOOLDOWN"] = {
 		["show"] = {
@@ -1391,7 +1391,15 @@ DCT_SAVE_PERCHAR = {
 			"消失:#c1#sn#ce", -- [1]
 		},
 	},
-	["DCT_SHOWRESIST"] = {
+	["DCT_SSColor64"] = {
+		["color"] = {
+			0, -- [1]
+			1, -- [2]
+			1, -- [3]
+		},
+	},
+	["DCT_ManaSelfNoneName"] = 0,
+	["DCT_SHOWREFLECT"] = {
 		["show"] = {
 			"#ms", -- [1]
 			"#ms #c1(#sn)#ce", -- [2]
@@ -1415,14 +1423,6 @@ DCT_SAVE_PERCHAR = {
 			}, -- [2]
 		},
 		["sound"] = "",
-	},
-	["DCT_ManaSelfNoneName"] = 0,
-	["DCT_SSColor8"] = {
-		["color"] = {
-			0.5, -- [1]
-			0.7, -- [2]
-			0.2, -- [3]
-		},
 	},
 	["DCT_SSC_Number"] = 0,
 	["DCT_EnglishInfo"] = 0,

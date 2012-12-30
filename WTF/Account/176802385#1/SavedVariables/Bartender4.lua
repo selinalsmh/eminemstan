@@ -100,6 +100,17 @@ Bartender4DB = {
 			},
 		},
 		["XPBar"] = {
+			["profiles"] = {
+				["軕訸洅萵儎 - 阿拉索"] = {
+					["enabled"] = true,
+					["position"] = {
+						["y"] = 4.000099845369505,
+						["x"] = -519.0000171651971,
+						["point"] = "TOP",
+					},
+					["version"] = 3,
+				},
+			},
 		},
 		["BlizzardArt"] = {
 			["profiles"] = {

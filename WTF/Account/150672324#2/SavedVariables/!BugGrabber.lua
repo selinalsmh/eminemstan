@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
 	["lastSanitation"] = 3,
-	["session"] = 11,
+	["session"] = 23,
 	["errors"] = {
 		{
 			["message"] = "aMini-2.0\\idQuestAutomation.lua:107: Invalid reward choice in GetQuestReward([choice])",

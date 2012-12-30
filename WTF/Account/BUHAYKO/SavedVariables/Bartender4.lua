@@ -185,8 +185,11 @@ Bartender4DB = {
 	},
 	["profiles"] = {
 		["澜安 - 阿拉索"] = {
-			["focuscastmodifier"] = false,
 			["blizzardVehicle"] = true,
+			["focuscastmodifier"] = false,
+			["minimapIcon"] = {
+				["minimapPos"] = 185.5628773635852,
+			},
 			["outofrange"] = "hotkey",
 		},
 	},

@@ -1,6 +1,9 @@
 BINDINGMODE 0
+bind BUTTON3 JUMP
 bind A CLICK BT4Button29:LeftButton
 bind D CLICK BT4Button30:LeftButton
+bind SPACE JUMP
+bind NUMPAD0 NONE
 bind X CLICK BT4Button34:LeftButton
 bind Z CLICK BT4Button41:LeftButton
 bind 7 NONE
@@ -21,6 +24,8 @@ bind C CLICK BT4Button32:LeftButton
 bind B CLICK BT4Button47:LeftButton
 bind SHIFT-B NONE
 bind SHIFT-C CLICK BT4Button31:LeftButton
+bind NUMPADPLUS CAMERAZOOMIN
+bind NUMPADMINUS CAMERAZOOMOUT
 bind MOUSEWHEELUP CLICK BT4Button25:LeftButton
 bind MOUSEWHEELDOWN CLICK BT4Button26:LeftButton
 bind ` CLICK BT4Button27:LeftButton

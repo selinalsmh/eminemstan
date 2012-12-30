@@ -1,0 +1,33 @@
+
+RecountDB = {
+	["profileKeys"] = {
+		["Shikinami - 阿拉索"] = "Shikinami - 阿拉索",
+	},
+	["profiles"] = {
+		["Shikinami - 阿拉索"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = 189.8656309738391,
+					["x"] = 515.9652606500986,
+					["w"] = 140.0001157112092,
+					["h"] = 200.0000202426229,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["DetailWindowX"] = 0,
+			["GraphWindowX"] = 0,
+			["CurDataSet"] = "OverallData",
+		},
+	},
+}

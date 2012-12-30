@@ -1,37 +1,37 @@
-MACRO 16777217 " " "INV_MISC_QUESTIONMARK"
+MACRO64 0000000001000001 " " "INV_MISC_QUESTIONMARK"
 #showtooltip 
 /施放 [mod,@player][@mouseover,help,nodead][help,nodead][nogroup,@player][@targettarget,help,nodead]回春术
 /cast 回春术
 END
-MACRO 16777218 " " "INV_MISC_QUESTIONMARK"
+MACRO64 0000000001000002 " " "INV_MISC_QUESTIONMARK"
 #showtooltip 
 /施放 [mod,@player][@mouseover,help,nodead][help,nodead][nogroup,@player][@targettarget,help,nodead]生命绽放
 /cast 生命绽放
 END
-MACRO 16777219 " " "INV_MISC_QUESTIONMARK"
+MACRO64 0000000001000003 " " "INV_MISC_QUESTIONMARK"
 /cast [flyable]迅捷飞行形态(变形);天蓝骑乘仙鹤
 /cast [swimming] 深渊海马
 /console SET profanityFilter "0"
 END
-MACRO 16777220 " " "INV_MISC_QUESTIONMARK"
+MACRO64 0000000001000004 " " "INV_MISC_QUESTIONMARK"
 #showtooltip 
 /施放 [mod,@player][@mouseover,help,nodead][help,nodead][nogroup,@player][@targettarget,help,nodead]滋养
 /cast 滋养
 END
-MACRO 16777221 " " "INV_MISC_QUESTIONMARK"
+MACRO64 0000000001000005 " " "INV_MISC_QUESTIONMARK"
 #showtooltip 
 /施放 [mod,@player][@mouseover,help,nodead][help,nodead][nogroup,@player][@targettarget,help,nodead]野性成长
 /cast 野性成长
 END
-MACRO 16777222 " " "INV_MISC_QUESTIONMARK"
+MACRO64 0000000001000006 " " "INV_MISC_QUESTIONMARK"
 #showtooltip 
 /施放 [mod,@player][@mouseover,help,nodead][help,nodead][nogroup,@player][@targettarget,help,nodead]治疗之触
 /cast 治疗之触
 END
-MACRO 16777223 " " "INV_MISC_QUESTIONMARK"
+MACRO64 0000000001000007 " " "INV_MISC_QUESTIONMARK"
 /Cast [modifier:alt,@player] 净化腐蚀 ; [@mouseover,exists] 净化腐蚀 ; 净化腐蚀
 END
-MACRO 16777224 " " "INV_MISC_QUESTIONMARK"
+MACRO64 0000000001000008 " " "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [nostance] 精灵之火
 /cast [stance:1] 精灵之火（野性）
@@ -39,50 +39,50 @@ MACRO 16777224 " " "INV_MISC_QUESTIONMARK"
 /cast [stance:4] 精灵之火
 /cast [stance:5] 精灵之火
 END
-MACRO 16777225 " " "INV_MISC_QUESTIONMARK"
+MACRO64 0000000001000009 " " "INV_MISC_QUESTIONMARK"
 #showtooltip 野性毒菇：引爆
 /cast [modifier:ctrl] 野性毒菇：引爆
 /cast [nomodifier:ctrl]野性毒菇
 END
-MACRO 16777226 " " "INV_MISC_QUESTIONMARK"
+MACRO64 000000000100000A " " "INV_MISC_QUESTIONMARK"
 #showtooltip
 /use [nocombat] 起死回生
 /stopmacro [nocombat]
 /use 复生
 END
-MACRO 16777227 " " "INV_MISC_QUESTIONMARK"
+MACRO64 000000000100000B " " "INV_MISC_QUESTIONMARK"
 /cast 自然迅捷
 /cast 治疗之触
 END
-MACRO 16777228 " " "INV_MISC_QUESTIONMARK"
+MACRO64 000000000100000C " " "INV_MISC_QUESTIONMARK"
 #showtooltip 撕碎(猎豹形态)
 /startattack
 /cast 撕碎(猎豹形态)
 END
-MACRO 16777229 " " "INV_MISC_QUESTIONMARK"
+MACRO64 000000000100000D " " "INV_MISC_QUESTIONMARK"
 #showtooltip 
 /cast [modifier:alt] 割碎(猎豹形态)
 /cast [nomodifier:altl]迎头痛击(猎豹形态)
 END
-MACRO 16777231 "熊" "INV_MISC_QUESTIONMARK"
-#showtooltip 裂伤(熊形态)
-/startattack
-/cast 裂伤(熊形态)
-/cast 重殴(熊形态)
-END
-MACRO 16777230 "熊" "INV_MISC_QUESTIONMARK"
+MACRO64 000000000100000E "熊" "INV_MISC_QUESTIONMARK"
 #showtooltip 横扫(熊形态)
 /startattack
 /cast 横扫(熊形态)
 /cast 重殴(熊形态)
 END
-MACRO 16777233 "豹" "INV_MISC_QUESTIONMARK"
-#showtooltip 裂伤(猎豹形态)
+MACRO64 000000000100000F "熊" "INV_MISC_QUESTIONMARK"
+#showtooltip 裂伤(熊形态)
 /startattack
-/cast 裂伤(猎豹形态)
+/cast 裂伤(熊形态)
+/cast 重殴(熊形态)
 END
-MACRO 16777232 "豹" "INV_MISC_QUESTIONMARK"
+MACRO64 0000000001000010 "豹" "INV_MISC_QUESTIONMARK"
 #showtooltip 横扫(猎豹形态)
 /startattack
 /cast 横扫(猎豹形态)
+END
+MACRO64 0000000001000011 "豹" "INV_MISC_QUESTIONMARK"
+#showtooltip 裂伤(猎豹形态)
+/startattack
+/cast 裂伤(猎豹形态)
 END

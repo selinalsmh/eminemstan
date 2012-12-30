@@ -1,5 +1,0 @@
-
-JunkAuto = {
-}
-JunkItems = {
-}

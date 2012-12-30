@@ -3,73 +3,74 @@ Bartender4DB = {
 	["namespaces"] = {
 		["ActionBars"] = {
 			["profiles"] = {
-				["布布喵呜 - 阿拉索"] = {
+				["矿矿喵呜 - 阿拉索"] = {
 					["actionbars"] = {
 						{
-							["version"] = 3,
 							["padding"] = 6,
+							["version"] = 3,
 							["position"] = {
+								["y"] = 41.75,
 								["x"] = -510,
 								["point"] = "BOTTOM",
-								["y"] = 41.75,
 							},
 						}, -- [1]
 						{
 							["enabled"] = false,
 							["version"] = 3,
 							["position"] = {
+								["y"] = -189.5000120019606,
 								["x"] = -231.4999749360767,
 								["point"] = "CENTER",
-								["y"] = -189.5000120019606,
 							},
 						}, -- [2]
 						{
 							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
+								["y"] = 610,
 								["x"] = -82,
 								["point"] = "BOTTOMRIGHT",
-								["y"] = 610,
 							},
-							["padding"] = 5,
 						}, -- [3]
 						{
 							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
+								["y"] = 610,
 								["x"] = -42,
 								["point"] = "BOTTOMRIGHT",
-								["y"] = 610,
 							},
-							["padding"] = 5,
 						}, -- [4]
 						{
+							["padding"] = 6,
 							["version"] = 3,
 							["position"] = {
+								["y"] = 83,
 								["x"] = 3,
 								["point"] = "BOTTOM",
-								["y"] = 83,
 							},
-							["padding"] = 6,
 						}, -- [5]
 						{
+							["padding"] = 6,
 							["version"] = 3,
 							["position"] = {
+								["y"] = 83,
 								["x"] = -510,
 								["point"] = "BOTTOM",
-								["y"] = 83,
 							},
-							["padding"] = 6,
 						}, -- [6]
 						{
 						}, -- [7]
 						{
 						}, -- [8]
-						[10] = {
-						},
+						nil, -- [9]
+						{
+						}, -- [10]
 					},
 				},
-				["藍安 - 阿拉索"] = {
+				["花花喵呜 - 阿拉索"] = {
 					["actionbars"] = {
 						{
 							["padding"] = 6,
@@ -84,8 +85,8 @@ Bartender4DB = {
 							["enabled"] = false,
 							["version"] = 3,
 							["position"] = {
-								["y"] = -189.5000120019606,
-								["x"] = -231.4999749360767,
+								["y"] = -189.4999419734273,
+								["x"] = -231.4998348790102,
 								["point"] = "CENTER",
 							},
 						}, -- [2]
@@ -136,49 +137,254 @@ Bartender4DB = {
 						}, -- [10]
 					},
 				},
+				["布布喵呜 - 阿拉索"] = {
+					["actionbars"] = {
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 41.75,
+								["x"] = -510,
+								["point"] = "BOTTOM",
+							},
+						}, -- [1]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["position"] = {
+								["y"] = -189.5000120019606,
+								["x"] = -231.4999749360767,
+								["point"] = "CENTER",
+							},
+						}, -- [2]
+						{
+							["rows"] = 12,
+							["padding"] = 5,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 610,
+								["x"] = -82,
+								["point"] = "BOTTOMRIGHT",
+							},
+						}, -- [3]
+						{
+							["rows"] = 12,
+							["padding"] = 5,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 610,
+								["x"] = -42,
+								["point"] = "BOTTOMRIGHT",
+							},
+						}, -- [4]
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 83,
+								["x"] = 3,
+								["point"] = "BOTTOM",
+							},
+						}, -- [5]
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 83,
+								["x"] = -510,
+								["point"] = "BOTTOM",
+							},
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						[10] = {
+						},
+					},
+				},
+				["藍安 - 阿拉索"] = {
+					["actionbars"] = {
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 57.20000810623196,
+								["x"] = -330.2000181674957,
+								["point"] = "BOTTOM",
+								["scale"] = 1.300000071525574,
+							},
+							["padding"] = 6,
+							["states"] = {
+								["stance"] = {
+									["PRIEST"] = {
+										["shadowform"] = 10,
+									},
+								},
+							},
+						}, -- [1]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["position"] = {
+								["y"] = -189.5000120019606,
+								["x"] = -231.4999749360767,
+								["point"] = "CENTER",
+							},
+						}, -- [2]
+						{
+							["rows"] = 12,
+							["enabled"] = false,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 610,
+								["x"] = -82,
+								["point"] = "BOTTOMRIGHT",
+							},
+							["padding"] = 5,
+						}, -- [3]
+						{
+							["rows"] = 12,
+							["enabled"] = false,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 610,
+								["x"] = -42,
+								["point"] = "BOTTOMRIGHT",
+							},
+							["padding"] = 5,
+						}, -- [4]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 83,
+								["x"] = 3,
+								["point"] = "BOTTOM",
+							},
+							["padding"] = 6,
+						}, -- [5]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 83,
+								["x"] = -510,
+								["point"] = "BOTTOM",
+							},
+							["padding"] = 6,
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+							["enabled"] = true,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 110.0811500080445,
+								["x"] = -330.2000181674957,
+								["point"] = "BOTTOM",
+								["scale"] = 1.300000071525574,
+							},
+							["padding"] = 6,
+						}, -- [8]
+						{
+							["enabled"] = true,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 161.8752507581294,
+								["x"] = -330.2000578403495,
+								["point"] = "BOTTOM",
+								["scale"] = 1.300000071525574,
+							},
+							["padding"] = 6,
+						}, -- [9]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 114.5001220703125,
+								["x"] = -231.5000610351563,
+								["point"] = "CENTER",
+							},
+						}, -- [10]
+					},
+				},
 			},
 		},
 		["LibDualSpec-1.0"] = {
 		},
 		["ExtraActionBar"] = {
 			["profiles"] = {
+				["矿矿喵呜 - 阿拉索"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 222.9999816038326,
+						["x"] = -31.49981463638733,
+						["point"] = "BOTTOM",
+					},
+				},
+				["花花喵呜 - 阿拉索"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 222.9999816038326,
+						["x"] = -31.4999546934539,
+						["point"] = "BOTTOM",
+					},
+				},
 				["布布喵呜 - 阿拉索"] = {
 					["version"] = 3,
 					["position"] = {
+						["y"] = 222.9999816038326,
 						["x"] = -31.49981463638733,
 						["point"] = "BOTTOM",
-						["y"] = 222.9999816038326,
 					},
 				},
 				["藍安 - 阿拉索"] = {
-					["version"] = 3,
 					["position"] = {
-						["y"] = 222.9999816038326,
-						["x"] = -31.49981463638733,
-						["point"] = "BOTTOM",
+						["y"] = 31.5,
+						["x"] = -146.8014526367188,
+						["point"] = "CENTER",
 					},
+					["version"] = 3,
 				},
 			},
 		},
 		["MicroMenu"] = {
 			["profiles"] = {
-				["布布喵呜 - 阿拉索"] = {
+				["矿矿喵呜 - 阿拉索"] = {
 					["version"] = 3,
 					["position"] = {
+						["y"] = 41.75,
 						["x"] = 37.5,
 						["point"] = "BOTTOM",
 						["scale"] = 1,
+					},
+				},
+				["花花喵呜 - 阿拉索"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 41.75,
+						["x"] = 37.5,
+						["point"] = "BOTTOM",
+						["scale"] = 1,
+					},
+				},
+				["布布喵呜 - 阿拉索"] = {
+					["version"] = 3,
+					["position"] = {
+						["scale"] = 1,
+						["x"] = 37.5,
+						["point"] = "BOTTOM",
 						["y"] = 41.75,
 					},
 				},
 				["藍安 - 阿拉索"] = {
-					["version"] = 3,
+					["enabled"] = false,
 					["position"] = {
 						["y"] = 41.75,
 						["x"] = 37.5,
 						["point"] = "BOTTOM",
 						["scale"] = 1,
 					},
+					["version"] = 3,
 				},
 			},
 		},
@@ -186,104 +392,188 @@ Bartender4DB = {
 		},
 		["BlizzardArt"] = {
 			["profiles"] = {
+				["矿矿喵呜 - 阿拉索"] = {
+					["enabled"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47,
+						["x"] = -512,
+						["point"] = "BOTTOM",
+					},
+				},
+				["花花喵呜 - 阿拉索"] = {
+					["enabled"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47,
+						["x"] = -512,
+						["point"] = "BOTTOM",
+					},
+				},
 				["布布喵呜 - 阿拉索"] = {
 					["enabled"] = true,
 					["version"] = 3,
 					["position"] = {
+						["y"] = 47,
 						["x"] = -512,
 						["point"] = "BOTTOM",
-						["y"] = 47,
 					},
 				},
 				["藍安 - 阿拉索"] = {
-					["enabled"] = true,
-					["version"] = 3,
 					["position"] = {
 						["y"] = 47,
 						["x"] = -512,
 						["point"] = "BOTTOM",
 					},
+					["version"] = 3,
 				},
 			},
 		},
 		["BagBar"] = {
 			["profiles"] = {
-				["布布喵呜 - 阿拉索"] = {
-					["version"] = 3,
+				["矿矿喵呜 - 阿拉索"] = {
 					["onebag"] = true,
+					["version"] = 3,
 					["position"] = {
+						["y"] = 41.75,
 						["x"] = 463.5,
 						["point"] = "BOTTOM",
+					},
+				},
+				["花花喵呜 - 阿拉索"] = {
+					["onebag"] = true,
+					["version"] = 3,
+					["position"] = {
 						["y"] = 41.75,
+						["x"] = 463.5,
+						["point"] = "BOTTOM",
+					},
+				},
+				["布布喵呜 - 阿拉索"] = {
+					["onebag"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 41.75,
+						["x"] = 463.5,
+						["point"] = "BOTTOM",
 					},
 				},
 				["藍安 - 阿拉索"] = {
+					["enabled"] = false,
 					["onebag"] = true,
-					["version"] = 3,
 					["position"] = {
 						["y"] = 41.75,
 						["x"] = 463.5,
 						["point"] = "BOTTOM",
 					},
+					["version"] = 3,
 				},
 			},
 		},
 		["Vehicle"] = {
 			["profiles"] = {
+				["矿矿喵呜 - 阿拉索"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47.50003894653275,
+						["x"] = 99.50018146553998,
+						["point"] = "CENTER",
+					},
+				},
+				["花花喵呜 - 阿拉索"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47.50000393226628,
+						["x"] = 99.50011143700669,
+						["point"] = "CENTER",
+					},
+				},
 				["布布喵呜 - 阿拉索"] = {
 					["version"] = 3,
 					["position"] = {
+						["y"] = 47.50003894653275,
 						["x"] = 99.50018146553998,
 						["point"] = "CENTER",
-						["y"] = 47.50003894653275,
 					},
 				},
 				["藍安 - 阿拉索"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = 47.50003894653275,
-						["x"] = 99.50018146553998,
-						["point"] = "CENTER",
+						["y"] = 198.1752471923828,
+						["x"] = 288.0503540039063,
+						["point"] = "BOTTOM",
 					},
 				},
 			},
 		},
 		["StanceBar"] = {
 			["profiles"] = {
+				["矿矿喵呜 - 阿拉索"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -14.99995424893689,
+						["x"] = -82.49996720831859,
+						["point"] = "CENTER",
+					},
+				},
+				["花花喵呜 - 阿拉索"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -14.99999801677006,
+						["x"] = -82.49994970118542,
+						["point"] = "CENTER",
+					},
+				},
 				["布布喵呜 - 阿拉索"] = {
 					["version"] = 3,
 					["position"] = {
+						["y"] = -14.99995424893689,
 						["x"] = -82.49996720831859,
 						["point"] = "CENTER",
-						["y"] = -14.99995424893689,
 					},
 				},
 				["藍安 - 阿拉索"] = {
-					["version"] = 3,
 					["position"] = {
-						["y"] = 116,
-						["x"] = -460,
+						["y"] = 196.1752319335938,
+						["x"] = -330.3498840332031,
 						["point"] = "BOTTOM",
 						["scale"] = 1,
 					},
+					["version"] = 3,
 				},
 			},
 		},
 		["PetBar"] = {
 			["profiles"] = {
+				["矿矿喵呜 - 阿拉索"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 116,
+						["x"] = -460,
+						["point"] = "BOTTOM",
+					},
+				},
+				["花花喵呜 - 阿拉索"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 116,
+						["x"] = -460,
+						["point"] = "BOTTOM",
+					},
+				},
 				["布布喵呜 - 阿拉索"] = {
 					["version"] = 3,
 					["position"] = {
+						["y"] = 116,
 						["x"] = -460,
 						["point"] = "BOTTOM",
-						["y"] = 116,
 					},
 				},
 				["藍安 - 阿拉索"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = 116,
-						["x"] = -120,
+						["y"] = 197.1898345947266,
+						["x"] = -163.5,
 						["point"] = "BOTTOM",
 					},
 				},
@@ -293,13 +583,25 @@ Bartender4DB = {
 		},
 	},
 	["profileKeys"] = {
+		["矿矿喵呜 - 阿拉索"] = "矿矿喵呜 - 阿拉索",
+		["花花喵呜 - 阿拉索"] = "花花喵呜 - 阿拉索",
 		["布布喵呜 - 阿拉索"] = "布布喵呜 - 阿拉索",
 		["藍安 - 阿拉索"] = "藍安 - 阿拉索",
 	},
 	["profiles"] = {
-		["布布喵呜 - 阿拉索"] = {
-			["blizzardVehicle"] = true,
+		["矿矿喵呜 - 阿拉索"] = {
 			["focuscastmodifier"] = false,
+			["blizzardVehicle"] = true,
+			["outofrange"] = "hotkey",
+		},
+		["花花喵呜 - 阿拉索"] = {
+			["focuscastmodifier"] = false,
+			["blizzardVehicle"] = true,
+			["outofrange"] = "hotkey",
+		},
+		["布布喵呜 - 阿拉索"] = {
+			["focuscastmodifier"] = false,
+			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",
 		},
 		["藍安 - 阿拉索"] = {

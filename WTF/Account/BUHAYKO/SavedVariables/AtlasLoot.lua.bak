@@ -1,0 +1,34 @@
+
+AtlasLootDB = {
+	["namespaces"] = {
+		["WishList"] = {
+		},
+		["AtlasLootPanel"] = {
+		},
+		["DefaultFrame"] = {
+			["profiles"] = {
+				["澜安 - 阿拉索"] = {
+					["module"] = "AtlasLootMoP",
+					["NEWpoint"] = {
+						nil, -- [1]
+						nil, -- [2]
+						"CENTER", -- [3]
+						0, -- [4]
+						0, -- [5]
+					},
+					["instance"] = "StormstoutBrewery",
+				},
+			},
+		},
+		["Filter"] = {
+		},
+	},
+	["profileKeys"] = {
+		["澜安 - 阿拉索"] = "澜安 - 阿拉索",
+	},
+	["showWarning"] = true,
+	["profiles"] = {
+		["澜安 - 阿拉索"] = {
+		},
+	},
+}

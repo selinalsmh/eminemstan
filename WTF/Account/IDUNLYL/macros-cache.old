@@ -1,0 +1,7 @@
+MACRO 1 " " "INV_MISC_QUESTIONMARK"
+/cast 研磨
+/use 太阳草
+/use 黄金参
+/use 梦叶草
+/use 皇血草
+END

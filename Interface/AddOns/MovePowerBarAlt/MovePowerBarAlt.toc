@@ -1,0 +1,8 @@
+﻿## Interface: 60001
+## Title: MovePowerBarAlt
+## Title-zhTW: MovePowerBarAlt
+## Notes: Makes the PlayerPowerBarAlt frame moveable (used in encounters like Atramedes or Cho'gall). /mpba
+## Notes-zhTW: Makes the PlayerPowerBarAlt frame moveable (used in encounters like Atramedes or Cho'gall). /mpba
+## Author: sp00n / Treeston
+
+MovePowerBarAlt.lua

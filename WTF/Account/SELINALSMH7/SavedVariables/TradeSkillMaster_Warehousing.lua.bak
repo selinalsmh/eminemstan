@@ -1,0 +1,26 @@
+
+TradeSkillMaster_WarehousingDB = {
+	["global"] = {
+		["isBankui"] = false,
+	},
+	["profileKeys"] = {
+		["仓库仓库蓝 - 阿拉索"] = "Default",
+		["萌喵喵 - 阿拉索"] = "Default",
+	},
+	["factionrealm"] = {
+		["Alliance - 阿拉索"] = {
+			["PlayerBagState"] = {
+				[89112] = 1,
+				[81133] = 1,
+				[6948] = 1,
+				[87213] = 1,
+				[85580] = 1,
+				[90908] = 1,
+				[81414] = 18,
+				[52723] = 1,
+				[76061] = 1,
+				[82827] = 1,
+			},
+		},
+	},
+}

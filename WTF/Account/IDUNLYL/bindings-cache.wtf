@@ -1,0 +1,17 @@
+BINDINGMODE 0
+bind A ACTIONBUTTON6
+bind D ACTIONBUTTON7
+bind Z ACTIONBUTTON9
+bind 6 NONE
+bind 7 NONE
+bind 9 NONE
+bind F CLICK BT4Button51:LeftButton
+bind V CLICK BT4Button55:LeftButton
+bind T CLICK BT4Button63:LeftButton
+bind C CLICK BT4Button56:LeftButton
+bind B CLICK BT4Button62:LeftButton
+bind MOUSEWHEELUP CLICK BT4Button50:LeftButton
+bind SHIFT-D CLICK BT4Button52:LeftButton
+bind SHIFT-A CLICK BT4Button64:LeftButton
+bind ` CLICK BT4Button66:LeftButton
+bind BUTTON5 CLICK BT4Button72:LeftButton

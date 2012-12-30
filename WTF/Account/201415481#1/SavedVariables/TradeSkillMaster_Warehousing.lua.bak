@@ -1,0 +1,18 @@
+
+TradeSkillMaster_WarehousingDB = {
+	["profileKeys"] = {
+		["親愛的偏執狂 - 阿拉索"] = "Default",
+	},
+	["factionrealm"] = {
+		["Alliance - 阿拉索"] = {
+			["PlayerBagState"] = {
+				[81406] = 59,
+				[6948] = 1,
+				[81402] = 80,
+				[89112] = 19,
+				[72988] = 11,
+				[40772] = 1,
+			},
+		},
+	},
+}

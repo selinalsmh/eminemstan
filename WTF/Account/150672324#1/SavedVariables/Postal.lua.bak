@@ -12,6 +12,30 @@ Postal3DB = {
 	},
 	["profiles"] = {
 		["Eminemstan - 阿拉索"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"岚黯|阿拉索|Alliance", -- [1]
+					"Kokohekmaty|阿拉索|Alliance", -- [2]
+					"面面肉铺|阿拉索|Alliance", -- [3]
+					"Shikinami|阿拉索|Alliance", -- [4]
+					"Ayanamio|阿拉索|Alliance", -- [5]
+					"瞪誰谁怀孕|阿拉索|Alliance", -- [6]
+					"晴天小猫|阿拉索|Alliance", -- [7]
+					"小影迹|阿拉索|Alliance", -- [8]
+					"面面矿石|阿拉索|Alliance", -- [9]
+					"藍安|阿拉索|Alliance", -- [10]
+					"老脸臭虫|阿拉索|Alliance", -- [11]
+					"澜安|阿拉索|Alliance", -- [12]
+					"沃利贝尔|阿拉索|Alliance", -- [13]
+					"灆安|阿拉索|Alliance", -- [14]
+					"面面附魔|阿拉索|Alliance", -- [15]
+					"悦花黯然|阿拉索|Alliance", -- [16]
+					"面面布料|阿拉索|Alliance", -- [17]
+					"面面仓库|阿拉索|Alliance", -- [18]
+					"Cagezc|阿拉索|Alliance", -- [19]
+					"萌喵喵|阿拉索|Alliance", -- [20]
+				},
+			},
 		},
 	},
 }

@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
+	["session"] = 48,
 	["lastSanitation"] = 3,
-	["session"] = 21,
 	["errors"] = {
 		{
 			["message"] = "oUF_Freebgrid-6.9.3\\config.lua:2166: attempt to call field \"ClickSetDefault\" (a nil value)",
@@ -18,5 +18,29 @@ BugGrabberDB = {
 			["session"] = 8,
 			["counter"] = 1,
 		}, -- [2]
+		{
+			["message"] = "aMini-2.0\\AutoRepair.lua:8: attempt to perform arithmetic on a nil value",
+			["time"] = "2012/11/20 00:28:30",
+			["locals"] = "",
+			["stack"] = "aMini-2.0\\AutoRepair.lua:8: in function <aMini\\AutoRepair.lua:2>",
+			["session"] = 28,
+			["counter"] = 1,
+		}, -- [3]
+		{
+			["message"] = "FrameXML\\RaidWarning.lua:46: attempt to index local \"colorInfo\" (a number value)",
+			["time"] = "2012/11/29 00:41:37",
+			["locals"] = "noticeFrame = RaidWarningFrame {\n 0 = <userdata>\n timings = <table> {}\n slot1 = RaidWarningFrameSlot1 {}\n slot2_text = \" |TIcons\\Spell_Misc_EmotionAngry:18:18:0:0:64:64:5:59:5:59|t |cffff1919攻击行为 -|r|cffff1919 >沫沫儒生|r|cffff1919, |r|cffff1919九级天使|r|cffff1919, |r|cffff1919轩辕炽魔|r|cffff1919, |r|cffff1919小甩鸟|r|cffff1919, |r|cffff1919激丶光|r|cffff1919, |r|cffff1919血魔无锋|r|cffff1919|r |TIcons\\Spell_Misc_EmotionAngry:18:18:0:0:64:64:5:59:5:59|t \"\n slot1_text = \"Klie施放了隐形术！\"\n slot2 = RaidWarningFrameSlot2 {}\n}\ntextString = \"Klie施放了隐形术！\"\ncolorInfo = 0.41\ndisplayTime = 10\n",
+			["stack"] = "FrameXML\\RaidWarning.lua:46: in function \"RaidNotice_SetSlot\"\nFrameXML\\RaidWarning.lua:28: in function <FrameXML\\RaidWarning.lua:13>\n(tail call): ?\naMini-2.0\\m_Settings.lua:888: in function <aMini\\m_Settings.lua:859>",
+			["session"] = 42,
+			["counter"] = 1,
+		}, -- [4]
+		{
+			["message"] = "FrameXML\\WorldMapFrame.lua:1535: attempt to concatenate a nil value",
+			["time"] = "2012/11/29 01:04:04",
+			["locals"] = "self = WorldMapRaid25 {\n 0 = <userdata>\n icon = WorldMapRaid25Icon {}\n unit = \"raid26\"\n}\nmotion = true\n",
+			["stack"] = "FrameXML\\WorldMapFrame.lua:1535: in function \"WorldMapUnit_OnEnter\"\n<string>:\"*:OnEnter\":1: in function <string>:\"*:OnEnter\":1",
+			["session"] = 42,
+			["counter"] = 1,
+		}, -- [5]
 	},
 }

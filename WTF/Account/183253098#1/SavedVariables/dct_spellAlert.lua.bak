@@ -24,6 +24,7 @@ DCTSA_CONFIG = {
 			["filt"] = {
 			},
 			["buffer"] = {
+				["射击"] = 0,
 			},
 		},
 		["DCTSA_FILTER_DISPELLED"] = {
@@ -36,6 +37,7 @@ DCTSA_CONFIG = {
 			["filt"] = {
 			},
 			["buffer"] = {
+				"射击", -- [1]
 			},
 		},
 		["DCTSA_FILTER_BUFF"] = {

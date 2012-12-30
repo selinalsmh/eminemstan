@@ -1,0 +1,184 @@
+
+ReforgeLiteDB = {
+	["windowHeight"] = 564,
+	["updateTooltip"] = true,
+	["reforgeCheat"] = 5,
+	["profiles"] = {
+		["Eminemstan - 阿拉索"] = {
+			["method"] = {
+				["items"] = {
+					{
+					}, -- [1]
+					{
+					}, -- [2]
+					{
+						["dst"] = 4,
+						["src"] = 5,
+						["reforge"] = 32,
+						["amount"] = 211,
+					}, -- [3]
+					{
+						["dst"] = 8,
+						["src"] = 5,
+						["reforge"] = 35,
+						["amount"] = 162,
+					}, -- [4]
+					{
+					}, -- [5]
+					{
+						["dst"] = 4,
+						["src"] = 6,
+						["reforge"] = 39,
+						["amount"] = 172,
+					}, -- [6]
+					{
+						["dst"] = 8,
+						["src"] = 5,
+						["reforge"] = 35,
+						["amount"] = 173,
+					}, -- [7]
+					{
+						["dst"] = 8,
+						["src"] = 4,
+						["reforge"] = 28,
+						["amount"] = 198,
+					}, -- [8]
+					{
+						["dst"] = 8,
+						["src"] = 5,
+						["reforge"] = 35,
+						["amount"] = 227,
+					}, -- [9]
+					{
+						["dst"] = 8,
+						["src"] = 5,
+						["reforge"] = 35,
+						["amount"] = 172,
+					}, -- [10]
+					{
+						["dst"] = 8,
+						["src"] = 5,
+						["reforge"] = 35,
+						["amount"] = 150,
+					}, -- [11]
+					{
+						["dst"] = 4,
+						["src"] = 6,
+						["reforge"] = 39,
+						["amount"] = 130,
+					}, -- [12]
+					{
+					}, -- [13]
+					{
+					}, -- [14]
+					{
+						["dst"] = 6,
+						["src"] = 7,
+						["reforge"] = 48,
+						["amount"] = 111,
+					}, -- [15]
+					{
+					}, -- [16]
+				},
+				["stats"] = {
+					151, -- [1]
+					0, -- [2]
+					0, -- [3]
+					2554, -- [4]
+					1749, -- [5]
+					2754, -- [6]
+					2211, -- [7]
+					5707, -- [8]
+				},
+			},
+			["weights"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				200, -- [4]
+				120, -- [5]
+				140, -- [6]
+				180, -- [7]
+				160, -- [8]
+			},
+			["caps"] = {
+				{
+					["stat"] = 4,
+					["points"] = {
+						{
+							["value"] = 2550,
+							["preset"] = 2,
+							["method"] = 1,
+							["after"] = 0,
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["stat"] = 7,
+					["points"] = {
+						{
+							["value"] = 2210,
+							["preset"] = 5,
+							["method"] = 1,
+							["after"] = 0,
+						}, -- [1]
+					},
+				}, -- [2]
+			},
+			["prio"] = {
+				{
+					["value"] = 2550,
+					["preset"] = 2,
+					["stat"] = 4,
+					["capped"] = true,
+				}, -- [1]
+				{
+					["value"] = 2210,
+					["preset"] = 5,
+					["stat"] = 7,
+					["capped"] = true,
+				}, -- [2]
+				{
+					["value"] = 0,
+					["preset"] = 1,
+					["capped"] = false,
+					["stat"] = 8,
+				}, -- [3]
+				{
+					["value"] = 0,
+					["preset"] = 1,
+					["capped"] = false,
+					["stat"] = 6,
+				}, -- [4]
+				{
+					["value"] = 0,
+					["preset"] = 1,
+					["capped"] = false,
+					["stat"] = 5,
+				}, -- [5]
+			},
+			["targetLevel"] = 3,
+			["buffs"] = {
+			},
+			["itemsLocked"] = {
+			},
+			["customMethodPresets"] = {
+			},
+		},
+	},
+	["windowWidth"] = 800,
+	["itemSize"] = 24,
+	["openOnReforge"] = true,
+	["customPresets"] = {
+	},
+	["inactiveWindowTitle"] = {
+		0.5, -- [1]
+		0.5, -- [2]
+		0.5, -- [3]
+	},
+	["activeWindowTitle"] = {
+		0.8, -- [1]
+		0, -- [2]
+		0, -- [3]
+	},
+}

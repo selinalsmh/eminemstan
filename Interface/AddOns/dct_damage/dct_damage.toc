@@ -1,0 +1,22 @@
+﻿## Interface: 60001
+## Title: <DCT> Damage
+## Title-zhTW: DCT [|cffff8080Damage mod|r]
+## Notes: |cffbc8f8fShow damage texts you attacking for DCT.|r
+## Notes-zhTW: 为DCT (Dennis's Combat Text) 提供你对怪物攻击伤害的显示功能
+## Dependencies: dct
+## Title-zhCN: |cffffe00a<|r|cffff7d0aDCT|r|cffffe00a>|r 伤害模块
+## Notes-zhCN: |cff00ff00dct_damage|r                                             |cffbc8f8f为战斗指示器提供你对怪物伤害的显示功能。|r
+## Author: Dennie
+## SavedVariables: DCTD_CONFIG
+## SavedVariablesPerCharacter: DCTD_PERCONFIG
+
+
+dctd_default.lua
+loc_dctd.lua
+
+locals\cn_loc_dctd.lua
+
+dctd.lua
+dctd_options.lua
+dctd_options.xml
+

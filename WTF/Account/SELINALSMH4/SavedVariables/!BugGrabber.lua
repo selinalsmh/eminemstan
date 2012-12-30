@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
+	["session"] = 44,
 	["lastSanitation"] = 3,
-	["session"] = 9,
 	["errors"] = {
 		{
 			["message"] = "oUF_Freebgrid-6.9.3\\config.lua:665: attempt to index field \"oUF_FreebgridRaidFrame\" (a nil value)",

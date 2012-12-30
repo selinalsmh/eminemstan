@@ -1,0 +1,29 @@
+﻿## Interface: 60001
+## Title: |cff777777dim|rinfo
+## Title-zhTW: |cff777777dim|rinfo
+## Notes: Info Text
+## Notes-zhTW: Info Text
+## Author: Loshine
+## Credits-to:Tukz, Katae
+## Version: v2.1
+## SavedVariables: diminfo
+
+cfg.lua
+init.lua
+
+locale\english.lua
+locale\chinese.lua
+locale\taiwan.lua
+
+modules\Bags.lua
+modules\Coords.lua
+modules\Durability.lua
+modules\Friends.lua
+modules\Gold.lua
+modules\Guild.lua
+modules\Mail.lua
+modules\Memory.lua
+modules\Positions.lua
+modules\Spec.lua
+modules\System.lua
+modules\Time.lua

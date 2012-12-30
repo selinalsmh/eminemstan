@@ -1,0 +1,21 @@
+
+AtlasLootDB = {
+	["namespaces"] = {
+		["WishList"] = {
+		},
+		["AtlasLootPanel"] = {
+		},
+		["DefaultFrame"] = {
+		},
+		["Filter"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Karuta - 阿拉索"] = "Karuta - 阿拉索",
+	},
+	["showWarning"] = true,
+	["profiles"] = {
+		["Karuta - 阿拉索"] = {
+		},
+	},
+}

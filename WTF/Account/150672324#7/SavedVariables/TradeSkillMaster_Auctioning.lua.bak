@@ -1,0 +1,22 @@
+
+TradeSkillMaster_AuctioningDB = {
+	["factionrealm"] = {
+		["Neutral - 阿拉索"] = {
+			["player"] = {
+				["瞪誰谁怀孕"] = true,
+			},
+		},
+		["Alliance - 阿拉索"] = {
+			["player"] = {
+				["瞪誰谁怀孕"] = true,
+			},
+		},
+	},
+	["profileKeys"] = {
+		["瞪誰谁怀孕 - 阿拉索"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

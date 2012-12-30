@@ -1,0 +1,23 @@
+
+Postal3DB = {
+	["profileKeys"] = {
+		["瞪誰谁怀孕 - 阿拉索"] = "瞪誰谁怀孕 - 阿拉索",
+	},
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"瞪誰谁怀孕|阿拉索|Alliance|62|WARRIOR", -- [1]
+				"瞪誰谁怀孕|阿拉索|Neutral|1|WARRIOR", -- [2]
+			},
+		},
+	},
+	["profiles"] = {
+		["瞪誰谁怀孕 - 阿拉索"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"面面仓库|阿拉索|Alliance", -- [1]
+				},
+			},
+		},
+	},
+}

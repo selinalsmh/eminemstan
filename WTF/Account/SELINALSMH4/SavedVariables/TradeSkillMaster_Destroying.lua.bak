@@ -1,0 +1,7 @@
+
+TradeSkillMaster_DestroyingDB = {
+	["profileKeys"] = {
+		["矿矿喵呜 - 阿拉索"] = "Default",
+		["藍安 - 阿拉索"] = "Default",
+	},
+}

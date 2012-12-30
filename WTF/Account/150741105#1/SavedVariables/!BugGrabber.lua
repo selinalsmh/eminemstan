@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
+	["session"] = 22,
 	["lastSanitation"] = 3,
-	["session"] = 3,
 	["errors"] = {
 		{
 			["message"] = "oUF_Qulight-0.1 beta\\lib.lua:1580: bad argument #1 to \"pairs\" (table expected, got nil)",
@@ -11,5 +11,13 @@ BugGrabberDB = {
 			["session"] = 3,
 			["counter"] = 3,
 		}, -- [1]
+		{
+			["message"] = "oUF_Freebgrid-6.9.3\\freebgrid.lua:782: script ran too long",
+			["time"] = "2012/11/30 20:17:42",
+			["locals"] = "(*temporary) = InterfaceOptionsFrame {\n 0 = <userdata>\n numTabs = 2\n selectedTab = 1\n}\n(*temporary) = <func> =[C]:-1\n",
+			["stack"] = "oUF_Freebgrid-6.9.3\\freebgrid.lua:782: in function <oUF_Freebgrid\\freebgrid.lua:779>\n<in C code>\nFrameXML\\UIParent.lua:1738: in function \"SetUIPanel\"\nFrameXML\\UIParent.lua:1543: in function \"ShowUIPanel\"\nFrameXML\\UIParent.lua:1469: in function <FrameXML\\UIParent.lua:1465>\n<in C code>\nFrameXML\\UIParent.lua:2179: in function \"ShowUIPanel\"\n<string>:\"*:OnClick\":2: in function <string>:\"*:OnClick\":1",
+			["session"] = 18,
+			["counter"] = 1,
+		}, -- [2]
 	},
 }

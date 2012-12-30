@@ -377,12 +377,12 @@ oUF_FreebgridDB = {
 		},
 		["orientation"] = "HORIZONTAL",
 		["width"] = 90,
-		["reversecolors"] = true,
-		["hpbgcolor"] = {
-			["a"] = 1,
-			["r"] = 0.33,
-			["g"] = 0.33,
-			["b"] = 0.33,
+		["fontPath"] = "Fonts\\ARHei.ttf",
+		["myhealcolor"] = {
+			["a"] = 0.4,
+			["r"] = 0,
+			["g"] = 1,
+			["b"] = 0.5,
 		},
 		["growth"] = "DOWN",
 		["otherhealcolor"] = {
@@ -391,14 +391,14 @@ oUF_FreebgridDB = {
 			["g"] = 1,
 			["b"] = 0,
 		},
-		["myhealcolor"] = {
-			["a"] = 0.4,
-			["r"] = 0,
-			["g"] = 1,
-			["b"] = 0.5,
+		["hpbgcolor"] = {
+			["a"] = 1,
+			["r"] = 0.33,
+			["g"] = 0.33,
+			["b"] = 0.33,
 		},
-		["scaleYes"] = true,
 		["font"] = "聊天",
+		["scaleYes"] = true,
 		["cluster"] = {
 			["enabled"] = false,
 			["textcolor"] = {
@@ -413,7 +413,7 @@ oUF_FreebgridDB = {
 		},
 		["height"] = 45,
 		["horizontal"] = true,
-		["fontPath"] = "Fonts\\ARHei.ttf",
+		["reversecolors"] = true,
 		["powerbarsize"] = 0.1,
 	},
 	["Talent\"火焰\""] = {
@@ -627,8 +627,8 @@ oUF_FreebgridDB = {
 		["reversecolors"] = false,
 		["healothersonly"] = false,
 		["healalpha"] = 0.4,
-		["numCol"] = 8,
 		["porientation"] = "VERTICAL",
+		["numCol"] = 8,
 		["indicatorsize"] = 6,
 		["MT"] = false,
 		["roleicon"] = false,

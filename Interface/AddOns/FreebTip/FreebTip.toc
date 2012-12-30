@@ -1,0 +1,12 @@
+﻿## Interface: 60001
+## Title: FreebTip
+## Title-zhTW: FreebTip
+## Notes: Custom GameTooltip
+## Notes-zhTW: Custom Game Tooltip
+## Version: 2.4
+## Author: Freebaser
+## OptionalDeps: IDCard
+
+tip.lua
+anchor.lua
+FreebTip_Multi.xml

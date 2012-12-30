@@ -1,0 +1,13 @@
+
+BagnonFrameSettings = {
+	["frames"] = {
+		["inventory"] = {
+			["point"] = "TOPRIGHT",
+			["scale"] = 1.2,
+			["itemFrameColumns"] = 10,
+			["y"] = -140.7470353165415,
+			["x"] = -210.129984117872,
+		},
+	},
+	["version"] = "5.1.0",
+}

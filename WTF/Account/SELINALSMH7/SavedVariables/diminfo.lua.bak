@@ -1,0 +1,11 @@
+
+diminfo = {
+	["AutoCollect"] = true,
+	["AutoRepair"] = true,
+	["gold"] = {
+		["阿拉索"] = {
+			["萌喵喵"] = 72240580,
+			["仓库仓库蓝"] = 95080,
+		},
+	},
+}

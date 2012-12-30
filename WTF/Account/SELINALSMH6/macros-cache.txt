@@ -1,0 +1,35 @@
+MACRO 25 " " "INV_MISC_QUESTIONMARK"
+/cast [@mouseover,exists,harm][]腐蚀术
+/targetenemy
+END
+MACRO 23 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nomod] 鬼影缠身
+/cast [mod:alt] 元素诅咒
+END
+MACRO 21 " " "INV_MISC_QUESTIONMARK"
+/castsequence reset=120 小鬼成群(雕文),魔典:恶魔卫士
+/cast 黑暗灵魂：学识
+END
+MACRO 22 " " "INV_MISC_QUESTIONMARK"
+/cast [@mouseover,exists,harm][]痛楚
+/targetenemy
+END
+MACRO 3 " " "INV_Misc_QuestionMark"
+#show [modifier:alt]吸取灵魂;吸取生命
+/cast [modifier:alt, harm]吸取灵魂;[harm]吸取生命
+END
+MACRO 24 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nomod] 灾难之握
+/cast [mod:alt] 吸取灵魂
+END
+MACRO 20 "LiteMount" "ABILITY_MOUNT_MECHASTRIDER"
+# Auto-created by LiteMount addon
+/click [nobtn:2] LiteMount
+/click [btn:2] LiteMount RightButton
+END
+MACRO 5 "法阵" "INV_Misc_QuestionMark"
+#showtooltip 
+/cast [mod:altl]恶魔法阵：召唤;恶魔法阵：传送
+END

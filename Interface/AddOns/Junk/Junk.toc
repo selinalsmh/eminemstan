@@ -1,0 +1,13 @@
+﻿## Interface: 60001
+## Title: Junk
+## Title-zhTW: Junk
+## Notes: Auto-sell grey items when visiting a vendor.
+## Notes-zhTW: Auto-sell grey items when visiting a vendor.
+
+## Author: Guster
+## Version: 1.0.0.0
+## X-Website: https://github.com/guster/junk
+## X-Email: gustertheshaman@gmail.com
+## X-Category: Inventory
+
+Junk.lua

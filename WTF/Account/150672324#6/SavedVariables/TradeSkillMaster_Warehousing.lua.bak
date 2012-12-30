@@ -1,0 +1,21 @@
+
+TradeSkillMaster_WarehousingDB = {
+	["profileKeys"] = {
+		["Ikarishinji - 阿拉索"] = "Default",
+	},
+	["factionrealm"] = {
+		["Alliance - 阿拉索"] = {
+			["PlayerBagState"] = {
+				[89112] = 2,
+				[6948] = 1,
+				[89640] = 10,
+				[89641] = 4,
+				[89612] = 1,
+				[87213] = 1,
+				[86392] = 1,
+				[81414] = 36,
+				[2901] = 1,
+			},
+		},
+	},
+}

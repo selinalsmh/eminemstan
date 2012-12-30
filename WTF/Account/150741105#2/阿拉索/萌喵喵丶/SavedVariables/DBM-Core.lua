@@ -6,6 +6,7 @@ DBM_SavedOptions = {
 	["UseMasterVolume"] = true,
 	["StatusEnabled"] = true,
 	["InfoFrameX"] = 75,
+	["CountdownPullTimer"] = true,
 	["AprilFools"] = true,
 	["RangeFrameX"] = 50,
 	["DisableCinematicsOutside"] = false,
@@ -55,15 +56,16 @@ DBM_SavedOptions = {
 	["LatencyThreshold"] = 250,
 	["ShowLoadMessage"] = true,
 	["DontShowBossAnnounces"] = false,
-	["RangeFramePoint"] = "CENTER",
 	["BlockVersionUpdateNotice"] = false,
+	["RangeFramePoint"] = "CENTER",
 	["SpecialWarningFontColor"] = {
 		0, -- [1]
 		0, -- [2]
 		1, -- [3]
 	},
-	["DontSendBossWhispers"] = false,
-	["LastRevision"] = 7956,
+	["ShowRecoveryMessage"] = true,
+	["LastRevision"] = 8085,
+	["AutoRespond"] = true,
 	["WarningColors"] = {
 		{
 			["r"] = 0.41,
@@ -89,25 +91,25 @@ DBM_SavedOptions = {
 	["ShowPizzaMessage"] = true,
 	["RangeFrameSound2"] = "none",
 	["ShowLHFrame"] = true,
-	["DontSendBossAnnounces"] = false,
 	["HPFrameMaxEntries"] = 5,
-	["Enabled"] = true,
 	["ArrowPosY"] = -150,
+	["Enabled"] = true,
 	["HealthFrameLocked"] = false,
+	["RangeFrameLocked"] = false,
 	["DisableCinematics"] = false,
 	["MovieFilters"] = {
 	},
 	["RangeFrameRadarY"] = -100,
 	["ShowWipeMessage"] = true,
-	["RangeFrameLocked"] = false,
 	["RangeFrameFrames"] = "radar",
 	["ShowSpecialWarnings"] = true,
+	["DontSendBossAnnounces"] = false,
 	["AlwaysShowHealthFrame"] = false,
 	["HPFrameX"] = -50,
-	["AutoRespond"] = true,
+	["DontSendBossWhispers"] = false,
 	["SpamBlockBossWhispers"] = false,
-	["ShowRecoveryMessage"] = true,
 	["ShowEngageMessage"] = true,
+	["EnableReadyCheckSound"] = true,
 }
 DBT_SavedOptions = {
 	["DBM"] = {
@@ -115,6 +117,7 @@ DBT_SavedOptions = {
 		["HugeScale"] = 1,
 		["BarYOffset"] = 9,
 		["Scale"] = 1,
+		["ExpandUpwards"] = false,
 		["BarXOffset"] = 0,
 		["Texture"] = "JUI Normal",
 	},

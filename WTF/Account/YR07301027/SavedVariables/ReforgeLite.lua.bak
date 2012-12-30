@@ -1,0 +1,530 @@
+
+ReforgeLiteDB = {
+	["windowHeight"] = 564,
+	["updateTooltip"] = true,
+	["windowY"] = 900.8588860087983,
+	["reforgeCheat"] = 5,
+	["profiles"] = {
+		["面面布料 - 阿拉索"] = {
+			["caps"] = {
+				{
+					["stat"] = 0,
+					["points"] = {
+						{
+							["value"] = 0,
+							["preset"] = 1,
+							["method"] = 1,
+							["after"] = 0,
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["stat"] = 0,
+					["points"] = {
+						{
+							["value"] = 0,
+							["preset"] = 1,
+							["method"] = 1,
+							["after"] = 0,
+						}, -- [1]
+					},
+				}, -- [2]
+			},
+			["targetLevel"] = 3,
+			["buffs"] = {
+			},
+			["weights"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				0, -- [5]
+				0, -- [6]
+				0, -- [7]
+				0, -- [8]
+			},
+			["itemsLocked"] = {
+			},
+			["customMethodPresets"] = {
+			},
+		},
+		["面面药铺 - 阿拉索"] = {
+			["caps"] = {
+				{
+					["stat"] = 0,
+					["points"] = {
+						{
+							["value"] = 0,
+							["preset"] = 1,
+							["method"] = 1,
+							["after"] = 0,
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["stat"] = 0,
+					["points"] = {
+						{
+							["value"] = 0,
+							["preset"] = 1,
+							["method"] = 1,
+							["after"] = 0,
+						}, -- [1]
+					},
+				}, -- [2]
+			},
+			["targetLevel"] = 3,
+			["customMethodPresets"] = {
+			},
+			["weights"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				0, -- [5]
+				0, -- [6]
+				0, -- [7]
+				0, -- [8]
+			},
+			["itemsLocked"] = {
+			},
+			["buffs"] = {
+			},
+		},
+		["面面附魔 - 阿拉索"] = {
+			["caps"] = {
+				{
+					["stat"] = 0,
+					["points"] = {
+						{
+							["value"] = 0,
+							["preset"] = 1,
+							["method"] = 1,
+							["after"] = 0,
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["stat"] = 0,
+					["points"] = {
+						{
+							["value"] = 0,
+							["preset"] = 1,
+							["method"] = 1,
+							["after"] = 0,
+						}, -- [1]
+					},
+				}, -- [2]
+			},
+			["targetLevel"] = 3,
+			["customMethodPresets"] = {
+			},
+			["weights"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				0, -- [5]
+				0, -- [6]
+				0, -- [7]
+				0, -- [8]
+			},
+			["itemsLocked"] = {
+			},
+			["buffs"] = {
+			},
+		},
+		["面面皮革 - 阿拉索"] = {
+			["caps"] = {
+				{
+					["stat"] = 0,
+					["points"] = {
+						{
+							["value"] = 0,
+							["preset"] = 1,
+							["method"] = 1,
+							["after"] = 0,
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["stat"] = 0,
+					["points"] = {
+						{
+							["value"] = 0,
+							["preset"] = 1,
+							["method"] = 1,
+							["after"] = 0,
+						}, -- [1]
+					},
+				}, -- [2]
+			},
+			["targetLevel"] = 3,
+			["buffs"] = {
+			},
+			["weights"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				0, -- [5]
+				0, -- [6]
+				0, -- [7]
+				0, -- [8]
+			},
+			["itemsLocked"] = {
+			},
+			["customMethodPresets"] = {
+			},
+		},
+		["铭文面面 - 阿拉索"] = {
+			["caps"] = {
+				{
+					["stat"] = 0,
+					["points"] = {
+						{
+							["value"] = 0,
+							["preset"] = 1,
+							["method"] = 1,
+							["after"] = 0,
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["stat"] = 0,
+					["points"] = {
+						{
+							["value"] = 0,
+							["preset"] = 1,
+							["method"] = 1,
+							["after"] = 0,
+						}, -- [1]
+					},
+				}, -- [2]
+			},
+			["targetLevel"] = 3,
+			["weights"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				0, -- [5]
+				0, -- [6]
+				0, -- [7]
+				0, -- [8]
+			},
+			["buffs"] = {
+			},
+			["itemsLocked"] = {
+			},
+			["customMethodPresets"] = {
+			},
+		},
+		["面面仓库 - 阿拉索"] = {
+			["caps"] = {
+				{
+					["stat"] = 0,
+					["points"] = {
+						{
+							["value"] = 0,
+							["preset"] = 1,
+							["method"] = 1,
+							["after"] = 0,
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["stat"] = 0,
+					["points"] = {
+						{
+							["value"] = 0,
+							["preset"] = 1,
+							["method"] = 1,
+							["after"] = 0,
+						}, -- [1]
+					},
+				}, -- [2]
+			},
+			["targetLevel"] = 3,
+			["customMethodPresets"] = {
+			},
+			["buffs"] = {
+			},
+			["itemsLocked"] = {
+			},
+			["weights"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				0, -- [5]
+				0, -- [6]
+				0, -- [7]
+				0, -- [8]
+			},
+		},
+		["面面矿石 - 阿拉索"] = {
+			["caps"] = {
+				{
+					["stat"] = 0,
+					["points"] = {
+						{
+							["value"] = 0,
+							["preset"] = 1,
+							["method"] = 1,
+							["after"] = 0,
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["stat"] = 0,
+					["points"] = {
+						{
+							["value"] = 0,
+							["preset"] = 1,
+							["method"] = 1,
+							["after"] = 0,
+						}, -- [1]
+					},
+				}, -- [2]
+			},
+			["targetLevel"] = 3,
+			["weights"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				0, -- [5]
+				0, -- [6]
+				0, -- [7]
+				0, -- [8]
+			},
+			["buffs"] = {
+			},
+			["itemsLocked"] = {
+			},
+			["customMethodPresets"] = {
+			},
+		},
+		["岚黯 - 阿拉索"] = {
+			["customMethodPresets"] = {
+			},
+			["weights"] = {
+				200, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				140, -- [5]
+				180, -- [6]
+				0, -- [7]
+				160, -- [8]
+			},
+			["caps"] = {
+				{
+					["stat"] = 6,
+					["points"] = {
+						{
+							["value"] = 871,
+							["preset"] = 1,
+							["method"] = 3,
+							["after"] = 120,
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["stat"] = 0,
+					["points"] = {
+						{
+							["value"] = 0,
+							["preset"] = 1,
+							["method"] = 1,
+							["after"] = 0,
+						}, -- [1]
+					},
+				}, -- [2]
+			},
+			["prio"] = {
+				{
+					["value"] = 0,
+					["preset"] = 1,
+					["capped"] = false,
+					["stat"] = 1,
+				}, -- [1]
+				{
+					["value"] = 871,
+					["preset"] = 1,
+					["stat"] = 6,
+					["capped"] = true,
+				}, -- [2]
+				{
+					["value"] = 0,
+					["preset"] = 1,
+					["capped"] = false,
+					["stat"] = 8,
+				}, -- [3]
+				{
+					["value"] = 0,
+					["preset"] = 1,
+					["capped"] = false,
+					["stat"] = 5,
+				}, -- [4]
+				{
+					["value"] = 0,
+					["preset"] = 1,
+					["capped"] = false,
+					["stat"] = 6,
+				}, -- [5]
+			},
+			["targetLevel"] = 3,
+			["buffs"] = {
+			},
+			["itemsLocked"] = {
+			},
+			["method"] = {
+				["items"] = {
+					{
+						["dst"] = 8,
+						["src"] = 6,
+						["reforge"] = 42,
+						["amount"] = 216,
+					}, -- [1]
+					{
+						["dst"] = 8,
+						["src"] = 5,
+						["reforge"] = 35,
+						["amount"] = 114,
+					}, -- [2]
+					{
+						["dst"] = 8,
+						["src"] = 6,
+						["reforge"] = 42,
+						["amount"] = 148,
+					}, -- [3]
+					{
+					}, -- [4]
+					{
+						["dst"] = 8,
+						["src"] = 6,
+						["reforge"] = 42,
+						["amount"] = 214,
+					}, -- [5]
+					{
+						["dst"] = 8,
+						["src"] = 6,
+						["reforge"] = 42,
+						["amount"] = 165,
+					}, -- [6]
+					{
+					}, -- [7]
+					{
+					}, -- [8]
+					{
+						["dst"] = 1,
+						["src"] = 6,
+						["reforge"] = 36,
+						["amount"] = 228,
+					}, -- [9]
+					{
+						["dst"] = 8,
+						["src"] = 6,
+						["reforge"] = 42,
+						["amount"] = 157,
+					}, -- [10]
+					{
+					}, -- [11]
+					{
+						["dst"] = 8,
+						["src"] = 5,
+						["reforge"] = 35,
+						["amount"] = 139,
+					}, -- [12]
+					{
+					}, -- [13]
+					{
+					}, -- [14]
+					{
+						["dst"] = 8,
+						["src"] = 6,
+						["reforge"] = 42,
+						["amount"] = 102,
+					}, -- [15]
+					{
+						["dst"] = 8,
+						["src"] = 6,
+						["reforge"] = 42,
+						["amount"] = 162,
+					}, -- [16]
+				},
+				["stats"] = {
+					9349, -- [1]
+					0, -- [2]
+					0, -- [3]
+					0, -- [4]
+					1473, -- [5]
+					3029, -- [6]
+					0, -- [7]
+					6208, -- [8]
+				},
+			},
+		},
+		["面面肉铺 - 阿拉索"] = {
+			["caps"] = {
+				{
+					["stat"] = 0,
+					["points"] = {
+						{
+							["value"] = 0,
+							["preset"] = 1,
+							["method"] = 1,
+							["after"] = 0,
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["stat"] = 0,
+					["points"] = {
+						{
+							["value"] = 0,
+							["preset"] = 1,
+							["method"] = 1,
+							["after"] = 0,
+						}, -- [1]
+					},
+				}, -- [2]
+			},
+			["targetLevel"] = 3,
+			["weights"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				0, -- [5]
+				0, -- [6]
+				0, -- [7]
+				0, -- [8]
+			},
+			["buffs"] = {
+			},
+			["itemsLocked"] = {
+			},
+			["customMethodPresets"] = {
+			},
+		},
+	},
+	["windowWidth"] = 800,
+	["itemSize"] = 24,
+	["openOnReforge"] = true,
+	["activeWindowTitle"] = {
+		0.8, -- [1]
+		0, -- [2]
+		0, -- [3]
+	},
+	["inactiveWindowTitle"] = {
+		0.5, -- [1]
+		0.5, -- [2]
+		0.5, -- [3]
+	},
+	["customPresets"] = {
+	},
+	["windowX"] = 588.417131249679,
+}

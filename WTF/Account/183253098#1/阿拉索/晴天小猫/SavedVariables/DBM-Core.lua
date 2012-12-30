@@ -56,6 +56,7 @@ DBM_SavedOptions = {
 	["LatencyThreshold"] = 250,
 	["ShowLoadMessage"] = true,
 	["DontShowBossAnnounces"] = false,
+	["EnableReadyCheckSound"] = true,
 	["RangeFramePoint"] = "CENTER",
 	["BlockVersionUpdateNotice"] = false,
 	["SpecialWarningFontColor"] = {

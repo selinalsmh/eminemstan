@@ -1,4 +1,11 @@
-MACRO 1 "LiteMount" "ABILITY_MOUNT_MECHASTRIDER"
+MACRO64 0000000000000002 " " "INV_MISC_QUESTIONMARK"
+/cast 分解
+/use item:90905
+/use item:83794
+/use item:90904
+/use item:83793
+END
+MACRO64 0000000000000001 "LiteMount" "ABILITY_MOUNT_MECHASTRIDER"
 # Auto-created by LiteMount addon
 /click [nobtn:2] LiteMount
 /click [btn:2] LiteMount RightButton

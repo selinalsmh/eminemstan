@@ -1,0 +1,23 @@
+
+Postal3DB = {
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"親愛的偏執狂|阿拉索|Alliance|85|DRUID", -- [1]
+			},
+		},
+	},
+	["profileKeys"] = {
+		["親愛的偏執狂 - 阿拉索"] = "親愛的偏執狂 - 阿拉索",
+	},
+	["profiles"] = {
+		["親愛的偏執狂 - 阿拉索"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"萌喵喵|阿拉索|Alliance", -- [1]
+					"面面肉铺|阿拉索|Alliance", -- [2]
+				},
+			},
+		},
+	},
+}

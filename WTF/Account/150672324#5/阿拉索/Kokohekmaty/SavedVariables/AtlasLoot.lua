@@ -1,0 +1,11 @@
+
+AtlasLootCharDB = {
+	["namespaces"] = {
+		["WishList"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Kokohekmaty - 阿拉索"] = "Kokohekmaty - 阿拉索",
+	},
+	["AtlasLootVersion"] = "70401",
+}

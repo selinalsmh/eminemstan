@@ -7,66 +7,79 @@ Bartender4DB = {
 					["actionbars"] = {
 						{
 							["version"] = 3,
-							["padding"] = 6,
 							["position"] = {
-								["x"] = -510,
+								["y"] = 52.80000176982474,
+								["x"] = -304.8000152301221,
 								["point"] = "BOTTOM",
-								["y"] = 41.75,
+								["scale"] = 1.200000047683716,
 							},
+							["padding"] = 6,
 						}, -- [1]
 						{
 							["enabled"] = false,
 							["version"] = 3,
 							["position"] = {
+								["y"] = -189.5000120019606,
 								["x"] = -231.4999749360767,
 								["point"] = "CENTER",
-								["y"] = -189.5000120019606,
 							},
 						}, -- [2]
 						{
-							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
-								["x"] = -82,
-								["point"] = "BOTTOMRIGHT",
-								["y"] = 610,
+								["y"] = 97.74512324747177,
+								["x"] = -304.8000152301221,
+								["point"] = "BOTTOM",
+								["scale"] = 1.200000047683716,
 							},
-							["padding"] = 5,
+							["padding"] = 6,
 						}, -- [3]
 						{
-							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
-								["x"] = -42,
-								["point"] = "BOTTOMRIGHT",
-								["y"] = 610,
+								["y"] = 143.7973486098685,
+								["x"] = -304.7999942215613,
+								["point"] = "BOTTOM",
+								["scale"] = 1.200000047683716,
 							},
-							["padding"] = 5,
+							["padding"] = 6,
 						}, -- [4]
 						{
+							["enabled"] = false,
 							["version"] = 3,
 							["position"] = {
+								["y"] = 83,
 								["x"] = 3,
 								["point"] = "BOTTOM",
-								["y"] = 83,
 							},
 							["padding"] = 6,
 						}, -- [5]
 						{
+							["enabled"] = false,
 							["version"] = 3,
 							["position"] = {
+								["y"] = 83,
 								["x"] = -510,
 								["point"] = "BOTTOM",
-								["y"] = 83,
 							},
 							["padding"] = 6,
 						}, -- [6]
 						{
 						}, -- [7]
 						{
+							["enabled"] = true,
+							["buttons"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = -168.0797671848891,
+								["x"] = -141.6000002104089,
+								["point"] = "CENTER",
+								["scale"] = 1.200000047683716,
+							},
 						}, -- [8]
-						[10] = {
-						},
+						nil, -- [9]
+						{
+						}, -- [10]
 					},
 				},
 			},
@@ -76,25 +89,26 @@ Bartender4DB = {
 		["ExtraActionBar"] = {
 			["profiles"] = {
 				["澜安 - 阿拉索"] = {
-					["version"] = 3,
 					["position"] = {
-						["x"] = -31.49981463638733,
-						["point"] = "BOTTOM",
-						["y"] = 222.9999816038326,
+						["y"] = 0.5000737556377999,
+						["x"] = -147.2543889733508,
+						["point"] = "CENTER",
 					},
+					["version"] = 3,
 				},
 			},
 		},
 		["MicroMenu"] = {
 			["profiles"] = {
 				["澜安 - 阿拉索"] = {
-					["version"] = 3,
+					["enabled"] = false,
 					["position"] = {
+						["y"] = 41.75,
 						["x"] = 37.5,
 						["point"] = "BOTTOM",
 						["scale"] = 1,
-						["y"] = 41.75,
 					},
+					["version"] = 3,
 				},
 			},
 		},
@@ -103,13 +117,39 @@ Bartender4DB = {
 		["BlizzardArt"] = {
 			["profiles"] = {
 				["澜安 - 阿拉索"] = {
-					["enabled"] = true,
-					["version"] = 3,
 					["position"] = {
+						["y"] = 47,
 						["x"] = -512,
 						["point"] = "BOTTOM",
-						["y"] = 47,
 					},
+					["version"] = 3,
+				},
+			},
+		},
+		["BagBar"] = {
+			["profiles"] = {
+				["澜安 - 阿拉索"] = {
+					["enabled"] = false,
+					["onebag"] = true,
+					["position"] = {
+						["y"] = 41.75,
+						["x"] = 463.5,
+						["point"] = "BOTTOM",
+					},
+					["version"] = 3,
+				},
+			},
+		},
+		["StanceBar"] = {
+			["profiles"] = {
+				["澜安 - 阿拉索"] = {
+					["position"] = {
+						["y"] = 177.9973527299605,
+						["x"] = -304.8998918182258,
+						["point"] = "BOTTOM",
+						["scale"] = 1,
+					},
+					["version"] = 3,
 				},
 			},
 		},
@@ -118,35 +158,9 @@ Bartender4DB = {
 				["澜安 - 阿拉索"] = {
 					["version"] = 3,
 					["position"] = {
-						["x"] = 99.50018146553998,
-						["point"] = "CENTER",
-						["y"] = 47.50003894653275,
-					},
-				},
-			},
-		},
-		["BagBar"] = {
-			["profiles"] = {
-				["澜安 - 阿拉索"] = {
-					["version"] = 3,
-					["onebag"] = true,
-					["position"] = {
-						["x"] = 463.5,
+						["y"] = 179.997385145512,
+						["x"] = 262.700277535934,
 						["point"] = "BOTTOM",
-						["y"] = 41.75,
-					},
-				},
-			},
-		},
-		["StanceBar"] = {
-			["profiles"] = {
-				["澜安 - 阿拉索"] = {
-					["version"] = 3,
-					["position"] = {
-						["x"] = -460,
-						["point"] = "BOTTOM",
-						["scale"] = 1,
-						["y"] = 116,
 					},
 				},
 			},
@@ -156,9 +170,9 @@ Bartender4DB = {
 				["澜安 - 阿拉索"] = {
 					["version"] = 3,
 					["position"] = {
-						["x"] = -120,
+						["y"] = 177.9973527299605,
+						["x"] = -163.9999969909615,
 						["point"] = "BOTTOM",
-						["y"] = 116,
 					},
 				},
 			},
@@ -173,6 +187,9 @@ Bartender4DB = {
 		["澜安 - 阿拉索"] = {
 			["blizzardVehicle"] = true,
 			["focuscastmodifier"] = false,
+			["minimapIcon"] = {
+				["minimapPos"] = 185.5628773635852,
+			},
 			["outofrange"] = "hotkey",
 		},
 	},
